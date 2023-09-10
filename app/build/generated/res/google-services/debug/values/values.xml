@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1077991553061-h9vs5fk7j3snsj5pmedamaq3sgefnurv.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1077991553061</string>
+    <string name="google_api_key" translatable="false">AIzaSyApEXT_xuxs6_7Yan-akyu2fBrgxUo4qMA</string>
+    <string name="google_app_id" translatable="false">1:1077991553061:android:b742c2956c79a36e41e7cc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyApEXT_xuxs6_7Yan-akyu2fBrgxUo4qMA</string>
+    <string name="google_storage_bucket" translatable="false">udm-food-app.appspot.com</string>
+    <string name="project_id" translatable="false">udm-food-app</string>
+</resources>
