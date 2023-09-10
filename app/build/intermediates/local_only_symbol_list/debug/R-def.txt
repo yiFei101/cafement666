@@ -71,7 +71,6 @@ id ellipse2
 id imageView
 id imageView2
 id imageView3
-id imageView5
 id indicator_layout
 id linearlayout
 id merchantregister1
@@ -87,7 +86,6 @@ id textdeccription
 id texttitle
 id titleImage
 id username
-id viewpager
 layout activity_main
 layout activity_main2
 layout activity_main_menu
@@ -95,7 +93,6 @@ layout activity_merchantlogin
 layout activity_merchantregister
 layout activity_register
 layout activity_slides
-layout activity_startingmenu
 layout slider_layout
 mipmap ic_launcher
 mipmap ic_launcher_round

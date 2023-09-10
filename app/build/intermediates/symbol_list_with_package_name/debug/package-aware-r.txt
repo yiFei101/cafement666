@@ -3340,7 +3340,6 @@ id image
 id imageView
 id imageView2
 id imageView3
-id imageView5
 id immediateStop
 id included
 id indeterminate
@@ -3621,7 +3620,6 @@ id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
-id viewpager
 id visible
 id visible_removing_fragment_view_tag
 id west
@@ -3755,7 +3753,6 @@ layout activity_merchantlogin
 layout activity_merchantregister
 layout activity_register
 layout activity_slides
-layout activity_startingmenu
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
