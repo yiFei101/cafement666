@@ -22,11 +22,26 @@ public class register extends AppCompatActivity {
                 openmerchantregister();
             }
         });
+        button = (Button) findViewById(R.id.studentregister);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openStudentRegister();
+            }
+        });
+
     }
+
 
     public void openmerchantregister()
     {
         Intent intent = new Intent(this, merchantregister.class);
+        startActivity(intent);
+    }
+
+    public void  openStudentRegister()
+    {
+        Intent intent = new Intent(this, StudentRegister.class );
         startActivity(intent);
     }
 }

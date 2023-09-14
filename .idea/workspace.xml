@@ -12,7 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83d50231-2d71-4ee1-9ed3-b9f2dfa5b0f6" name="Changes" comment="sample">
+    <list default="true" id="83d50231-2d71-4ee1-9ed3-b9f2dfa5b0f6" name="Changes" comment="trial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Properties" />
@@ -89,6 +89,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.-825638694">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.-143358775">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.1588726519">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.-1864597381">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.1494773892">
       <recent name="com.example.loginauthentication" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -110,16 +125,13 @@
     <key name="android.template.-1547832215">
       <recent name="com.example.loginauthentication" />
     </key>
-    <key name="android.template.-143358775">
-      <recent name="com.example.loginauthentication" />
-    </key>
     <key name="android.template.-1997070210">
       <recent name="com.example.loginauthentication" />
     </key>
-    <key name="android.template.1588726519">
+    <key name="android.template.1560214765">
       <recent name="com.example.loginauthentication" />
     </key>
-    <key name="android.template.1494773892">
+    <key name="android.template.-73984652">
       <recent name="com.example.loginauthentication" />
     </key>
   </component>
@@ -212,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694361971893</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="trial">
+      <created>1694381073118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694381073118</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +281,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="sample" />
+    <MESSAGE value="trial" />
+    <option name="LAST_COMMIT_MESSAGE" value="trial" />
   </component>
 </project>

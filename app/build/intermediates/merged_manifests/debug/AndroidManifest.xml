@@ -34,6 +34,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAuthentication" >
         <activity
+            android:name="com.example.loginauthentication.StudentPanel"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.registration"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.StudentRegister"
+            android:exported="false" />
+        <activity
             android:name="com.example.loginauthentication.slides"
             android:exported="false" />
         <activity
