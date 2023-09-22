@@ -36,9 +36,11 @@
     <color name="Black">#000000</color>
     <color name="Blacklogo">#262626</color>
     <color name="DarkBlue">#250285</color>
+    <color name="Lavender">#8692f7</color>
     <color name="Offwhite">#36FFFFFF</color>
     <color name="active">#50C2C9</color>
     <color name="background">#F0F4F3</color>
+    <color name="black">#FF000000</color>
     <color name="blueish">#17A2C0</color>
     <color name="buttontext">#50C2C9</color>
     <color name="colorAccent">#D81B60</color>
@@ -50,11 +52,19 @@
     <color name="gray">#7E000000</color>
     <color name="green">#5FB709</color>
     <color name="inactive">#C4C4C4</color>
+    <color name="lavender">#8692f7</color>
     <color name="lightgray">#1D000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
     <color name="red">#ff0000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#05FFFFFF</color>
     <color name="white">#FFFFFF</color>
     <color name="yourSelectedColor">#ff0000</color>
     <string name="app_name">Cafement</string>
+    <string name="close_nav">Close Navigation Drawer</string>
     <string name="default_web_client_id" translatable="false">1077991553061-h9vs5fk7j3snsj5pmedamaq3sgefnurv.apps.googleusercontent.com</string>
     <string name="desc_fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
     <string name="desc_one">Grow your Business By Accepting Card Payments with The New Card Reader</string>
@@ -70,6 +80,8 @@
     <string name="heading_one">Quick &amp; Easy Payments</string>
     <string name="heading_three">Cashless Payment</string>
     <string name="heading_two">Instant Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav">Open Navigation Drawer</string>
     <string name="project_id" translatable="false">udm-food-app</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_home">Home</string>

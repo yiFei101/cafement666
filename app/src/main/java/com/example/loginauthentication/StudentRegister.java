@@ -2,7 +2,7 @@ package com.example.loginauthentication;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
+import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -37,13 +37,13 @@ public class StudentRegister extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_register);
 
-        Fname = (TextInputLayout) findViewById(R.id.Firstname);
-        Lname = (TextInputLayout) findViewById(R.id.Lastname);
-        Studid = (TextInputLayout) findViewById(R.id.StudentID);
-        Email = (TextInputLayout) findViewById(R.id.Email);
-        Password = (TextInputLayout) findViewById(R.id.Pwd);
+        Fname = findViewById(R.id.Firstname);
+        Lname = findViewById(R.id.Lastname);
+        Studid = findViewById(R.id.StudentID);
+        Email = findViewById(R.id.Email);
+        Password = findViewById(R.id.Pwd);
 
-        Signup = (Button) findViewById(R.id.StudentSignup);
+        Signup = findViewById(R.id.StudentSignup);
 
         databaseReference = FirebaseDatabase.getInstance().getReference("Student");
         FAuth = FirebaseAuth.getInstance();
@@ -57,15 +57,32 @@ public class StudentRegister extends AppCompatActivity {
                 password = Password.getEditText().getText().toString().trim();
 
                 if (isValid()) {
+                    // Create a ProgressDialog for the registration process
                     final ProgressDialog mDialog = new ProgressDialog(StudentRegister.this);
                     mDialog.setCancelable(false);
                     mDialog.setCanceledOnTouchOutside(false);
                     mDialog.setMessage("Registration in progress please wait......");
                     mDialog.show();
 
+                    // Show the Lottie animation during registration
+                    final AlertDialog.Builder builder = new AlertDialog.Builder(StudentRegister.this);
+                    builder.setCancelable(false);
+                    builder.setView(R.layout.activity_loadinganimation);
+
+                    // Create the AlertDialog and show it
+                    final AlertDialog alertDialog = builder.create();
+                    alertDialog.show();
+
+                    // Find the LottieAnimationView in the custom dialog
+                    LottieAnimationView lottieAnimationView = alertDialog.findViewById(R.id.lottieAnimationView);
+
+                    // Start the animation
+                    lottieAnimationView.playAnimation();
+
+                    // Rest of your registration logic
                     FAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
+                        public void onComplete(Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 // Registration successful
                                 String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
@@ -74,7 +91,7 @@ public class StudentRegister extends AppCompatActivity {
                                 hashMap.put("Role", role);
                                 databaseReference.setValue(hashMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
-                                    public void onComplete(@NonNull Task<Void> task) {
+                                    public void onComplete(Task<Void> task) {
                                         HashMap<String, String> hashMap1 = new HashMap<>();
                                         hashMap1.put("Student Id", studid);
                                         hashMap1.put("First Name", fname);
@@ -86,11 +103,15 @@ public class StudentRegister extends AppCompatActivity {
                                                 .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                                 .setValue(hashMap1).addOnCompleteListener(new OnCompleteListener<Void>() {
                                                     @Override
-                                                    public void onComplete(@NonNull Task<Void> task) {
+                                                    public void onComplete(Task<Void> task) {
+                                                        // Dismiss the Lottie animation and the ProgressDialog
+                                                        alertDialog.dismiss();
                                                         mDialog.dismiss();
+
+                                                        // Send email verification
                                                         FAuth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
                                                             @Override
-                                                            public void onComplete(@NonNull Task<Void> task) {
+                                                            public void onComplete(Task<Void> task) {
                                                                 if (task.isSuccessful()) {
                                                                     // Registration and email verification successful
                                                                     AlertDialog.Builder builder = new AlertDialog.Builder(StudentRegister.this);
@@ -106,7 +127,6 @@ public class StudentRegister extends AppCompatActivity {
                                                                     AlertDialog Alert = builder.create();
                                                                     Alert.show();
                                                                 } else {
-                                                                    mDialog.dismiss();
                                                                     ReusableCodeForAll.ShowAlert(StudentRegister.this, "Error", task.getException().getMessage());
                                                                 }
                                                             }
@@ -116,6 +136,8 @@ public class StudentRegister extends AppCompatActivity {
                                     }
                                 });
                             } else {
+                                // Registration failed, dismiss the Lottie animation and the ProgressDialog
+                                alertDialog.dismiss();
                                 mDialog.dismiss();
                                 ReusableCodeForAll.ShowAlert(StudentRegister.this, "Error", task.getException().getMessage());
                             }
@@ -196,4 +218,5 @@ public class StudentRegister extends AppCompatActivity {
 
         return isValid;
     }
+
 }

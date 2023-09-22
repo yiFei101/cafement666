@@ -56,9 +56,7 @@ public class MainActivity2 extends AppCompatActivity {
                                     mDialog.dismiss();
                                     Toast.makeText(MainActivity2.this, "Email verified. Login Successful", Toast.LENGTH_SHORT).show();
 
-                                    // Pass the user's email to the StudentPanel activity
                                     Intent studentPanelIntent = new Intent(MainActivity2.this, StudentPanel.class);
-                                    studentPanelIntent.putExtra("userEmail", Email1); // Pass the user's email as an extra
                                     startActivity(studentPanelIntent);
                                 } else {
                                     mDialog.dismiss();
