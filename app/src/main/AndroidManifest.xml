@@ -14,13 +14,19 @@
         android:theme="@style/Theme.LoginAuthentication"
         tools:targetApi="31">
         <activity
-            android:name=".MerchantPanel"
+            android:name=".StudentPanelNavigationBar"
+            android:exported="false" />
+        <activity
+            android:name=".MerchantPanel.Merchant_post_dish"
+            android:exported="false" />
+        <activity
+            android:name=".MerchantPanel.MerchantNavigationBar"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel"
             android:exported="false" />
         <activity
             android:name=".loadinganimation"
-            android:exported="false" />
-        <activity
-            android:name=".StudentPanel"
             android:exported="false" />
         <activity
             android:name=".registration"

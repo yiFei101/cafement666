@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-69:12
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-75:12
 MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\admin\.gradle\caches\transforms-3\994dfcabba425f5d4322d1879860bc03\transformed\lottie-6.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.ibrahimsn98:SmoothBottomBar:1.7.9] C:\Users\admin\.gradle\caches\transforms-3\2943dd243ab037551d4675ff764d7152\transformed\SmoothBottomBar-1.7.9\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\admin\.gradle\caches\transforms-3\c1a78e4716a000684fb851113e5ace73\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
@@ -13,6 +13,7 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\admin\.g
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\admin\.gradle\caches\transforms-3\f54945315ce655c28050d18606a41ebe\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\admin\.gradle\caches\transforms-3\724b77b8afaec52072f7b409a6316813\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\admin\.gradle\caches\transforms-3\88dcb9eb23e6298cdf1a458b0085687a\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\admin\.gradle\caches\transforms-3\1e59aa132fa85aaa19bed046406eb214\transformed\roundedimageview-2.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\admin\.gradle\caches\transforms-3\1941465965d396b62fd13cd0d6abe353\transformed\firebase-auth-22.1.1\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\admin\.gradle\caches\transforms-3\1b0ce48dc26312ee99f0b7d2dcb4e44a\transformed\firebase-database-20.2.2\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\admin\.gradle\caches\transforms-3\ef75d2faa5f6de704a60e8198062d8d8\transformed\firebase-storage-20.2.1\AndroidManifest.xml:15:1-38:12
@@ -59,6 +60,7 @@ MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\admin\.gradle\caches\tra
 MERGED from [androidx.activity:activity:1.6.0] C:\Users\admin\.gradle\caches\transforms-3\9507a9fe2541cb7f8011331a0a445c0c\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\admin\.gradle\caches\transforms-3\6aee30e2be05223f12214f87f34cf44c\transformed\activity-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\admin\.gradle\caches\transforms-3\ee41c863dee9f074bb3d168ce941a941\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\4fcd63193f51398533b2ec47ffc9ae07\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\admin\.gradle\caches\transforms-3\ba3f7487c6e213e2e1662904db9f2d41\transformed\firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\1b805ebdcdc4a6dd1d5012d503b61110\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\a48599127d8451e83f150ac7aadfc3e9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -71,6 +73,7 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Us
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\admin\.gradle\caches\transforms-3\63fac29da439c6cfb8c42c5406c67cdf\transformed\transport-runtime-3.1.8\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\admin\.gradle\caches\transforms-3\401fbcc10e1c787b26de02734664211b\transformed\transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\admin\.gradle\caches\transforms-3\81c48da690871a1db468b16164718dee\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bdc064192d16d4cb0f24e95c784ad554\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\86f15c03feb4e314c4ab56fcf933d7df\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\b729b8c296bb389026bc8c9f1c837d99\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\6f47a6cfaf0fdbee463641a3e6adf3d7\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -87,7 +90,6 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\admin\.gradle\
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\e25852f3d56d51117d726757cc06a665\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\964a9174b697910b5c07d6b736b95beb\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\admin\.gradle\caches\transforms-3\dd62bd8887b2e5cc65fb3f3ed0bfe346\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bdc064192d16d4cb0f24e95c784ad554\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\f9b3e75f8e0a5103e7f39da10d0790b9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\admin\.gradle\caches\transforms-3\ec11403f3f3b3b1d150145622bce31b7\transformed\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\admin\.gradle\caches\transforms-3\5ab17ee0439d123d2ec501cce67b4071\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
@@ -97,27 +99,27 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\admin\.gradle\caches\trans
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\8ad5a94ef3cd3128fae738f5bc7e73b3\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\e64b017716d7d90ff5b24e2f0899312d\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\admin\.gradle\caches\transforms-3\1152873a663430d9245e0fc2123fa972\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-75:12
 	package
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:4:5-46
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-69:12
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-75:12
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-69:12
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-75:12
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:6:5-65:19
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:6:5-73:19
 MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\admin\.gradle\caches\transforms-3\994dfcabba425f5d4322d1879860bc03\transformed\lottie-6.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\admin\.gradle\caches\transforms-3\994dfcabba425f5d4322d1879860bc03\transformed\lottie-6.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\admin\.gradle\caches\transforms-3\0ad340e275c28ab53ad6545f82bf4abf\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
@@ -208,94 +210,112 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\admin\.gradle\cach
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:14:9-57
 	android:dataExtractionRules
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:8:9-65
-activity#com.example.loginauthentication.loadinganimation
+activity#com.example.loginauthentication.StudentPanelNavigationBar
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:17:13-45
-activity#com.example.loginauthentication.StudentPanel
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:17:13-54
+activity#com.example.loginauthentication.MerchantPanel.Merchant_post_dish
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:20:13-41
-activity#com.example.loginauthentication.registration
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:20:13-61
+activity#com.example.loginauthentication.MerchantPanel.MerchantNavigationBar
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:23:13-41
-activity#com.example.loginauthentication.StudentRegister
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:23:13-64
+activity#com.example.loginauthentication.AdminPanel
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:26:13-44
-activity#com.example.loginauthentication.slides
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:26:13-39
+activity#com.example.loginauthentication.loadinganimation
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:29:13-35
-activity#com.example.loginauthentication.merchantregister
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:29:13-45
+activity#com.example.loginauthentication.registration
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:32:13-45
-activity#com.example.loginauthentication.merchantlogin
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:32:13-41
+activity#com.example.loginauthentication.StudentRegister
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:35:13-42
-activity#com.example.loginauthentication.register
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:35:13-44
+activity#com.example.loginauthentication.slides
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:38:13-37
-activity#com.example.loginauthentication.MainActivity2
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:38:13-35
+activity#com.example.loginauthentication.merchantregister
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:41:13-42
-activity#com.example.loginauthentication.MainMenu
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:41:13-45
+activity#com.example.loginauthentication.merchantlogin
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:43:9-45:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:44:13-37
-meta-data#com.google.android.actions
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:47:9-49:45
-	android:resource
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:49:13-42
-	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:48:13-54
-activity#com.example.loginauthentication.MainActivity
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:51:9-64:20
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:44:13-42
+activity#com.example.loginauthentication.register
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:46:9-48:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:53:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:52:13-41
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:47:13-37
+activity#com.example.loginauthentication.MainActivity2
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:50:13-42
+activity#com.example.loginauthentication.MainMenu
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:52:9-54:40
+	android:exported
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:53:13-37
+meta-data#com.google.android.actions
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:56:9-58:45
+	android:resource
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:58:13-42
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:57:13-54
+activity#com.example.loginauthentication.MainActivity
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:60:9-72:20
+	android:exported
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:62:13-36
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:61:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:54:13-58:29
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:63:13-67:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:55:17-69
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:64:17-69
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:55:25-66
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:64:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:57:17-77
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:66:17-77
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:57:27-74
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:66:27-74
 meta-data#android.app.lib_name
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:61:13-63:36
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:69:13-71:36
 	android:value
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:63:17-33
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:71:17-33
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:62:17-52
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:70:17-52
 uses-sdk
 INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
@@ -318,6 +338,8 @@ MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\admin\.gradle\caches\t
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\admin\.gradle\caches\transforms-3\724b77b8afaec52072f7b409a6316813\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\admin\.gradle\caches\transforms-3\88dcb9eb23e6298cdf1a458b0085687a\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\admin\.gradle\caches\transforms-3\88dcb9eb23e6298cdf1a458b0085687a\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\admin\.gradle\caches\transforms-3\1e59aa132fa85aaa19bed046406eb214\transformed\roundedimageview-2.3.0\AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\admin\.gradle\caches\transforms-3\1e59aa132fa85aaa19bed046406eb214\transformed\roundedimageview-2.3.0\AndroidManifest.xml:7:5-43
 MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\admin\.gradle\caches\transforms-3\1941465965d396b62fd13cd0d6abe353\transformed\firebase-auth-22.1.1\AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\admin\.gradle\caches\transforms-3\1941465965d396b62fd13cd0d6abe353\transformed\firebase-auth-22.1.1\AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\admin\.gradle\caches\transforms-3\1b0ce48dc26312ee99f0b7d2dcb4e44a\transformed\firebase-database-20.2.2\AndroidManifest.xml:18:5-20:41
@@ -410,6 +432,8 @@ MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\admin\.gradle\caches
 MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\admin\.gradle\caches\transforms-3\6aee30e2be05223f12214f87f34cf44c\transformed\activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\admin\.gradle\caches\transforms-3\ee41c863dee9f074bb3d168ce941a941\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\admin\.gradle\caches\transforms-3\ee41c863dee9f074bb3d168ce941a941\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\4fcd63193f51398533b2ec47ffc9ae07\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\4fcd63193f51398533b2ec47ffc9ae07\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\admin\.gradle\caches\transforms-3\ba3f7487c6e213e2e1662904db9f2d41\transformed\firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\admin\.gradle\caches\transforms-3\ba3f7487c6e213e2e1662904db9f2d41\transformed\firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\1b805ebdcdc4a6dd1d5012d503b61110\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
@@ -434,6 +458,8 @@ MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\admi
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\admin\.gradle\caches\transforms-3\401fbcc10e1c787b26de02734664211b\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\admin\.gradle\caches\transforms-3\81c48da690871a1db468b16164718dee\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\admin\.gradle\caches\transforms-3\81c48da690871a1db468b16164718dee\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bdc064192d16d4cb0f24e95c784ad554\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bdc064192d16d4cb0f24e95c784ad554\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\86f15c03feb4e314c4ab56fcf933d7df\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\86f15c03feb4e314c4ab56fcf933d7df\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\b729b8c296bb389026bc8c9f1c837d99\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
@@ -466,8 +492,6 @@ MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\admin\.gradle\caches
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\964a9174b697910b5c07d6b736b95beb\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\admin\.gradle\caches\transforms-3\dd62bd8887b2e5cc65fb3f3ed0bfe346\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\admin\.gradle\caches\transforms-3\dd62bd8887b2e5cc65fb3f3ed0bfe346\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bdc064192d16d4cb0f24e95c784ad554\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bdc064192d16d4cb0f24e95c784ad554\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\f9b3e75f8e0a5103e7f39da10d0790b9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\f9b3e75f8e0a5103e7f39da10d0790b9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\admin\.gradle\caches\transforms-3\ec11403f3f3b3b1d150145622bce31b7\transformed\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41

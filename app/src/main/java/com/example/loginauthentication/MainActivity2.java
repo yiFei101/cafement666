@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.loginauthentication.StudentPanel.StudentPanelNavigationBar;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputLayout;
@@ -56,7 +57,7 @@ public class MainActivity2 extends AppCompatActivity {
                                     mDialog.dismiss();
                                     Toast.makeText(MainActivity2.this, "Email verified. Login Successful", Toast.LENGTH_SHORT).show();
 
-                                    Intent studentPanelIntent = new Intent(MainActivity2.this, StudentPanel.class);
+                                    Intent studentPanelIntent = new Intent(MainActivity2.this, StudentPanelNavigationBar.class);
                                     startActivity(studentPanelIntent);
                                 } else {
                                     mDialog.dismiss();

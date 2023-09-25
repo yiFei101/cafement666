@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="DishName">
+        <item>Nilagang Dede</item>
+        <item>Nilagang Tarub</item>
+        <item>Nilang Betlog</item>
+        <item>Nilagang Puwet</item>
+        <item>Nilagang Burnik</item>
+    </array>
     <string-array name="Dishname">
         <item>Menudo</item>
         <item>Torta</item>

@@ -34,10 +34,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAuthentication" >
         <activity
-            android:name="com.example.loginauthentication.loadinganimation"
+            android:name="com.example.loginauthentication.StudentPanelNavigationBar"
             android:exported="false" />
         <activity
-            android:name="com.example.loginauthentication.StudentPanel"
+            android:name="com.example.loginauthentication.MerchantPanel.Merchant_post_dish"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.MerchantPanel.MerchantNavigationBar"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.AdminPanel"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.loadinganimation"
             android:exported="false" />
         <activity
             android:name="com.example.loginauthentication.registration"

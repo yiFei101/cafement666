@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.loginauthentication.MerchantPanel.MerchantNavigationBar;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputLayout;
@@ -54,7 +55,7 @@ public class merchantlogin extends AppCompatActivity {
                                     mDialog.dismiss();
                                     Toast.makeText(merchantlogin.this, "Email verified. Login Successful", Toast.LENGTH_SHORT).show();
 
-                                    Intent merchantPanelIntent = new Intent(merchantlogin.this, MerchantPanel.class);
+                                    Intent merchantPanelIntent = new Intent(merchantlogin.this, MerchantNavigationBar.class);
                                     startActivity(merchantPanelIntent);
                                 } else {
                                     mDialog.dismiss();

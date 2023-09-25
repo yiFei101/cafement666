@@ -1,26 +1,48 @@
 package com.example.loginauthentication;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.widget.TextView;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 
 public class registration extends AppCompatActivity {
+
+    BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registration);
+        setContentView(R.layout.activity_student_panel);
 
-        // Retrieve the email address from the intent
-        String userEmail = getIntent().getStringExtra("userEmail");
+        bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
-        // Find the TextView
-        TextView greetingTextView = findViewById(R.id.greetingTextView);
+        // Set up the bottom navigation view
+        bottomNavigationView.setBackground(null);
+        bottomNavigationView.setOnItemSelectedListener(item -> {
+            switch (item.getItemId()) {
+                case R.id.home:
+                    replaceFragment(new HomeFragment());
+                    break;
+                case R.id.shorts:
+                    replaceFragment(new ShortsFragment());
+                    break;
+                case R.id.subscriptions:
+                    replaceFragment(new SubscriptionFragment());
+                    break;
+                case R.id.library:
+                    replaceFragment(new LibraryFragment());
+                    break;
+            }
+            return true;
+        });
+    }
 
-        // Set the user's email in the TextView
-        if (userEmail != null) {
-            greetingTextView.setText("Hello, " + userEmail);
-        }
+    private void replaceFragment(Fragment fragment) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.frame_layout, fragment);
+        fragmentTransaction.commit();
     }
 }

@@ -111,6 +111,7 @@
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common:20.3.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-components:17.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common-ktx:20.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.makeramen:roundedimageview:2.3.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-database:20.2.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-database-collection:18.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-storage:20.2.1@aar" level="project" />
@@ -136,5 +137,6 @@
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk:21.3.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.ibrahimsn98:SmoothBottomBar:1.7.9@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.1.0@aar" level="project" />
   </component>
 </module>

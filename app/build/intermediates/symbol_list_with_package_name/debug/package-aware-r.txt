@@ -88,6 +88,7 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array DishName
 array Dishname
 array State
 array com_google_android_gms_fonts_certs
@@ -1056,6 +1057,18 @@ attr region_widthMoreThan
 attr removeEmbeddedFabElevation
 attr reverseLayout
 attr rippleColor
+attr riv_border_color
+attr riv_border_width
+attr riv_corner_radius
+attr riv_corner_radius_bottom_left
+attr riv_corner_radius_bottom_right
+attr riv_corner_radius_top_left
+attr riv_corner_radius_top_right
+attr riv_mutate_background
+attr riv_oval
+attr riv_tile_mode
+attr riv_tile_mode_x
+attr riv_tile_mode_y
 attr rotationCenterId
 attr round
 attr roundPercent
@@ -1162,6 +1175,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -3021,10 +3035,12 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable adobo
 drawable aklogo
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_shape
+drawable baseline_search_24
 drawable bgcolor1
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3036,12 +3052,17 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable btnblueish
 drawable btnred
+drawable burger
 drawable button_shape
 drawable cafement
 drawable cafement1
 drawable cafement2
 drawable cafement4
 drawable cafement5
+drawable camerashapebtn
+drawable carinderia
+drawable change_bg
+drawable chocolate
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3061,6 +3082,8 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable daily_meal_bg
+drawable default_bg
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3069,6 +3092,7 @@ drawable design_snackbar_background
 drawable dialogbkg
 drawable ellipse1
 drawable ellipse2
+drawable foreground_design
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable headerbkg
@@ -3085,6 +3109,7 @@ drawable ic_baseline_home_24
 drawable ic_baseline_info_24
 drawable ic_baseline_menu_24
 drawable ic_baseline_person_outline_24
+drawable ic_baseline_photo_camera_24
 drawable ic_baseline_photo_library_24
 drawable ic_baseline_remove_24
 drawable ic_baseline_restaurant_24
@@ -3092,6 +3117,7 @@ drawable ic_baseline_restaurant_menu_24
 drawable ic_baseline_rounded_corner_24
 drawable ic_baseline_settings_24
 drawable ic_baseline_share_24
+drawable ic_baseline_shopping_cart_24
 drawable ic_baseline_subscriptions_24
 drawable ic_baseline_vibration_24
 drawable ic_baseline_whatshot_24
@@ -3109,6 +3135,8 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_next
 drawable ic_search_black_24
+drawable icecream
+drawable lumpia
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3180,6 +3208,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable outline_monetization_on_24
 drawable oval
 drawable pakyu
 drawable pakyu1
@@ -3188,6 +3217,9 @@ drawable poppins
 drawable poppins_bold
 drawable poppins_light
 drawable restaurant
+drawable round_bg
+drawable sariwa
+drawable search_bg
 drawable seleted
 drawable slidesbg1
 drawable slidesbg2
@@ -3206,23 +3238,38 @@ id BOTTOM_START
 id CTRL
 id Email
 id Email1
+id Email22
+id Emailformerchant
 id FUNCTION
 id Firstname
+id Firstname1
 id Lastname
+id Lastname1
 id META
+id MerchantPendingOrders
+id MerchantProfile
+id Merchanthome
 id NO_DEBUG
+id Orders
 id Pwd
+id Pwd1
+id Pwdformerchant
+id Quantity
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id Signup
 id Signwithmerchant
 id Signwithstudentid
+id StudentFaq
 id StudentID
+id StudentMenu
+id StudentOrders
 id StudentSignin
 id StudentSignup
+id Studenthome
+id Swipe_layoutt
 id TOP_END
 id TOP_START
 id accelerate
@@ -3293,6 +3340,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appBar
 id arc
 id asConfigured
 id async
@@ -3301,6 +3349,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id automatic
+id back1
 id back2
 id backbtn
 id barrier
@@ -3328,6 +3377,7 @@ id cache_measures
 id callMeasure
 id cancelButton
 id cancel_button
+id cardView
 id carryVelocity
 id center
 id centerCrop
@@ -3341,6 +3391,7 @@ id checkbox
 id checked
 id chronometer
 id circle_center
+id clamp
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -3350,6 +3401,7 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -3364,6 +3416,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id daily_meal_rec
 id dark
 id date_picker_actions
 id decelerate
@@ -3372,11 +3425,18 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailed_des
+id detailed_image
+id detailed_img
+id detailed_name
+id detailed_price
+id detailed_rec
 id dialog_button
 id dimensions
 id direct
@@ -3386,6 +3446,7 @@ id disablePostScroll
 id disableScroll
 id disabled
 id dish
+id dishes
 id disjoint
 id dragAnticlockwise
 id dragClockwise
@@ -3402,6 +3463,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editText
 id edit_query
 id elastic
 id ellipse1
@@ -3431,6 +3493,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frame_container
 id frame_layout
 id frost
 id fullscreen_header
@@ -3448,7 +3511,11 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id home_hor_rec
+id home_ver_rec
 id honorRequest
+id hor_img
+id hor_text
 id horizontal_only
 id icon
 id icon_group
@@ -3459,6 +3526,9 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageView6
+id image_upload
+id imageview
 id immediateStop
 id included
 id indeterminate
@@ -3483,9 +3553,12 @@ id light
 id line1
 id line3
 id linear
+id linear_layout
 id linearlayout
 id listMode
 id list_item
+id loginformerchant
+id logout
 id lottieAnimationView
 id lottie_layer_name
 id m3_side_sheet
@@ -3515,10 +3588,13 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id menu
+id merchant_bottom_navigation
 id merchantregister1
+id merchantsignup
 id message
 id middle
 id mini
+id mirror
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3551,12 +3627,12 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id myhome
+id name
 id nav_controller_view_tag
 id nav_home
 id nav_host_fragment_container
 id nav_logout
 id nav_settings
-id nav_view
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3596,14 +3672,18 @@ id peekHeight
 id percent
 id pin
 id position
+id post
 id postLayout
+id post_dish
 id pressed
+id price
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
 id register
+id repeat
 id restart
 id reverse
 id reverseSawtooth
@@ -3690,6 +3770,7 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id student_bottom_navigation
 id studentregister
 id submenuarrow
 id submit_area
@@ -3716,8 +3797,11 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView10
 id textView2
 id textView4
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3754,6 +3838,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id ver_img
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3888,21 +3973,28 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_admin_panel
+layout activity_detailed_daily_meal
 layout activity_loadinganimation
 layout activity_main
 layout activity_main2
 layout activity_main_menu
+layout activity_merchant_navigation_bar
+layout activity_merchant_post_dish
 layout activity_merchantlogin
 layout activity_merchantregister
 layout activity_register
 layout activity_registration
 layout activity_slides
 layout activity_student_panel
+layout activity_student_panel_navigation_bar
 layout activity_student_register
 layout bottomsheetlayout
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
+layout daily_meal_fragment
+layout daily_meal_item
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -3918,10 +4010,21 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout detailed_daily_meal_item
 layout fragment_home
 layout fragment_library
+layout fragment_merchant_home
+layout fragment_merchant_orders
+layout fragment_merchant_pendingorders
+layout fragment_merchant_profile
 layout fragment_shorts
+layout fragment_student_home
+layout fragment_student_menu
+layout fragment_student_orders
+layout fragment_studentfaq
 layout fragment_subscription
+layout home_horizontal_item
+layout home_vertical_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3941,6 +4044,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout merchant_nav_header
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -3973,7 +4077,6 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout mtrl_search_bar
 layout mtrl_search_view
-layout nav_header
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -3986,8 +4089,11 @@ layout select_dialog_singlechoice_material
 layout slider_layout
 layout support_simple_spinner_dropdown_item
 menu bottom_menu
+menu logout
 menu menu
-menu nav_menu
+menu merchant_bottom_menu
+menu merchant_nav_menu
+menu student_bottom_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -4059,6 +4165,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
 string default_web_client_id
+string define_roundedimageview
 string desc_fourth
 string desc_one
 string desc_three
@@ -4087,6 +4194,15 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string library_roundedimageview_author
+string library_roundedimageview_authorWebsite
+string library_roundedimageview_isOpenSource
+string library_roundedimageview_libraryDescription
+string library_roundedimageview_libraryName
+string library_roundedimageview_libraryVersion
+string library_roundedimageview_libraryWebsite
+string library_roundedimageview_licenseId
+string library_roundedimageview_repositoryLink
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
 string m3_ref_typeface_plain_medium
@@ -5442,6 +5558,7 @@ styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
+styleable RoundedImageView android_scaleType riv_border_color riv_border_width riv_corner_radius riv_corner_radius_bottom_left riv_corner_radius_bottom_right riv_corner_radius_top_left riv_corner_radius_top_right riv_mutate_background riv_oval riv_tile_mode riv_tile_mode_x riv_tile_mode_y
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchBar android_textAppearance android_text android_hint defaultMarginsEnabled defaultScrollFlagsEnabled elevation forceDefaultNavigationOnClickListener hideNavigationIcon navigationIconTint strokeColor strokeWidth tintNavigationIcon
@@ -5459,6 +5576,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

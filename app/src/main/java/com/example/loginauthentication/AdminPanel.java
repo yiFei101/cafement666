@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MerchantPanel extends AppCompatActivity {
+public class AdminPanel extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_merchant_panel);
+        setContentView(R.layout.activity_admin_panel);
     }
 }

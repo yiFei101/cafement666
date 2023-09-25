@@ -46,7 +46,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/Email"
+                android:id="@+id/Emailformerchant"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp">
@@ -63,7 +63,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/Pwd"
+                android:id="@+id/Pwdformerchant"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
@@ -81,7 +81,7 @@
 
 
             <Button
-                android:id="@+id/Signup"
+                android:id="@+id/loginformerchant"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
