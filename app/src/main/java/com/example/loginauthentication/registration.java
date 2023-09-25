@@ -22,17 +22,12 @@ public class registration extends AppCompatActivity {
         bottomNavigationView.setBackground(null);
         bottomNavigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
-                case R.id.home:
-                    replaceFragment(new HomeFragment());
-                    break;
+
                 case R.id.shorts:
                     replaceFragment(new ShortsFragment());
                     break;
                 case R.id.subscriptions:
                     replaceFragment(new SubscriptionFragment());
-                    break;
-                case R.id.library:
-                    replaceFragment(new LibraryFragment());
                     break;
             }
             return true;
