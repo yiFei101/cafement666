@@ -14,7 +14,7 @@
         android:theme="@style/Theme.LoginAuthentication"
         tools:targetApi="31">
         <activity
-            android:name=".StudentPanelNavigationBar"
+            android:name=".StudentPanel.StudentPanelNavigationBar"
             android:exported="false" />
         <activity
             android:name=".MerchantPanel.Merchant_post_dish"
@@ -27,9 +27,6 @@
             android:exported="false" />
         <activity
             android:name=".loadinganimation"
-            android:exported="false" />
-        <activity
-            android:name=".registration"
             android:exported="false" />
         <activity
             android:name=".StudentRegister"
