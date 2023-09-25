@@ -155,6 +155,7 @@ id description
 id dish
 id dishes
 id drawer_layout
+id editText
 id ellipse1
 id ellipse2
 id fab
@@ -162,6 +163,8 @@ id frame_container
 id frame_layout
 id greetingTextView
 id home
+id home_hor_rec
+id home_ver_rec
 id imageView
 id imageView2
 id image_upload
@@ -219,6 +222,8 @@ layout activity_student_panel
 layout activity_student_panel_navigation_bar
 layout activity_student_register
 layout bottomsheetlayout
+layout fragment_home
+layout fragment_library
 layout fragment_merchant_home
 layout fragment_merchant_orders
 layout fragment_merchant_pendingorders

@@ -3453,6 +3453,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editText
 id edit_query
 id elastic
 id ellipse1
@@ -3500,6 +3501,8 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id home_hor_rec
+id home_ver_rec
 id honorRequest
 id horizontal_only
 id icon
@@ -3986,6 +3989,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_home
+layout fragment_library
 layout fragment_merchant_home
 layout fragment_merchant_orders
 layout fragment_merchant_pendingorders
