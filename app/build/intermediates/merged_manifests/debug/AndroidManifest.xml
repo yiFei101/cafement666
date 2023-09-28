@@ -9,6 +9,7 @@
         android:targetSdkVersion="32" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
@@ -34,7 +35,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAuthentication" >
         <activity
-            android:name="com.example.loginauthentication.StudentPanelNavigationBar"
+            android:name="com.example.loginauthentication.imageuplaoder"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.StudentPanel.StudentPanelNavigationBar"
             android:exported="false" />
         <activity
             android:name="com.example.loginauthentication.MerchantPanel.Merchant_post_dish"
@@ -47,9 +51,6 @@
             android:exported="false" />
         <activity
             android:name="com.example.loginauthentication.loadinganimation"
-            android:exported="false" />
-        <activity
-            android:name="com.example.loginauthentication.registration"
             android:exported="false" />
         <activity
             android:name="com.example.loginauthentication.StudentRegister"

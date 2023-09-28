@@ -10,18 +10,43 @@
 
 
 
-    <ImageButton
-        android:id="@+id/image_upload"
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:clickable="true"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:background="@drawable/camerashapebtn"
-        android:src="@drawable/ic_baseline_photo_camera_24"
         app:layout_constraintBottom_toBottomOf="@+id/linear_layout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.363"
         app:layout_constraintHorizontal_bias="0.493"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <Button
+        android:id="@+id/btnChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_top"
+        app:layout_constraintVertical_bias="0.228" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -31,9 +56,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_upload"
+        app:layout_constraintTop_toBottomOf="@+id/imgView"
         app:layout_constraintVertical_bias="0.15"
         app:layout_constraintHorizontal_bias="0.53">
+
 
         <TextView
             android:layout_width="105dp"
@@ -49,8 +75,8 @@
             android:layout_width="162dp"
             android:layout_height="30dp"
             android:layout_marginLeft="12dp"
-            android:background="#D0FFFFFF"
             android:textColor="@color/Black"
+            android:background="@color/white"
             android:entries="@array/DishName" />
 
     </LinearLayout>
@@ -72,7 +98,8 @@
             android:layout_height="wrap_content"
             android:hint="Description"
             android:inputType="text"
-            android:textColor="@color/white"
+            android:background="@color/white"
+            android:textColor="@color/Black"
             android:textSize="18sp"/>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -94,7 +121,8 @@
             android:layout_height="wrap_content"
             android:hint="Quantity"
             android:inputType="number"
-            android:textColor="@color/white"
+            android:background="@color/white"
+            android:textColor="@color/Black"
             android:textColorHint="@color/white"
             android:textSize="18sp"/>
 
@@ -117,7 +145,8 @@
             android:layout_height="wrap_content"
             android:hint="Price"
             android:inputType="number"
-            android:textColor="@color/white"
+            android:background="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"/>
 
     </com.google.android.material.textfield.TextInputLayout>

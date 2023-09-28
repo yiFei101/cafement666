@@ -24,11 +24,11 @@ import java.util.HashMap;
 public class merchantregister extends AppCompatActivity {
 
 
-    TextInputLayout Fname, Lname, Studid, Email, Password;
+    TextInputLayout Fname, Lname, Email, Password;
     Button Signup;
     FirebaseAuth FAuth;
     DatabaseReference databaseReference;
-    String fname, lname, email, studid, password;
+    String fname, lname, email, password;
     String role = "Merchant";
 
     @Override

@@ -48,6 +48,7 @@
     <color name="active">#50C2C9</color>
     <color name="background">#F0F4F3</color>
     <color name="black">#FF000000</color>
+    <color name="blue">#0000FF</color>
     <color name="blueish">#17A2C0</color>
     <color name="buttontext">#50C2C9</color>
     <color name="colorAccent">#D81B60</color>
@@ -112,6 +113,10 @@
     </style>
     <style name="Theme.LoginAuthentication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
+
+    </style>
+    <style name="circular">
+        <item name="cornerSize">50%</item>
 
     </style>
 </resources>

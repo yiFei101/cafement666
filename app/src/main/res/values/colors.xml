@@ -17,6 +17,7 @@
     <color name="DarkBlue">#250285</color>
     <color name="red">#ff0000</color>
     <color name="yourSelectedColor">#ff0000</color>
+    <color name="blue">#0000FF</color>
 
     <color name="transparent">#05FFFFFF</color>
     <color name="inactive">#C4C4C4</color>

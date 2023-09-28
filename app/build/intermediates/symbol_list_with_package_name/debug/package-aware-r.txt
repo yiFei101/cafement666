@@ -1435,6 +1435,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color blueish
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -3083,6 +3084,7 @@ drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable daily_meal_bg
+drawable dashed_border
 drawable default_bg
 drawable design_fab_background
 drawable design_ic_visibility
@@ -3371,6 +3373,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnChoose
+id btnUpload
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3453,7 +3457,6 @@ id easeInOut
 id easeOut
 id east
 id edge
-id editText
 id edit_query
 id elastic
 id ellipse1
@@ -3496,13 +3499,13 @@ id greetingTextView
 id group_divider
 id grouping
 id groups
+id guideline_bottom
+id guideline_top
 id hardware
 id header_title
 id hideable
 id home
 id homeAsUp
-id home_hor_rec
-id home_ver_rec
 id honorRequest
 id horizontal_only
 id icon
@@ -3514,7 +3517,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
-id image_upload
+id imgView
 id immediateStop
 id included
 id indeterminate
@@ -3531,6 +3534,7 @@ id layout
 id layoutLive
 id layoutShorts
 id layoutVideo
+id layout_button
 id left
 id leftToRight
 id legacy
@@ -3956,6 +3960,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin_panel
+layout activity_imageuplaoder
 layout activity_loadinganimation
 layout activity_main
 layout activity_main2
@@ -3989,18 +3994,14 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_home
-layout fragment_library
 layout fragment_merchant_home
 layout fragment_merchant_orders
 layout fragment_merchant_pendingorders
 layout fragment_merchant_profile
-layout fragment_shorts
 layout fragment_student_home
 layout fragment_student_menu
 layout fragment_student_orders
 layout fragment_studentfaq
-layout fragment_subscription
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -5403,6 +5404,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style circular
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
