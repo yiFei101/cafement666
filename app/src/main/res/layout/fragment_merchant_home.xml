@@ -15,8 +15,16 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/background"
             />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Recycle_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
 
     </com.google.android.material.appbar.AppBarLayout>
 

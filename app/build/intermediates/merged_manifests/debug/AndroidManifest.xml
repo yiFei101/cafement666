@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="22"
-        android:targetSdkVersion="32" />
+        android:targetSdkVersion="31" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -38,14 +38,23 @@
             android:name="com.example.loginauthentication.imageuplaoder"
             android:exported="false" />
         <activity
-            android:name="com.example.loginauthentication.StudentPanel.StudentPanelNavigationBar"
-            android:exported="false" />
-        <activity
             android:name="com.example.loginauthentication.MerchantPanel.Merchant_post_dish"
             android:exported="false" />
         <activity
             android:name="com.example.loginauthentication.MerchantPanel.MerchantNavigationBar"
             android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.CustomerFoodPanel.PayableOrders"
+            android:label="Payable Orders" />
+        <activity
+            android:name="com.example.loginauthentication.CustomerFoodPanel.PendingOrders"
+            android:label="Pending Orders" />
+        <activity
+            android:name="com.example.loginauthentication.CustomerFoodPanel.OrderDish"
+            android:label="Pending Orders" />
+        <activity
+            android:name="com.example.loginauthentication.CustomerFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing" />
         <activity
             android:name="com.example.loginauthentication.AdminPanel"
             android:exported="false" />

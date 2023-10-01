@@ -1,61 +1,75 @@
 package com.example.loginauthentication.StudentPanel;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.appcompat.widget.Toolbar;
-
-import com.example.loginauthentication.MainMenu;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView; // Import RecyclerView
 import com.example.loginauthentication.R;
-import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.ValueEventListener;
+import java.util.ArrayList;
+import java.util.List;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class StudentHomeFragment  extends Fragment {
 
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_student_home, container, false);
+    private RecyclerView recyclerView;
+    private DatabaseReference databaseReference;
+    private List<FoodDetails> foodList;
+    private FoodAdapter adapter;
 
-        // Set up the Toolbar as the ActionBar
-        Toolbar toolbar = v.findViewById(R.id.toolbar);
-        ((AppCompatActivity) requireActivity()).setSupportActionBar(toolbar);
-
-        // Set the title and enable options menu
-        requireActivity().setTitle("Home");
-        setHasOptionsMenu(true);
-
-        return v;
+    public StudentHomeFragment() {
+        // Required empty public constructor
     }
 
     @Override
-    public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
-        inflater.inflate(R.menu.logout, menu);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        // Initialize Firebase Database reference
+        databaseReference = FirebaseDatabase.getInstance().getReference("FoodDetails");
     }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int idd = item.getItemId();
-        if (idd == R.id.logout) {
-            Logout();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_student_home, container, false);
+        recyclerView = view.findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        foodList = new ArrayList<>();
+        adapter = new FoodAdapter(foodList);
+        recyclerView.setAdapter(adapter);
+        return view;
     }
 
-    private void Logout() {
-        FirebaseAuth.getInstance().signOut();
-        Intent intent = new Intent(getActivity(), MainMenu.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // Add a ValueEventListener to retrieve data from Firebase
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                foodList.clear();
+                for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
+                    FoodDetails foodDetails = postSnapshot.getValue(FoodDetails.class);
+                    foodList.add(foodDetails);
+                }
+                adapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+                // Handle database error
+            }
+        });
     }
 }

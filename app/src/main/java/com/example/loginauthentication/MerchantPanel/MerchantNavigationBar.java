@@ -28,8 +28,9 @@ public class MerchantNavigationBar extends AppCompatActivity implements BottomNa
                 fragment=new MerchantHomeFragment();
                 break;
             case R.id.MerchantPendingOrders:
-                fragment=new MerchantPendingOrderFragment();
+                fragment=new MerchantPendingOrdersFragment();
                 break;
+
             case R.id.Orders:
                 fragment=new MerchantOrderFragment();
                 break;

@@ -15,11 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAuthentication"
         tools:targetApi="31">
+        
         <activity
             android:name=".imageuplaoder"
-            android:exported="false" />
-        <activity
-            android:name=".StudentPanel.StudentPanelNavigationBar"
             android:exported="false" />
         <activity
             android:name=".MerchantPanel.Merchant_post_dish"
@@ -27,6 +25,22 @@
         <activity
             android:name=".MerchantPanel.MerchantNavigationBar"
             android:exported="false" />
+        <activity
+            android:name=".CustomerFoodPanel.PayableOrders"
+            android:label="Payable Orders" />
+
+        <activity
+            android:name=".CustomerFoodPanel.PendingOrders"
+            android:label="Pending Orders" />
+
+        <activity
+            android:name=".CustomerFoodPanel.OrderDish"
+            android:label="Pending Orders" />
+        <activity
+            android:name=".CustomerFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing" />
+
+
         <activity
             android:name=".AdminPanel"
             android:exported="false" />
