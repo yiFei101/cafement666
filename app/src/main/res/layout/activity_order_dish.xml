@@ -93,22 +93,12 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="8dp"
                         android:padding="10dp"
-                        android:text="Chef Name"
+                        android:text="Merchant Name"
                         android:textAllCaps="false"
                         android:textColor="@color/Black"
                         android:textSize="20dp" />
 
-                    <TextView
-                        android:id="@+id/chef_location"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="8dp"
-                        android:padding="10dp"
-                        android:text="Chef Location"
-                        android:textAllCaps="false"
-                        android:textColor="@color/Black"
-                        android:textSize="17dp" />
+
 
                     <TextView
                         android:id="@+id/food_quantity"

@@ -26,6 +26,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,7 +46,7 @@ public class CustomerHomeFragment extends Fragment implements SwipeRefreshLayout
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_customerhome, container, false);
-        getActivity().setTitle("Food On");
+        getActivity().setTitle("Cafement");
         setHasOptionsMenu(true);
 
         recyclerView = v.findViewById(R.id.recycle_menu);
@@ -72,6 +75,7 @@ public class CustomerHomeFragment extends Fragment implements SwipeRefreshLayout
 
         // Reference to the Firebase Realtime Database where your data is located
         databaseReference = FirebaseDatabase.getInstance().getReference("FoodDetails");
+        StorageReference storageRef = FirebaseStorage.getInstance().getReference();
 
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
@@ -80,9 +84,9 @@ public class CustomerHomeFragment extends Fragment implements SwipeRefreshLayout
                 for (DataSnapshot merchantSnapshot : dataSnapshot.getChildren()) {
                     for (DataSnapshot dishSnapshot : merchantSnapshot.getChildren()) {
                         UpdateDishModel updateDishModel = dishSnapshot.getValue(UpdateDishModel.class);
-                        updateDishModelList.add(updateDishModel);
                         String imageURL = dishSnapshot.child("ImageURL").getValue(String.class);
                         if (imageURL != null) {
+                            // Set the imageURL to the UpdateDishModel object
                             updateDishModel.setImageURL(imageURL);
                         }
 

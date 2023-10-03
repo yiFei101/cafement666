@@ -17,14 +17,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.loginauthentication.Customer;
 import com.example.loginauthentication.R;
 
 import com.example.loginauthentication.MerchantPanel.Merchant;
 import com.example.loginauthentication.MerchantPanel.UpdateDishModel;
-import com.example.loginauthentication.Customer;
 import  com.example.loginauthentication.CustomerFoodPanel_BottomNavigation;
-import com.google.android.gms.tasks.OnSuccessListener;
+import com.example.loginauthentication.Student;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -38,12 +36,12 @@ import java.util.HashMap;
 
 public class OrderDish extends AppCompatActivity {
 
-    String RandomId, ChefID;
+    String RandomUID, MerchantId;
     ImageView imageView;
     EditText additem;
-    TextView Foodname, ChefName, ChefLoaction, FoodQuantity, FoodPrice, FoodDescription;
-    DatabaseReference databaseReference, dataaa, chefdata, reference, data, dataref;
-    String State, City, Sub, dishname;
+    TextView Foodname, MerchantName,  FoodQuantity, FoodPrice, FoodDescription;
+    DatabaseReference databaseReference, dataaa, merchantdata, reference, data, dataref;
+    String dishname;
     int dishprice;
     String custID;
     FirebaseDatabase firebaseDatabase;
@@ -54,8 +52,7 @@ public class OrderDish extends AppCompatActivity {
         setContentView(R.layout.activity_order_dish);
 
         Foodname = findViewById(R.id.food_name);
-        ChefName = findViewById(R.id.chef_name);
-        ChefLoaction = findViewById(R.id.chef_location);
+        MerchantName = findViewById(R.id.chef_name);
         FoodQuantity = findViewById(R.id.food_quantity);
         FoodPrice = findViewById(R.id.food_price);
         FoodDescription = findViewById(R.id.food_description);
@@ -69,12 +66,12 @@ public class OrderDish extends AppCompatActivity {
         dataaa.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                Customer cust = dataSnapshot.getValue(Customer.class);
+                Student stud = dataSnapshot.getValue(Student.class);
 
-                RandomId = getIntent().getStringExtra("FoodMenu");
-                ChefID = getIntent().getStringExtra("MerchantId");
+                RandomUID = getIntent().getStringExtra("FoodMenu");
+                MerchantId = getIntent().getStringExtra("MerchantId");
 
-                databaseReference = FirebaseDatabase.getInstance().getReference("FoodDetails").child(State).child(City).child(Sub).child(ChefID).child(RandomId);
+                databaseReference = FirebaseDatabase.getInstance().getReference("FoodDetails").child(MerchantId).child(RandomUID);
                 databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -84,7 +81,7 @@ public class OrderDish extends AppCompatActivity {
                         FoodQuantity.setText(Html.fromHtml(qua));
                         String ss = "<b>" + "Description: " + "</b>" + updateDishModel.getDescription();
                         FoodDescription.setText(Html.fromHtml(ss));
-                        String pri = "<b>" + "Price: ₹ " + "</b>" + updateDishModel.getPrice();
+                        String pri = "<b>" + "Price: ₱ " + "</b>" + updateDishModel.getPrice();
                         FoodPrice.setText(Html.fromHtml(pri));
 
                         // Load image from URL
@@ -96,16 +93,16 @@ public class OrderDish extends AppCompatActivity {
                             e.printStackTrace();
                         }
 
-                        chefdata = FirebaseDatabase.getInstance().getReference("Chef").child(ChefID);
-                        chefdata.addListenerForSingleValueEvent(new ValueEventListener() {
+                        merchantdata = FirebaseDatabase.getInstance().getReference("Merchant").child(MerchantId);
+                        merchantdata.addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                 Merchant merchant = dataSnapshot.getValue(Merchant.class);
 
-                                String name = "<b>" + "Chef Name: " + "</b>" + merchant.getFname() + " " + merchant.getLname();
-                                ChefName.setText(Html.fromHtml(name));
+                                String name = "<b>" + "Merchant Name: " + "</b>" + merchant.getFname() + " " + merchant.getLname();
+                                MerchantName.setText(Html.fromHtml(name));
                                 custID = FirebaseAuth.getInstance().getCurrentUser().getUid();
-                                databaseReference = FirebaseDatabase.getInstance().getReference("Cart").child("CartItems").child(custID).child(RandomId);
+                                databaseReference = FirebaseDatabase.getInstance().getReference("Cart").child("CartItems").child(custID).child(RandomUID);
                                 databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                                     @Override
                                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {

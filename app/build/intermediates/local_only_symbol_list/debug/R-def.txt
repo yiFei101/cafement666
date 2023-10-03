@@ -209,7 +209,6 @@ id btnChoose
 id btnUpload
 id btnn
 id cancelButton
-id chef_location
 id chef_name
 id city
 id cityy

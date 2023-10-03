@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.loginauthentication.app-mergeDebugResources-45:/values-ta/values-ta.xml",
+            "outputFile": "com.example.loginauthentication.app-mergeDebugResources-46:/values-ta/values-ta.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\356accba6592c57602fecf876afe850b\\transformed\\play-services-base-18.1.0\\res\\values-ta\\values.xml",
