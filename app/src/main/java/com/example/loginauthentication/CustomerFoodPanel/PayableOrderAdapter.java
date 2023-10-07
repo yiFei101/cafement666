@@ -35,9 +35,9 @@ public class PayableOrderAdapter extends RecyclerView.Adapter<PayableOrderAdapte
 
         final CustomerPaymentOrders customerPaymentOrders = customerPaymentOrderslist.get(position);
         holder.Dishname.setText(customerPaymentOrders.getDishName());
-        holder.Price.setText("Price: ₹ " + customerPaymentOrders.getDishPrice());
+        holder.Price.setText("Price: ₱ " + customerPaymentOrders.getDishPrice());
         holder.Quantity.setText("× " + customerPaymentOrders.getDishQuantity());
-        holder.Totalprice.setText("Total: ₹ " + customerPaymentOrders.getTotalPrice());
+        holder.Totalprice.setText("Total: ₱ " + customerPaymentOrders.getTotalPrice());
     }
 
     @Override

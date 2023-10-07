@@ -4,12 +4,12 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button; // Import Button
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
 
 import com.example.loginauthentication.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -34,24 +34,24 @@ public class CustomerCartAdapter extends RecyclerView.Adapter<CustomerCartAdapte
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mcontext).inflate(R.layout.cart_placeorder, parent, false);
-        return new ViewHolder(view);
+        return new CustomerCartAdapter.ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder holder, int position) {
         final Cart cart = cartModellist.get(position);
         holder.dishname.setText(cart.getDishName());
-        holder.PriceRs.setText("Price: ₹ " + cart.getPrice());
+        holder.PriceRs.setText("Price: ₱ " + cart.getPrice());
         holder.Qty.setText("× " + cart.getDishQuantity());
-        holder.Totalrs.setText("Total: ₹ " + cart.getTotalprice());
+        holder.Totalrs.setText("Total: ₱ " + cart.getTotalprice());
         total += Integer.parseInt(cart.getTotalprice());
-        holder.qtyButton.setText("Qty: " + cart.getDishQuantity()); // Set the quantity as text on the button
+        holder.elegantNumberButton.setNumber(cart.getDishQuantity());
         final int dishprice = Integer.parseInt(cart.getPrice());
 
-        holder.qtyButton.setOnClickListener(new View.OnClickListener() {
+        holder.elegantNumberButton.setOnValueChangeListener(new ElegantNumberButton.OnValueChangeListener() {
             @Override
-            public void onClick(View v) {
-                int num = Integer.parseInt(cart.getDishQuantity());
+            public void onValueChange(ElegantNumberButton view, int oldValue, int newValue) {
+                int num = newValue;
                 int totalprice = num * dishprice;
                 if (num != 0) {
                     HashMap<String, String> hashMap = new HashMap<>();
@@ -68,7 +68,7 @@ public class CustomerCartAdapter extends RecyclerView.Adapter<CustomerCartAdapte
                 }
             }
         });
-        CustomerCartFragment.grandt.setText("Grand Total: ₹ " + total);
+        CustomerCartFragment.grandt.setText("Grand Total: ₱ " + total);
         FirebaseDatabase.getInstance().getReference("Cart").child("GrandTotal").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("GrandTotal").setValue(String.valueOf(total));
 
     }
@@ -81,7 +81,7 @@ public class CustomerCartAdapter extends RecyclerView.Adapter<CustomerCartAdapte
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView dishname, PriceRs, Qty, Totalrs;
-        Button qtyButton; //
+        ElegantNumberButton elegantNumberButton;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -90,7 +90,7 @@ public class CustomerCartAdapter extends RecyclerView.Adapter<CustomerCartAdapte
             PriceRs = itemView.findViewById(R.id.pricers);
             Qty = itemView.findViewById(R.id.qty);
             Totalrs = itemView.findViewById(R.id.totalrs);
-            qtyButton = itemView.findViewById(R.id.regularButton); // Replace with your button ID
+            elegantNumberButton = itemView.findViewById(R.id.elegantbtn);
         }
     }
 }

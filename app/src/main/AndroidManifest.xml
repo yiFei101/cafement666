@@ -14,10 +14,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAuthentication"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        tools:replace="android:theme">
         
         <activity
             android:name=".imageuplaoder"
+            android:exported="false" />
+        <activity
+            android:name=".MerchantPanel.Update_Delete_Dish"
             android:exported="false" />
         <activity
             android:name=".MerchantPanel.Merchant_post_dish"

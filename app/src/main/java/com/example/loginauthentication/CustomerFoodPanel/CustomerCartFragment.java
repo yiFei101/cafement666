@@ -48,7 +48,7 @@ public class CustomerCartFragment extends Fragment {
     DatabaseReference databaseReference, data, reference, ref, getRef, dataa;
     public static TextView grandt;
     Button remove, placeorder;
-    String DishId, RandomUId, ChefId;
+    String DishId, RandomUId, MerchantId;
     private ProgressDialog progressDialog;
 
     @Nullable

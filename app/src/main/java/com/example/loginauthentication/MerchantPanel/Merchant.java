@@ -9,22 +9,21 @@ public class Merchant {
         Lname = lname;
         Email = email;
         Password = password;
+
+
     }
 
-    public String getFname() {
-        return Fname;
+    public Merchant() {
     }
-    public String getfname() {
+    public String getFname() {
         return Fname;
     }
     public String getLname() {
         return Lname;
     }
-
     public String getEmail() {
         return Email;
     }
-
     public String getPassword() {
         return Password;
     }

@@ -53,7 +53,7 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
 
         final ChefPendingOrders1 chefPendingOrders1 = chefPendingOrders1list.get(position);
         holder.Address.setText(chefPendingOrders1.getAddress());
-        holder.grandtotalprice.setText("GrandTotal: ₹ " + chefPendingOrders1.getGrandTotalPrice());
+        holder.grandtotalprice.setText("GrandTotal: ₱ " + chefPendingOrders1.getGrandTotalPrice());
         final String random = chefPendingOrders1.getRandomUID();
         holder.Vieworder.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,9 +75,9 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
                         for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                             final ChefPendingOrders chefPendingOrders = snapshot.getValue(ChefPendingOrders.class);
                             HashMap<String, String> hashMap = new HashMap<>();
-                            String chefid = chefPendingOrders.getChefId();
+                            String chefid = chefPendingOrders.getMerchantId();
                             String dishid = chefPendingOrders.getDishId();
-                            hashMap.put("ChefId", chefPendingOrders.getChefId());
+                            hashMap.put("ChefId", chefPendingOrders.getMerchantId());
                             hashMap.put("DishId", chefPendingOrders.getDishId());
                             hashMap.put("DishName", chefPendingOrders.getDishName());
                             hashMap.put("DishPrice", chefPendingOrders.getPrice());
@@ -113,7 +113,7 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
                                                     HashMap<String, String> hashMap2 = new HashMap<>();
                                                     userid = chefPendingOrders.getUserId();
                                                     dishid = chefPendingOrders.getDishId();
-                                                    hashMap2.put("ChefId", chefPendingOrders.getChefId());
+                                                    hashMap2.put("ChefId", chefPendingOrders.getMerchantId());
                                                     hashMap2.put("DishId", chefPendingOrders.getDishId());
                                                     hashMap2.put("DishName", chefPendingOrders.getDishName());
                                                     hashMap2.put("DishPrice", chefPendingOrders.getPrice());

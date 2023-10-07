@@ -69,9 +69,11 @@ drawable daily_meal_bg
 drawable dashed_border
 drawable default_bg
 drawable dialogbkg
+drawable elegant_btnshape
 drawable ellipse1
 drawable ellipse2
 drawable foreground_design
+drawable fragment_chef_profile
 drawable headerbkg
 drawable ic_access_time_black_24dp
 drawable ic_assignment_black_24dp
@@ -119,6 +121,7 @@ drawable outline_monetization_on_24
 drawable oval
 drawable pakyu
 drawable pakyu1
+drawable pic14
 drawable pkgbg
 drawable placeholder_image
 drawable poppins
@@ -142,6 +145,7 @@ id AD
 id Address
 id Cart
 id DN
+id Deletedish
 id Dishh
 id Dishname
 id Email
@@ -193,6 +197,7 @@ id TR
 id Tot
 id TotalBtns
 id Track
+id Updatedish
 id accept
 id add_to_cart_button
 id addnote
@@ -214,7 +219,6 @@ id city
 id cityy
 id container
 id createText
-id decrementButton
 id description
 id descriptionTextView
 id dish
@@ -226,7 +230,7 @@ id dishnm
 id dishprice
 id dishqty
 id drawer_layout
-id editTextNumber
+id elegantbtn
 id ellipse1
 id ellipse2
 id emailID
@@ -260,7 +264,6 @@ id image
 id imageView
 id imageView2
 id imgView
-id incrementButton
 id indicator_layout
 id last_name
 id layoutLive
@@ -268,6 +271,7 @@ id layoutShorts
 id layoutVideo
 id layout_button
 id library
+id linearLayout
 id linear_layout
 id linearlayout
 id lnamee
@@ -289,6 +293,7 @@ id nav_home
 id nav_logout
 id nav_settings
 id nextbtn
+id number_btn
 id orders
 id ordertobe
 id passwordlayout
@@ -306,6 +311,7 @@ id pricers
 id qt
 id qty
 id qtyy
+id quantity
 id quantityTextView
 id recycle_menu
 id recyclecart
@@ -313,7 +319,6 @@ id recyclefinalorders
 id recyclepayableorder
 id recyclerView
 id register
-id regularButton
 id reject
 id rs
 id searchbar
@@ -365,6 +370,7 @@ layout activity_slides
 layout activity_student_panel
 layout activity_student_panel_navigation_bar
 layout activity_student_register
+layout activity_update__delete__dish
 layout bottomsheetlayout
 layout cart_placeorder
 layout chef_menu_update_delete

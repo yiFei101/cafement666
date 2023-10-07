@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.loginauthentication.app-mergeDebugResources-46:/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "com.example.loginauthentication.app-mergeDebugResources-49:/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\724b77b8afaec52072f7b409a6316813\\transformed\\appcompat-1.6.1\\res\\values-es-rUS\\values-es-rUS.xml",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\356accba6592c57602fecf876afe850b\\transformed\\play-services-base-18.1.0\\res\\values-es-rUS\\values.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\548e0ea3a58db2fb6213482b243d3ed6\\transformed\\jetified-play-services-base-18.1.0\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -91,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\3822a6e4ebc341efc173fd5966cc5f57\\transformed\\play-services-basement-18.1.0\\res\\values-es-rUS\\values.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\29a9b51f4e0cc0bed8f6b51f4147e0b4\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

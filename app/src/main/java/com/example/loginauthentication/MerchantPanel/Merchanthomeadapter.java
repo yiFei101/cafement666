@@ -66,4 +66,3 @@ public class Merchanthomeadapter extends RecyclerView.Adapter<Merchanthomeadapte
     }
 }
 
-

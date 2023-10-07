@@ -37,7 +37,6 @@ public class MerchantHomeFragment extends Fragment {
     DatabaseReference dataaa;
 
 
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -50,22 +49,59 @@ public class MerchantHomeFragment extends Fragment {
         updateDishModelList = new ArrayList<>();
         String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
         dataaa = FirebaseDatabase.getInstance().getReference("Merchant").child(userid);
+        dataaa.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                Merchant merchant = dataSnapshot.getValue(Merchant.class);
 
+                merchantDishes();
+            }
 
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
 
+            }
+        });
 
 
         return v;
     }
 
 
+    private void merchantDishes() {
+
+        String useridd = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("FoodDetails").child(useridd);
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                updateDishModelList.clear();
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                    UpdateDishModel updateDishModel = snapshot.getValue(UpdateDishModel.class);
+                    updateDishModelList.add(updateDishModel);
+
+                }
+                adapter = new Merchanthomeadapter(getContext(), updateDishModelList);
+                recyclerView.setAdapter(adapter);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+    }
+
+
     @Override
-    public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.logout, menu);
     }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item) {
+
         int idd = item.getItemId();
         if (idd == R.id.logout) {
             Logout();
@@ -75,11 +111,15 @@ public class MerchantHomeFragment extends Fragment {
     }
 
     private void Logout() {
+
         FirebaseAuth.getInstance().signOut();
         Intent intent = new Intent(getActivity(), MainMenu.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK );
         startActivity(intent);
-    }
-}
 
+    }
+
+
+
+}
 

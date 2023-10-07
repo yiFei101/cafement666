@@ -26,6 +26,8 @@ public class MerchantProfileFragment extends Fragment {
         postDish = v.findViewById(R.id.post_dish); // Initialize the postDish button
 
         postDish.setOnClickListener(new View.OnClickListener() {
+
+
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getContext(),Merchant_post_dish.class));

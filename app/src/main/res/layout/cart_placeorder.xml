@@ -21,6 +21,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
+
             <TextView
                 android:id="@+id/Dishname"
                 android:layout_width="wrap_content"
@@ -31,15 +32,20 @@
                 android:text="Pannerr tikka malasa "
                 android:textSize="25dp" />
 
-            <Button
-                android:id="@+id/regularButton"
-                android:layout_width="75dp"
-                android:layout_height="25dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/btnred"
-            android:text="Qty"
-            android:textColor="#FFFFFF"
-            android:textSize="12sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+
+                <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                    android:id="@+id/elegantbtn"
+                    android:layout_width="75dp"
+                    android:layout_marginRight="10dp"
+                    app:backgroundDrawable="@drawable/elegant_btnshape"
+                    android:layout_height="25dp"
+                    android:layout_gravity="bottom"
+                    app:backGroundColor="#FA3E03" />
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -48,6 +54,7 @@
             android:layout_marginTop="8dp"
             android:gravity="right"
             android:orientation="horizontal">
+
 
             <TextView
                 android:id="@+id/pricers"
@@ -76,6 +83,8 @@
             android:layout_marginBottom="8dp"
             android:gravity="right"
             android:text="Total: Rs 150"
-            android:textSize="18sp" />
+            android:textSize="18sp"></TextView>
+
     </LinearLayout>
+
 </androidx.cardview.widget.CardView>

@@ -2,10 +2,10 @@ package com.example.loginauthentication.MerchantPanel;
 
 public class ChefPendingOrders {
 
-    private String ChefId,DishId,DishName,DishQuantity,Price,RandomUID,TotalPrice,UserId;
+    private String MerchantId,DishId,DishName,DishQuantity,Price,RandomUID,TotalPrice,UserId;
 
-    public ChefPendingOrders(String chefId, String dishId, String dishName, String dishQuantity, String price, String randomUID, String totalPrice, String userId) {
-        ChefId = chefId;
+    public ChefPendingOrders(String merchantId, String dishId, String dishName, String dishQuantity, String price, String randomUID, String totalPrice, String userId) {
+        MerchantId = merchantId;
         DishId = dishId;
         DishName = dishName;
         DishQuantity = dishQuantity;
@@ -20,12 +20,12 @@ public class ChefPendingOrders {
 
     }
 
-    public String getChefId() {
-        return ChefId;
+    public String getMerchantId() {
+        return  MerchantId;
     }
 
-    public void setChefId(String chefId) {
-        ChefId = chefId;
+    public void setMerchantId(String merchantId) {
+        MerchantId = merchantId;
     }
 
     public String getDishId() {

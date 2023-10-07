@@ -53,6 +53,9 @@
             android:name="com.example.loginauthentication.imageuplaoder"
             android:exported="false" />
         <activity
+            android:name="com.example.loginauthentication.MerchantPanel.Update_Delete_Dish"
+            android:exported="false" />
+        <activity
             android:name="com.example.loginauthentication.MerchantPanel.Merchant_post_dish"
             android:exported="false" />
         <activity

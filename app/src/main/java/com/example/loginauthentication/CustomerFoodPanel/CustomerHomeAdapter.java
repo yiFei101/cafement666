@@ -64,7 +64,7 @@ public class CustomerHomeAdapter extends RecyclerView.Adapter<CustomerHomeAdapte
             public void onClick(View v) {
                 Intent intent = new Intent(mcontext, OrderDish.class);
                 intent.putExtra("FoodDetails", updateDishModel.getRandomUID());
-                intent.putExtra("MerchantId", MerchantId); // Use the merchantId variable here
+                intent.putExtra("MerchantId", updateDishModel.getMerchantId());
                 mcontext.startActivity(intent);
             }
         });
