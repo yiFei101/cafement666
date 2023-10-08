@@ -2,10 +2,12 @@ package com.example.loginauthentication.CustomerFoodPanel;
 
 public class CustomerPendingOrders1 {
 
-    private String GrandTotalPrice,Name,Note;
+    private String Address,GrandTotalPrice,MobileNumber,Name,Note;
 
-    public CustomerPendingOrders1( String grandTotalPrice, String mobileNumber, String name,String note) {
+    public CustomerPendingOrders1(String address, String grandTotalPrice, String mobileNumber, String name,String note) {
+        Address = address;
         GrandTotalPrice = grandTotalPrice;
+        MobileNumber = mobileNumber;
         Name = name;
         Note=note;
 
@@ -16,6 +18,13 @@ public class CustomerPendingOrders1 {
 
     }
 
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String address) {
+        Address = address;
+    }
 
     public String getGrandTotalPrice() {
         return GrandTotalPrice;
@@ -25,6 +34,13 @@ public class CustomerPendingOrders1 {
         GrandTotalPrice = grandTotalPrice;
     }
 
+    public String getMobileNumber() {
+        return MobileNumber;
+    }
+
+    public void setMobileNumber(String mobileNumber) {
+        MobileNumber = mobileNumber;
+    }
 
     public String getName() {
         return Name;

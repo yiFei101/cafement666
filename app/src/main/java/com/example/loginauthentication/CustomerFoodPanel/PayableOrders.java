@@ -68,7 +68,7 @@ public class PayableOrders extends AppCompatActivity {
 
     private void CustomerpayableOrders() {
 
-        databaseReference = FirebaseDatabase.getInstance().getReference("CustomerPaymentOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+        databaseReference = FirebaseDatabase.getInstance().getReference("StudentPaymentOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -76,7 +76,7 @@ public class PayableOrders extends AppCompatActivity {
                     customerPaymentOrdersList.clear();
                     for (final DataSnapshot snapshot : dataSnapshot.getChildren()) {
                         final String randomuid = snapshot.getKey();
-                        DatabaseReference data = FirebaseDatabase.getInstance().getReference("CustomerPaymentOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(snapshot.getKey()).child("Dishes");
+                        DatabaseReference data = FirebaseDatabase.getInstance().getReference("StudentPaymentOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(snapshot.getKey()).child("Dishes");
                         data.addValueEventListener(new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -110,13 +110,13 @@ public class PayableOrders extends AppCompatActivity {
 
                             }
                         });
-                        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("CustomerPaymentOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(randomuid).child("OtherInformation");
+                        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("StudentPaymentOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(randomuid).child("OtherInformation");
                         reference.addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                 if (dataSnapshot.exists()) {
                                     CustomerPaymentOrders1 customerPaymentOrders1 = dataSnapshot.getValue(CustomerPaymentOrders1.class);
-                                    grandtotal.setText("₹ " + customerPaymentOrders1.getGrandTotalPrice());
+                                    grandtotal.setText("₱ " + customerPaymentOrders1.getGrandTotalPrice());
                                     swipeRefreshLayout.setRefreshing(false);
 
                                 } else {

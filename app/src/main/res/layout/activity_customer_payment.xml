@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerFoodPanel.CustomerPayment">
+
+    <!-- Online Payment Section -->
+    <TextView
+        android:id="@+id/pyy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="Online Payment"
+        android:textColor="@color/Black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/py"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pyy"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:text="You can choose paymaya or gcash"
+        android:textColor="@color/gray"
+        android:textSize="15dp" />
+
+    <!-- Online Payment Button -->
+    <Button
+        android:id="@+id/onlinePaymentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/py"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Online Payment" />
+
+    <!-- Cash Payment Section -->
+    <TextView
+        android:id="@+id/py1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onlinePaymentButton"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:text="Cash payment"
+        android:textColor="@color/Black"
+        android:textSize="25dp" />
+
+    <!-- Cash Payment Button -->
+    <Button
+        android:id="@+id/cashPaymentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/py1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Cash Payment" />
+
+    <!-- Rest of your layout content -->
+
+</RelativeLayout>

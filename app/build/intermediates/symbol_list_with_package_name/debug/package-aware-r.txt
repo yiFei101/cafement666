@@ -3149,6 +3149,7 @@ drawable ellipse1
 drawable ellipse2
 drawable foreground_design
 drawable fragment_chef_profile
+drawable gcash
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable headerbkg
@@ -3230,6 +3231,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable maya
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3284,6 +3286,7 @@ drawable outline_monetization_on_24
 drawable oval
 drawable pakyu
 drawable pakyu1
+drawable paymaya
 drawable pic14
 drawable pkgbg
 drawable placeholder_image
@@ -3497,6 +3500,7 @@ id callMeasure
 id cancelButton
 id cancel_button
 id carryVelocity
+id cashPaymentButton
 id center
 id centerCrop
 id centerInside
@@ -3674,6 +3678,8 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageView3
+id imageView4
 id imgView
 id immediateStop
 id included
@@ -3813,6 +3819,7 @@ id off
 id on
 id onInterceptTouchReturnSwipe
 id onTouch
+id onlinePaymentButton
 id orders
 id ordertobe
 id outline
@@ -3848,6 +3855,9 @@ id pricee
 id pricers
 id progress_circular
 id progress_horizontal
+id py
+id py1
+id pyy
 id qt
 id qty
 id qtyy
@@ -3990,6 +4000,7 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
 id textView4
 id text_input_end_icon
 id text_input_error_icon
@@ -4169,6 +4180,8 @@ layout abc_tooltip
 layout activity_admin_panel
 layout activity_chef_order_dishes
 layout activity_chef_prepared_order
+layout activity_customer_online_payment
+layout activity_customer_payment
 layout activity_food_panel__bottom_navigation
 layout activity_imageuplaoder
 layout activity_loadinganimation
@@ -4233,6 +4246,7 @@ layout fragment_student_home
 layout fragment_student_menu
 layout fragment_student_orders
 layout fragment_studentfaq
+layout gcash
 layout item_food
 layout layout
 layout m3_alert_dialog

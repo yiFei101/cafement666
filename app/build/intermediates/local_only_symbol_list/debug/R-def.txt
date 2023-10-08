@@ -74,6 +74,7 @@ drawable ellipse1
 drawable ellipse2
 drawable foreground_design
 drawable fragment_chef_profile
+drawable gcash
 drawable headerbkg
 drawable ic_access_time_black_24dp
 drawable ic_assignment_black_24dp
@@ -117,10 +118,12 @@ drawable ic_search_black_24dp
 drawable ic_shopping_cart_black_24dp
 drawable icecream
 drawable lumpia
+drawable maya
 drawable outline_monetization_on_24
 drawable oval
 drawable pakyu
 drawable pakyu1
+drawable paymaya
 drawable pic14
 drawable pkgbg
 drawable placeholder_image
@@ -214,6 +217,7 @@ id btnChoose
 id btnUpload
 id btnn
 id cancelButton
+id cashPaymentButton
 id chef_name
 id city
 id cityy
@@ -263,6 +267,8 @@ id hrr
 id image
 id imageView
 id imageView2
+id imageView3
+id imageView4
 id imgView
 id indicator_layout
 id last_name
@@ -294,6 +300,7 @@ id nav_logout
 id nav_settings
 id nextbtn
 id number_btn
+id onlinePaymentButton
 id orders
 id ordertobe
 id passwordlayout
@@ -308,6 +315,9 @@ id price
 id priceTextView
 id pricee
 id pricers
+id py
+id py1
+id pyy
 id qt
 id qty
 id qtyy
@@ -338,6 +348,7 @@ id swipelayout
 id text1
 id textView
 id textView2
+id textView3
 id textView4
 id textdeccription
 id texttitle
@@ -351,6 +362,8 @@ id vieww
 layout activity_admin_panel
 layout activity_chef_order_dishes
 layout activity_chef_prepared_order
+layout activity_customer_online_payment
+layout activity_customer_payment
 layout activity_food_panel__bottom_navigation
 layout activity_imageuplaoder
 layout activity_loadinganimation
@@ -395,6 +408,7 @@ layout fragment_student_home
 layout fragment_student_menu
 layout fragment_student_orders
 layout fragment_studentfaq
+layout gcash
 layout item_food
 layout marchantorder
 layout merchant_nav_header
