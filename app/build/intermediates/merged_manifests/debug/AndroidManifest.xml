@@ -50,6 +50,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAuthentication" >
         <activity
+            android:name="com.example.loginauthentication.Login"
+            android:exported="false" />
+        <activity
             android:name="com.example.loginauthentication.imageuplaoder"
             android:exported="false" />
         <activity
@@ -60,6 +63,15 @@
             android:exported="false" />
         <activity
             android:name="com.example.loginauthentication.MerchantPanel.MerchantNavigationBar"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.MerchantPanel.ChefOrderTobePrepared"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.CustomerFoodPanel.CustomerPayment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.CustomerFoodPanel.CustomerOnlinePayment"
             android:exported="false" />
         <activity
             android:name="com.example.loginauthentication.CustomerFoodPanel.PayableOrders"

@@ -3317,12 +3317,19 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id Cart
+id Cdishname
+id Cdishprice
+id Cdishqty
 id CropOverlayView
 id CropProgressBar
+id Ctotalprice
 id DN
 id Deletedish
 id Dishh
 id Dishname
+id Dname
+id Dprice
+id Dqty
 id Email
 id Email1
 id Email22
@@ -3331,6 +3338,7 @@ id FUNCTION
 id Firstname
 id Firstname1
 id GT
+id Grandtotalprice
 id HA
 id Home
 id ImageView_image
@@ -3341,6 +3349,7 @@ id META
 id MerchantPendingOrders
 id MerchantProfile
 id Merchanthome
+id NOTE
 id NO_DEBUG
 id OA
 id Order
@@ -3360,6 +3369,7 @@ id Recycle_orders
 id Recycle_orders_dish
 id Recycle_orderstobeprepared
 id Recycle_preparedOrders
+id Recycle_viewOrder
 id Recycleorders
 id Rs
 id SHIFT
@@ -3368,7 +3378,6 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id Searchdish
-id Signwithmerchant
 id Signwithstudentid
 id StudentID
 id StudentSignin
@@ -3382,8 +3391,11 @@ id TP
 id TR
 id Tot
 id TotalBtns
+id Tprice
 id Track
 id Updatedish
+id View
+id View_order
 id accelerate
 id accept
 id accessibility_action_clickable_span
@@ -3441,6 +3453,7 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
+id ad
 id add
 id add_btn
 id add_to_cart_button
@@ -3494,6 +3507,7 @@ id btn
 id btnChoose
 id btnUpload
 id btnn
+id button1
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3541,8 +3555,11 @@ id crop_image_menu_crop
 id crop_image_menu_rotate_left
 id crop_image_menu_rotate_right
 id currentState
+id cust_address
 id custom
 id customPanel
+id customer_address
+id customer_totalprice
 id cut
 id dark
 id date_picker_actions
@@ -3747,6 +3764,7 @@ id material_value_index
 id matrix
 id menu
 id menu_image
+id merchantRadioButton
 id merchant_bottom_navigation
 id merchantregister1
 id merchantsignup
@@ -3805,6 +3823,7 @@ id never
 id neverCompleteToEnd
 id neverCompleteToStart
 id nextbtn
+id nm
 id noScroll
 id noState
 id none
@@ -3813,6 +3832,8 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id nt
+id num
 id number_btn
 id number_counter
 id off
@@ -3847,6 +3868,7 @@ id post
 id postLayout
 id post_dish
 id prepareorder
+id preparing
 id pressed
 id pri
 id price
@@ -3882,9 +3904,11 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id roleRadioGroup
 id rounded
 id row_index_key
 id rs
+id rupees
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3966,6 +3990,7 @@ id staticPostLayout
 id status
 id stop
 id stretch
+id studentRadioButton
 id student_bottom_navigation
 id studentregister
 id sub
@@ -4179,12 +4204,15 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin_panel
 layout activity_chef_order_dishes
+layout activity_chef_order_tobe_prepared
+layout activity_chef_ordertobe_prepare_view
 layout activity_chef_prepared_order
 layout activity_customer_online_payment
 layout activity_customer_payment
 layout activity_food_panel__bottom_navigation
 layout activity_imageuplaoder
 layout activity_loadinganimation
+layout activity_login
 layout activity_main
 layout activity_main2
 layout activity_main_menu
@@ -4210,6 +4238,10 @@ layout chef_menu_update_delete
 layout chef_order_dishes
 layout chef_order_dishes1
 layout chef_orders
+layout chef_ordertobeprepared
+layout chef_ordertobeprepared_view
+layout chef_preparedorder
+layout chef_preparedorderview
 layout crop_image_activity
 layout crop_image_view
 layout custom_dialog

@@ -25,7 +25,7 @@ public class merchantpendingorders {
         return MerchantId;
     }
 
-    public void setChefId(String merchantId) {
+    public void setMerchantId(String merchantId) {
         MerchantId = merchantId;
     }
 

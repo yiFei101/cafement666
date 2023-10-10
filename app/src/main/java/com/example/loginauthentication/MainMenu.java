@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import com.example.loginauthentication.MerchantPanel.MerchantNavigationBar;
 
 public class MainMenu extends AppCompatActivity {
-    private Button Signwithstudentid, Signwithmerchant, register;
+    private Button Signwithstudentid, register;
     ImageView bgimage;
     private int clickCount = 0;
     private Handler handler = new Handler();
@@ -23,13 +23,6 @@ public class MainMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        Signwithmerchant = findViewById(R.id.Signwithmerchant);
-        Signwithmerchant.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openmerchantlogin();
-            }
-        });
 
         register = findViewById(R.id.register);
         register.setOnClickListener(new View.OnClickListener() {
@@ -102,7 +95,7 @@ public class MainMenu extends AppCompatActivity {
     }
 
     public void openMainActivity2() {
-        Intent intent = new Intent(this, MainActivity2.class);
+        Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
 
@@ -111,10 +104,7 @@ public class MainMenu extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openmerchantlogin() {
-        Intent intent = new Intent(this, merchantlogin.class);
-        startActivity(intent);
-    }
+
 
     public void openregister() {
         Intent intent = new Intent(this, register.class);

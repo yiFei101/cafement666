@@ -65,4 +65,3 @@ public class MerchantFinalorders1 {
         Status = status;
     }
 }
-
