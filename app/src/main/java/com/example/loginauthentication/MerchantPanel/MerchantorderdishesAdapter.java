@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.loginauthentication.R;
 
 import java.util.List;
+
 public class MerchantorderdishesAdapter extends RecyclerView.Adapter<MerchantorderdishesAdapter.ViewHolder>{
     private Context mcontext;
     private List<merchantpendingorders> merchantPendingOrderslist;
@@ -24,7 +25,7 @@ public class MerchantorderdishesAdapter extends RecyclerView.Adapter<Merchantord
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mcontext).inflate(R.layout.merchantorderdishes, parent, false);
-        return new MerchantorderdishesAdapter.ViewHolder(view);
+        return new ViewHolder(view);
     }
 
     @Override

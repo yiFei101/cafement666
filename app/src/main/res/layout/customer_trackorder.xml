@@ -52,7 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="15dp"
-                    android:text=" rs.2000"
+                    android:text=" PHP 2000"
                     android:textColor="@color/Blacklogo"
                     android:textSize="18dp" />
             </LinearLayout>

@@ -28,6 +28,9 @@
             android:name=".MerchantPanel.Update_Delete_Dish"
             android:exported="false" />
         <activity
+            android:name=".MerchantPanel.Chef_order_dishes"
+            android:exported="false" />
+        <activity
             android:name=".MerchantPanel.Merchant_post_dish"
             android:exported="false" />
         <activity
@@ -88,6 +91,22 @@
             android:name="com.google.android.actions"
             android:resource="@xml/style" />
 
+        <service
+            android:name="com.example.loginauthentication.SendNotification.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.loginauthentication.SendNotification.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
         <activity
             android:name=".MainActivity"
             android:exported="true" >
@@ -100,6 +119,10 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+            <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value=""/>
+
         </activity>
     </application>
 

@@ -10,7 +10,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
-
 import com.example.loginauthentication.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
@@ -34,7 +33,7 @@ public class CustomerCartAdapter extends RecyclerView.Adapter<CustomerCartAdapte
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mcontext).inflate(R.layout.cart_placeorder, parent, false);
-        return new CustomerCartAdapter.ViewHolder(view);
+        return new ViewHolder(view);
     }
 
     @Override

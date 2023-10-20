@@ -3166,6 +3166,7 @@ drawable ic_baseline_exit_to_app_24
 drawable ic_baseline_file_upload_24
 drawable ic_baseline_home_24
 drawable ic_baseline_info_24
+drawable ic_baseline_logout_24
 drawable ic_baseline_menu_24
 drawable ic_baseline_person_outline_24
 drawable ic_baseline_photo_camera_24
@@ -3182,6 +3183,7 @@ drawable ic_baseline_subscriptions_24
 drawable ic_baseline_vibration_24
 drawable ic_baseline_whatshot_24
 drawable ic_camera_alt_black_24dp
+drawable ic_chef_hat_and_fork
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_flip_24
@@ -3345,6 +3347,7 @@ id ImageView_image
 id LA
 id Lastname
 id Lastname1
+id LogOut
 id META
 id MerchantPendingOrders
 id MerchantProfile
@@ -3731,7 +3734,6 @@ id listMode
 id list_item
 id lnamee
 id loginformerchant
-id logout
 id logout_layout
 id logoutt
 id lottieAnimationView

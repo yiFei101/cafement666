@@ -11,9 +11,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -103,7 +101,7 @@ public class MerchantHomeFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         int idd = item.getItemId();
-        if (idd == R.id.logout) {
+        if (idd == R.id.LogOut) {
             Logout();
             return true;
         }

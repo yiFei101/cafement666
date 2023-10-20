@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import androidx.appcompat.widget.Toolbar; // Import the correct Toolbar class
 
 import com.example.loginauthentication.MerchantPanel.MerchantHomeFragment;
 import com.example.loginauthentication.MerchantPanel.MerchantOrderFragment;
@@ -28,6 +29,9 @@ public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_merchant_navigation_bar);
         BottomNavigationView navigationView = findViewById(R.id.merchant_bottom_navigation);
+
+        Toolbar toolbar = findViewById(R.id.toolbar); // Use the correct Toolbar class
+        setSupportActionBar(toolbar);
         navigationView.setOnNavigationItemSelectedListener(this);
         UpdateToken();
         String name = getIntent().getStringExtra("PAGE");
@@ -47,22 +51,15 @@ public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements
     }
 
     private void UpdateToken() {
-//        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseMessaging.getInstance().getToken().addOnCompleteListener(new OnCompleteListener<String>() {
             @Override
             public void onComplete(@NonNull Task<String> task) {
-                if(task.isComplete()){
+                if (task.isSuccessful()) {
                     String token = task.getResult();
                     FirebaseDatabase.getInstance().getReference("Tokens").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(token);
-
-
-
                 }
             }
         });
-//        String refreshToken = FirebaseInstanceId.getInstance().getToken();
-//        Token token = new Token(refreshToken);
-//        FirebaseDatabase.getInstance().getReference("Tokens").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(token);
     }
 
     private boolean loadcheffragment(Fragment fragment) {
@@ -70,7 +67,6 @@ public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, fragment).commit();
             return true;
         }
-
         return false;
     }
 

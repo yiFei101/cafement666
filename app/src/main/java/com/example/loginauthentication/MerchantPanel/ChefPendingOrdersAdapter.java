@@ -15,6 +15,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.loginauthentication.R;
 import com.example.loginauthentication.ReusableCode.ReusableCodeForAll;
+import com.example.loginauthentication.SendNotification.APIService;
+import com.example.loginauthentication.SendNotification.Client;
+import com.example.loginauthentication.SendNotification.Data;
+import com.example.loginauthentication.SendNotification.MyResponse;
+import com.example.loginauthentication.SendNotification.NotificationSender;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -24,13 +29,19 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import java.util.HashMap;
 import java.util.List;
+import com.example.loginauthentication.SendNotification.APIService;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOrdersAdapter.ViewHolder> {
-
+    private APIService apiService;
     private Context context;
     private List<ChefPendingOrders1> chefPendingOrders1list;
     String userid, dishid;
@@ -39,13 +50,16 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
     public ChefPendingOrdersAdapter(Context context, List<ChefPendingOrders1> chefPendingOrders1list) {
         this.chefPendingOrders1list = chefPendingOrders1list;
         this.context = context;
+
     }
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.chef_orders, parent, false);
-        return new ViewHolder(view);
+        apiService = Client.getClient("https://fcm.googleapis.com/").create(APIService.class);
+
+        return new ChefPendingOrdersAdapter.ViewHolder(view);
     }
 
     @Override
@@ -53,7 +67,7 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
 
         final ChefPendingOrders1 chefPendingOrders1 = chefPendingOrders1list.get(position);
         holder.Address.setText(chefPendingOrders1.getAddress());
-        holder.grandtotalprice.setText("GrandTotal: ₱ " + chefPendingOrders1.getGrandTotalPrice());
+        holder.grandtotalprice.setText("Total: ₱ " + chefPendingOrders1.getGrandTotalPrice());
         final String random = chefPendingOrders1.getRandomUID();
         holder.Vieworder.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,7 +82,7 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
             @Override
             public void onClick(View v) {
 
-                DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("ChefPendingOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(random).child("Dishes");
+                DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("MerchantPendingOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(random).child("Dishes");
                 databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -130,8 +144,8 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
                                                         ChefPendingOrders1 chefPendingOrders1 = dataSnapshot.getValue(ChefPendingOrders1.class);
                                                         HashMap<String, String> hashMap3 = new HashMap<>();
                                                         hashMap3.put("Address", chefPendingOrders1.getAddress());
-                                                        hashMap3.put("GrandTotalPrice", chefPendingOrders1.getGrandTotalPrice());
                                                         hashMap3.put("MobileNumber", chefPendingOrders1.getMobileNumber());
+                                                        hashMap3.put("GrandTotalPrice", chefPendingOrders1.getGrandTotalPrice());
                                                         hashMap3.put("Name", chefPendingOrders1.getName());
                                                         hashMap3.put("Note",chefPendingOrders1.getNote());
                                                         hashMap3.put("RandomUID", random);
@@ -147,7 +161,7 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
                                                                             @Override
                                                                             public void onComplete(@NonNull Task<Void> task) {
 
-                                                                                FirebaseDatabase.getInstance().getReference("StudentPendingOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(random).child("Dishes").removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                                                FirebaseDatabase.getInstance().getReference("MerchantPendingOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(random).child("Dishes").removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
                                                                                     @Override
                                                                                     public void onComplete(@NonNull Task<Void> task) {
 
@@ -158,7 +172,8 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
                                                                                                     @Override
                                                                                                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                                                                                         String usertoken = dataSnapshot.getValue(String.class);
-                                                                                                        ReusableCodeForAll.ShowAlert(context,"","Wait for the Customer to make Payment");
+                                                                                                        sendNotifications(usertoken, "Order Accepted", "Your Order has been Accepted by the Merchant, Now make Payment for Order", "Payment");
+                                                                                                        ReusableCodeForAll.ShowAlert(context,"","Wait for the Student to make Payment");
 
                                                                                                     }
 
@@ -234,6 +249,8 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                 String usertoken = dataSnapshot.getValue(String.class);
+                                sendNotifications(usertoken, "Order Rejected", "Your Order has been Rejected by the Merchant due to some Circumstances", "Home");
+
                                 FirebaseDatabase.getInstance().getReference("StudentPendingOrders").child(userid).child(random).child("Dishes").removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
@@ -285,7 +302,27 @@ public class ChefPendingOrdersAdapter extends RecyclerView.Adapter<ChefPendingOr
 
 
 
+    private void sendNotifications(String usertoken, String title, String message, String order) {
 
+        Data data = new Data(title, message, order);
+        NotificationSender sender = new NotificationSender(data, usertoken);
+        apiService.sendNotification(sender).enqueue(new Callback<MyResponse>() {
+            @Override
+            public void onResponse(Call<MyResponse> call, Response<MyResponse> response) {
+                if (response.code() == 200) {
+                    if (response.body().success != 1) {
+                        Toast.makeText(context, "Failed", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+
+            @Override
+            public void onFailure(Call<MyResponse> call, Throwable t) {
+
+            }
+        });
+
+    }
 
     @Override
     public int getItemCount() {

@@ -1,4 +1,5 @@
 package com.example.loginauthentication.MerchantPanel;
+
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -7,11 +8,11 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import java.util.List;
-
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.loginauthentication.R;
+
+import java.util.List;
 
 public class Merchanthomeadapter extends RecyclerView.Adapter<Merchanthomeadapter.ViewHolder>{
     private Context mcont;

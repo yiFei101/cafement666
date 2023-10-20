@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:hint="Local Address"
+            android:hint="Location"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
             android:inputType="textMultiLine"
@@ -32,7 +32,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="20dp"
-                android:text="home address"/>
+                android:text="School"/>
 
             <RadioButton
                 android:id="@+id/OA"
@@ -41,7 +41,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="10dp"
-                android:text=" Other address"/>
+                android:text=" Other Location"/>
         </RadioGroup>
 
         <TextView

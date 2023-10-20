@@ -12,8 +12,12 @@ import com.example.loginauthentication.CustomerFoodPanel.CustomerHomeFragment;
 import com.example.loginauthentication.CustomerFoodPanel.CustomerOrderFragment;
 import com.example.loginauthentication.CustomerFoodPanel.CustomerTrackFragment;
 import com.example.loginauthentication.StudentPanel.StudentFaqFragment;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 public class CustomerFoodPanel_BottomNavigation extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -43,6 +47,24 @@ public class CustomerFoodPanel_BottomNavigation extends AppCompatActivity implem
         }
     }
 
+    private void UpdateToken() {
+//        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+        FirebaseMessaging.getInstance().getToken().addOnCompleteListener(new OnCompleteListener<String>() {
+            @Override
+            public void onComplete(@NonNull Task<String> task) {
+                if(task.isComplete()){
+                    String token = task.getResult();
+                    FirebaseDatabase.getInstance().getReference("Tokens").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(token);
+
+
+
+                }
+            }
+        });
+//        String refreshToken = FirebaseInstanceId.getInstance().getToken();
+//        Token token = new Token(refreshToken);
+//        FirebaseDatabase.getInstance().getReference("Tokens").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(token);
+    }
     private boolean loadFragment(Fragment fragment) {
         if (fragment != null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, fragment).commit();

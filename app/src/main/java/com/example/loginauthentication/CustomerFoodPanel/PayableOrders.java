@@ -32,7 +32,7 @@ public class PayableOrders extends AppCompatActivity {
     DatabaseReference databaseReference;
     private LinearLayout pay;
     Button payment;
-    TextView grandtotal;
+    TextView total;
     private SwipeRefreshLayout swipeRefreshLayout;
 
 
@@ -42,7 +42,7 @@ public class PayableOrders extends AppCompatActivity {
         setContentView(R.layout.activity_payable_orders);
         recyclerView = findViewById(R.id.recyclepayableorder);
         pay = findViewById(R.id.btn);
-        grandtotal = findViewById(R.id.rs);
+        total = findViewById(R.id.rs);
         payment = (Button) findViewById(R.id.paymentmethod);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(PayableOrders.this));
@@ -115,7 +115,7 @@ public class PayableOrders extends AppCompatActivity {
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                 if (dataSnapshot.exists()) {
                                     CustomerPaymentOrders1 customerPaymentOrders1 = dataSnapshot.getValue(CustomerPaymentOrders1.class);
-                                    grandtotal.setText("₱ " + customerPaymentOrders1.getGrandTotalPrice());
+                                    total.setText("₱ " + customerPaymentOrders1.getGrandTotalPrice());
                                     swipeRefreshLayout.setRefreshing(false);
 
                                 } else {
