@@ -1,19 +1,26 @@
 package com.example.loginauthentication.CustomerFoodPanel;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
+import androidx.fragment.app.Fragment;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.loginauthentication.ChefFoodPanel_BottomNavigation;
+import com.example.loginauthentication.CustomerFoodPanel_BottomNavigation;
+import com.example.loginauthentication.MerchantPanel.Update_Delete_Dish;
 import com.example.loginauthentication.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -21,18 +28,21 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class CustomerTrackFragment extends Fragment {
-
     RecyclerView recyclerView;
     private List<CustomerFinalOrders> customerFinalOrdersList;
     private CustomerTrackAdapter adapter;
     DatabaseReference databaseReference;
-    TextView total, Address,Status;
-    LinearLayout total1;
+    TextView grandtotal, Address,Status;
+    LinearLayout total;
+    String ID, RandomUID;
+    StorageReference storageReference;
+    FirebaseDatabase firebaseDatabase;
 
     @Nullable
     @Override
@@ -42,10 +52,10 @@ public class CustomerTrackFragment extends Fragment {
         recyclerView = v.findViewById(R.id.recyclefinalorders);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        total = v.findViewById(R.id.Rs);
+        grandtotal = v.findViewById(R.id.Rs);
         Address = v.findViewById(R.id.addresstrack);
         Status=v.findViewById(R.id.status);
-        total1 = v.findViewById(R.id.btnn);
+        total = v.findViewById(R.id.btnn);
         customerFinalOrdersList = new ArrayList<>();
         CustomerTrackOrder();
 
@@ -86,13 +96,15 @@ public class CustomerTrackFragment extends Fragment {
                         }
                     });
 
+
+
                     DatabaseReference reference = FirebaseDatabase.getInstance().getReference("StudentFinalOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(snapshot.getKey()).child("OtherInformation");
                     reference.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             CustomerFinalOrders1 customerFinalOrders1 = dataSnapshot.getValue(CustomerFinalOrders1.class);
                             try{
-                                total.setText("₱ " + customerFinalOrders1.getGrandTotalPrice());
+                                grandtotal.setText("₱ " + customerFinalOrders1.getGrandTotalPrice());
                                 Address.setText(customerFinalOrders1.getAddress());
                                 Status.setText(customerFinalOrders1.getStatus());
                             }catch (Exception e){

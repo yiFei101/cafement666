@@ -22,11 +22,13 @@
         android:id="@+id/Track"
         android:title="Track"
         android:icon="@drawable/ic_schedule_black_24dp"/>
-
     <item
-        android:id="@+id/Profile"
-        android:title="Profile"
-        android:icon="@drawable/ic_person_black_24dp"/>
+        android:id="@+id/Settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+
+
 
 
 </menu>

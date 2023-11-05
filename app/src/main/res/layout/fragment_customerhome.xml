@@ -3,8 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:menu="@menu/search">
+    tools:menu="@menu/search"
+    android:background="@drawable/udm25">
+
 
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
@@ -17,7 +20,6 @@
             android:id="@+id/recycle_menu"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/searchbar"
             android:orientation="vertical" />
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

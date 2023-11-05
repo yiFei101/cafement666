@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+
 import com.example.loginauthentication.R;
 
 import java.util.List;
@@ -35,9 +36,9 @@ public class ChefPreparedOrderViewAdapter extends RecyclerView.Adapter<ChefPrepa
 
         final ChefFinalOrders chefFinalOrders=chefFinalOrderslist.get(position);
         holder.dishname.setText(chefFinalOrders.getDishName());
-        holder.price.setText("Price: ₹ " + chefFinalOrders.getDishPrice());
+        holder.price.setText("Price: ₱ " + chefFinalOrders.getDishPrice());
         holder.quantity.setText("× " + chefFinalOrders.getDishQuantity());
-        holder.totalprice.setText("Total: ₹ " + chefFinalOrders.getTotalPrice());
+        holder.totalprice.setText("Total: ₱ " + chefFinalOrders.getTotalPrice());
     }
 
     @Override

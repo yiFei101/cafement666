@@ -48,7 +48,6 @@ public class OrderDish extends AppCompatActivity {
         setContentView(R.layout.activity_order_dish);
 
         Foodname = findViewById(R.id.food_name);
-        MerchantName = findViewById(R.id.chef_name);
         FoodQuantity = findViewById(R.id.food_quantity);
         FoodPrice = findViewById(R.id.food_price);
         FoodDescription = findViewById(R.id.food_description);
@@ -88,8 +87,6 @@ public class OrderDish extends AppCompatActivity {
                                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                     Merchant merchant = dataSnapshot.getValue(Merchant.class);
                                     if (merchant != null) {
-                                        String name = "<b>" + "Merchant Name: " + "</b>" + merchant.getFname() + " " + merchant.getLname();
-                                        MerchantName.setText(Html.fromHtml(name));
                                         studID = FirebaseAuth.getInstance().getCurrentUser().getUid();
                                         databaseReference = FirebaseDatabase.getInstance().getReference("Cart").child("CartItems").child(studID).child(RandomId);
                                         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {

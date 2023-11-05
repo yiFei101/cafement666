@@ -80,8 +80,6 @@ public class CustomerPayment extends AppCompatActivity {
                                 HashMap<String, String> hashMap1 = new HashMap<>();
                                 hashMap1.put("Address", customerPaymentOrders1.getAddress());
                                 hashMap1.put("GrandTotalPrice", customerPaymentOrders1.getGrandTotalPrice());
-                                hashMap1.put("MobileNumber", customerPaymentOrders1.getMobileNumber());
-                                hashMap1.put("Name", customerPaymentOrders1.getName());
                                 hashMap1.put("Note", customerPaymentOrders1.getNote());
                                 hashMap1.put("RandomUID", RandomUID);
                                 hashMap1.put("Status", "Your order is waiting to be prepared by Merchant...");
@@ -116,8 +114,6 @@ public class CustomerPayment extends AppCompatActivity {
                                                         HashMap<String, String> hashMap3 = new HashMap<>();
                                                         hashMap3.put("Address", customerPaymentOrders11.getAddress());
                                                         hashMap3.put("GrandTotalPrice", customerPaymentOrders11.getGrandTotalPrice());
-                                                        hashMap3.put("MobileNumber", customerPaymentOrders11.getMobileNumber());
-                                                        hashMap3.put("Name", customerPaymentOrders11.getName());
                                                         hashMap3.put("Note", customerPaymentOrders11.getNote());
                                                         hashMap3.put("RandomUID", RandomUID);
                                                         hashMap3.put("Status", "Your order is waiting to be prepared by Merchant...");
@@ -220,6 +216,5 @@ public class CustomerPayment extends AppCompatActivity {
     }
 
 
-            }
-
+}
 

@@ -60,14 +60,8 @@
                     android:layout_marginRight="30dp"
                     android:layout_marginBottom="8dp"
                     android:layout_marginLeft="10dp"/>
-                <Button
-                    android:id="@+id/add_to_cart_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Add to Cart"
-                    android:layout_marginRight="15dp"
-                    android:backgroundTint="#FA3E03"
-                    android:textColor="#fff" />
+
+
 
             </LinearLayout>
 

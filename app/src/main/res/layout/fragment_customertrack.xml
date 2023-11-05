@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="MissingDefaultResource">
+    tools:ignore="MissingDefaultResource"
+    android:background="@drawable/udm25">
 
 
     <TextView
@@ -97,7 +98,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="15dp"
                 android:gravity="center_vertical"
-                android:text="Grand Total:"
+                android:text=" Total:"
                 android:textColor="#000000"
                 android:textSize="20dp"
                 android:textStyle="bold" />
@@ -126,5 +127,6 @@
 
 
     </LinearLayout>
+
 
 </RelativeLayout>

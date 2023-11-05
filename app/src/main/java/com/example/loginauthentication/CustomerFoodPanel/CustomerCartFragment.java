@@ -23,6 +23,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.loginauthentication.R;
 import com.example.loginauthentication.ReusableCodeForAll;
+import com.example.loginauthentication.SendNotification.APIService;
+import com.example.loginauthentication.SendNotification.Client;
+import com.example.loginauthentication.SendNotification.Data;
+import com.example.loginauthentication.SendNotification.MyResponse;
+import com.example.loginauthentication.SendNotification.NotificationSender;
 import com.example.loginauthentication.Student;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -39,6 +44,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class CustomerCartFragment  extends Fragment {
 
     RecyclerView recyclecart;
@@ -51,6 +60,7 @@ public class CustomerCartFragment  extends Fragment {
     String address, Addnote;
     String DishId, RandomUId, MerchantId;
     private ProgressDialog progressDialog;
+    private APIService apiService;
 
     @Nullable
     @Override
@@ -68,6 +78,7 @@ public class CustomerCartFragment  extends Fragment {
         remove = v.findViewById(R.id.RM);
         placeorder = v.findViewById(R.id.PO);
         TotalBtns = v.findViewById(R.id.TotalBtns);
+        apiService = Client.getClient("https://fcm.googleapis.com/").create(APIService.class);
         customercart();
         return v;
     }
@@ -140,14 +151,14 @@ public class CustomerCartFragment  extends Fragment {
                                             if (ss.trim().equalsIgnoreCase("false") || ss.trim().equalsIgnoreCase("")) {
 
                                                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                                                builder.setTitle("Enter Address");
+                                                builder.setTitle("Enter Name and Section");
                                                 LayoutInflater inflater = getActivity().getLayoutInflater();
                                                 View view = inflater.inflate(R.layout.enter_address, null);
                                                 final EditText localaddress = (EditText) view.findViewById(R.id.LA);
                                                 final EditText addnote = (EditText) view.findViewById(R.id.addnote);
                                                 RadioGroup group = (RadioGroup) view.findViewById(R.id.grp);
                                                 final RadioButton home = (RadioButton) view.findViewById(R.id.HA);
-                                                final RadioButton other = (RadioButton) view.findViewById(R.id.OA);
+                                               final RadioButton other = (RadioButton) view.findViewById(R.id.OA);
                                                 builder.setView(view);
                                                 group.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                                                     @Override
@@ -257,6 +268,8 @@ public class CustomerCartFragment  extends Fragment {
                                                                                                                                     @Override
                                                                                                                                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                                                                                                                         String usertoken = dataSnapshot.getValue(String.class);
+                                                                                                                                        sendNotifications(usertoken, "New Order", "You have a new Order", "Order");
+
                                                                                                                                         progressDialog.dismiss();
                                                                                                                                         ReusableCodeForAll.ShowAlert(getContext(), "", "Your Order has been shifted to Pending state, please wait until the Merchant accept your order.");
                                                                                                                                     }
@@ -364,4 +377,26 @@ public class CustomerCartFragment  extends Fragment {
 
 
 
+    private void sendNotifications(String usertoken, String title, String message, String order) {
+
+        Data data = new Data(title, message, order);
+        NotificationSender sender = new NotificationSender(data, usertoken);
+        apiService.sendNotification(sender).enqueue(new Callback<MyResponse>() {
+            @Override
+            public void onResponse(Call<MyResponse> call, Response<MyResponse> response) {
+                if (response.code() == 200) {
+                    if (response.body().success != 1) {
+                        Toast.makeText(getContext(), "Failed", Toast.LENGTH_SHORT).show();
+                    }
+                }
+
+            }
+
+            @Override
+            public void onFailure(Call<MyResponse> call, Throwable t) {
+
+            }
+        });
+    }
 }
+

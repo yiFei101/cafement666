@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-129:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-129:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-129:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-129:12
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-149:12
 MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\admin\.gradle\caches\transforms-3\004c152682a081a96685a9117688b190\transformed\jetified-lottie-6.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.ibrahimsn98:SmoothBottomBar:1.7.9] C:\Users\admin\.gradle\caches\transforms-3\3795f9aee14a05a8f552b21f5c4be333\transformed\jetified-SmoothBottomBar-1.7.9\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\admin\.gradle\caches\transforms-3\c1a78e4716a000684fb851113e5ace73\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
@@ -107,22 +107,22 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\admin\.gradle\caches\trans
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\8ad5a94ef3cd3128fae738f5bc7e73b3\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\e64b017716d7d90ff5b24e2f0899312d\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\admin\.gradle\caches\transforms-3\b79d70f74a56c7dc20668073d1205670\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-129:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-129:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-129:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-149:12
 	package
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:4:5-46
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-129:12
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-149:12
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-129:12
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:1-149:12
 		INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:2:11-69
@@ -156,12 +156,20 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Us
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\admin\.gradle\caches\transforms-3\4ac24415c1f6ba1848dd79a95f70cda4\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
 	android:name
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:7:22-64
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:8:5-80
+uses-permission#com.google.c2dm.permission.send
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:8:5-70
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:8:22-77
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:8:22-68
+uses-permission#com.google.c2dm.permission.receive
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:9:5-73
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:9:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:10:22-77
 application
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:10:5-127:19
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:12:5-147:19
 MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\admin\.gradle\caches\transforms-3\004c152682a081a96685a9117688b190\transformed\jetified-lottie-6.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\admin\.gradle\caches\transforms-3\004c152682a081a96685a9117688b190\transformed\jetified-lottie-6.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\admin\.gradle\caches\transforms-3\0ad340e275c28ab53ad6545f82bf4abf\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
@@ -245,220 +253,238 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\admin\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\admin\.gradle\caches\transforms-3\9ba9a08ec49d36f6dd0441a605723113\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:17:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:15:9-54
 	android:roundIcon
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:18:9-54
 	tools:targetApi
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:20:9-29
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:22:9-29
 	android:icon
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:18:9-57
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:20:9-57
 		REJECTED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\admin\.gradle\caches\transforms-3\5bb01d146c345ff0e7edf3266b3be77f\transformed\jetified-lib-1.0.2\AndroidManifest.xml:16:9-40
 	android:dataExtractionRules
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:12:9-65
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:14:9-65
 	tools:replace
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:19:9-38
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:21:9-38
 activity#com.example.loginauthentication.Login
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:21:9-23:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:22:13-34
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:24:13-34
 activity#com.example.loginauthentication.imageuplaoder
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:24:9-26:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:25:13-42
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:27:13-42
 activity#com.example.loginauthentication.MerchantPanel.Update_Delete_Dish
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:27:9-29:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:28:13-61
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:30:13-61
 activity#com.example.loginauthentication.MerchantPanel.Chef_order_dishes
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:30:9-32:40
-	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:32:13-37
-	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:31:13-60
-activity#com.example.loginauthentication.MerchantPanel.Merchant_post_dish
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:34:13-61
-activity#com.example.loginauthentication.MerchantPanel.MerchantNavigationBar
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:34:13-60
+activity#com.example.loginauthentication.MerchantPanel.Merchant_post_dish
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:36:9-38:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:37:13-64
-activity#com.example.loginauthentication.MerchantPanel.ChefOrderTobePrepared
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:37:13-61
+activity#com.example.loginauthentication.MerchantPanel.MerchantNavigationBar
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:39:9-41:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:40:13-64
-activity#com.example.loginauthentication.CustomerFoodPanel.CustomerPayment
+activity#com.example.loginauthentication.MerchantPanel.ChefOrderTobePrepared
 ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:43:9-45:40
 	android:exported
 		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:44:13-62
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:44:13-64
+activity#com.example.loginauthentication.MerchantPanel.ChefOrdertobePrepareView
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:47:13-67
+activity#com.example.loginauthentication.MerchantPanel.ChefPreparedOrder
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:52:13-60
+activity#com.example.loginauthentication.MerchantPanel.ChefPreparedOrderView
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:55:9-57:40
+	android:exported
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:56:13-64
+activity#com.example.loginauthentication.CustomerFoodPanel.CustomerPayment
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:59:9-61:40
+	android:exported
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:60:13-62
 activity#com.example.loginauthentication.CustomerFoodPanel.CustomerOnlinePayment
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:47:9-49:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:63:9-65:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:65:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:48:13-68
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:64:13-68
 activity#com.example.loginauthentication.CustomerFoodPanel.PayableOrders
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:50:9-52:46
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:66:9-68:46
 	android:label
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:52:13-43
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:68:13-43
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:51:13-60
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:67:13-60
 activity#com.example.loginauthentication.CustomerFoodPanel.PendingOrders
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:53:9-55:46
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:69:9-71:46
 	android:label
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:55:13-43
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:71:13-43
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:54:13-60
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:70:13-60
 activity#com.example.loginauthentication.CustomerFoodPanel.OrderDish
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:56:9-58:46
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:72:9-74:46
 	android:label
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:58:13-43
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:74:13-43
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:57:13-56
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:73:13-56
 activity#com.example.loginauthentication.CustomerFoodPanel_BottomNavigation
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:59:9-61:59
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:75:9-77:59
 	android:windowSoftInputMode
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:61:13-56
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:77:13-56
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:60:13-63
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:76:13-63
 activity#com.example.loginauthentication.AdminPanel
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:62:9-64:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:78:9-80:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:64:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:80:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:63:13-39
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:79:13-39
 activity#com.example.loginauthentication.loadinganimation
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:65:9-67:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:81:9-83:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:67:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:83:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:66:13-45
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:82:13-45
 activity#com.example.loginauthentication.StudentRegister
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:68:9-70:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:87:9-89:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:70:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:89:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:69:13-44
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:88:13-44
 activity#com.example.loginauthentication.slides
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:71:9-73:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:90:9-92:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:73:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:92:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:72:13-35
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:91:13-35
 activity#com.example.loginauthentication.merchantregister
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:74:9-76:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:93:9-95:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:76:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:95:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:75:13-45
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:94:13-45
 activity#com.example.loginauthentication.merchantlogin
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:77:9-79:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:96:9-98:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:79:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:98:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:78:13-42
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:97:13-42
 activity#com.example.loginauthentication.register
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:80:9-82:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:99:9-101:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:82:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:101:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:81:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:100:13-37
 activity#com.example.loginauthentication.MainActivity2
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:83:9-85:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:102:9-104:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:85:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:104:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:84:13-42
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:103:13-42
 activity#com.example.loginauthentication.MainMenu
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:86:9-88:40
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:105:9-107:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:88:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:107:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:87:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:106:13-37
 meta-data#com.google.android.actions
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:90:9-92:45
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:109:9-111:45
 	android:resource
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:92:13-42
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:111:13-42
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:91:13-54
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:110:13-54
 service#com.example.loginauthentication.SendNotification.MyFirebaseMessagingService
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:94:9-101:19
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:113:9-120:19
 	android:enabled
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:96:13-35
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:115:13-35
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:97:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:116:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:95:13-103
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:114:13-103
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:98:13-100:29
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:117:13-119:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:99:17-78
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:118:17-78
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:99:25-75
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:118:25-75
 service#com.example.loginauthentication.SendNotification.MyFirebaseIdService
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:102:9-109:19
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:121:9-128:19
 	android:enabled
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:104:13-35
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:123:13-35
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:105:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:124:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:103:13-96
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:122:13-96
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:106:13-108:29
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:125:13-127:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:107:17-80
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:126:17-80
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:107:25-77
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:126:25-77
 activity#com.example.loginauthentication.MainActivity
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:110:9-126:20
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:129:9-146:20
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:112:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:131:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:111:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:113:13-117:29
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:130:13-41
+intent-filter#action:name:android.intent.action.MAIN+action:name:com.google.firebase.INSTANCE_ID_EVENT+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:133:13-137:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:114:17-69
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:134:17-69
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:114:25-66
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:134:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:116:17-77
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:136:17-77
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:116:27-74
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:136:27-74
 meta-data#android.app.lib_name
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:119:13-121:36
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:139:13-141:36
 	android:value
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:121:17-33
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:141:17-33
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:120:17-52
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:140:17-52
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:122:13-124:35
+ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:142:13-144:35
 	android:value
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:124:17-33
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:144:17-33
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:123:17-73
+		ADDED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:143:17-73
 uses-sdk
 INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml

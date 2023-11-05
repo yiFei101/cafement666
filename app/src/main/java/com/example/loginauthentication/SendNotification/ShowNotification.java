@@ -17,6 +17,7 @@ import com.example.loginauthentication.ChefFoodPanel_BottomNavigation;
 import com.example.loginauthentication.CustomerFoodPanel.PayableOrders;
 import com.example.loginauthentication.CustomerFoodPanel_BottomNavigation;
 import com.example.loginauthentication.MainActivity;
+import com.example.loginauthentication.MerchantPanel.ChefPreparedOrderView;
 import com.example.loginauthentication.R;
 
 import java.util.Random;
@@ -35,10 +36,10 @@ public class ShowNotification {
             manager.createNotificationChannel(channel);
         }
         Intent acIntent = new Intent(context, MainActivity.class);
-        acIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
-        if (page.trim().equalsIgnoreCase("Order")) {
-            acIntent = new Intent(context, ChefFoodPanel_BottomNavigation.class).putExtra("PAGE", "Orderpage");
+            acIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
+            if (page.trim().equalsIgnoreCase("Order")) {
+                acIntent = new Intent(context, ChefFoodPanel_BottomNavigation.class).putExtra("PAGE", "Orderpage");
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
         }
         if (page.trim().equalsIgnoreCase("Payment")) {
@@ -61,6 +62,7 @@ public class ShowNotification {
             acIntent = new Intent(context, CustomerFoodPanel_BottomNavigation.class).putExtra("PAGE", "Preparedpage");
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
         }
+
         if (page.trim().equalsIgnoreCase("DeliverOrder")) {
             acIntent = new Intent(context, CustomerFoodPanel_BottomNavigation.class).putExtra("PAGE", "DeliverOrderpage");
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
@@ -69,7 +71,10 @@ public class ShowNotification {
             acIntent = new Intent(context, ChefFoodPanel_BottomNavigation.class).putExtra("PAGE", "AcceptOrderpage");
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
         }
-
+        if (page.trim().equalsIgnoreCase("RejectOrder")) {
+            acIntent = new Intent(context, ChefPreparedOrderView.class).putExtra("PAGE", "RejectOrderpage");
+            pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
+        }
         if (page.trim().equalsIgnoreCase("ThankYou")) {
             acIntent = new Intent(context, CustomerFoodPanel_BottomNavigation.class).putExtra("PAGE", "ThankYoupage");
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
@@ -81,7 +86,7 @@ public class ShowNotification {
 
 
         NotificationCompat.Builder nBuilder = new NotificationCompat.Builder(context, CHANNEL_ID).setSmallIcon(R.drawable.ic_chef_hat_and_fork)
-                .setColor(ContextCompat.getColor(context,R.color.red))
+                .setColor(ContextCompat.getColor(context, R.color.Black))
                 .setContentTitle(title)
                 .setContentText(message)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)

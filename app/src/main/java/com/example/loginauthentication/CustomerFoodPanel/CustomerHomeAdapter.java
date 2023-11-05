@@ -76,7 +76,6 @@ public class CustomerHomeAdapter extends RecyclerView.Adapter<CustomerHomeAdapte
 
         ImageView imageView;
         TextView Dishname, price;
-        TextView additem;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -84,7 +83,6 @@ public class CustomerHomeAdapter extends RecyclerView.Adapter<CustomerHomeAdapte
             imageView = itemView.findViewById(R.id.menu_image);
             Dishname = itemView.findViewById(R.id.dishname);
             price = itemView.findViewById(R.id.dishprice);
-            additem = itemView.findViewById(R.id.add_to_cart_button);
         }
     }
 }

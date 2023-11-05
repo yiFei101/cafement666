@@ -79,17 +79,6 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/chef_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="8dp"
-                        android:padding="10dp"
-                        android:text="Merchant Name"
-                        android:textAllCaps="false"
-                        android:textColor="@color/Black"
-                        android:textSize="20dp" />
 
 
 

@@ -34,7 +34,7 @@ public class MerchantOrderFragment extends Fragment {
         Preparedorders.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(),MerchantPreparedOrder.class);
+                Intent intent=new Intent(getContext(),ChefPreparedOrder.class);
                 startActivity(intent);
             }
         });

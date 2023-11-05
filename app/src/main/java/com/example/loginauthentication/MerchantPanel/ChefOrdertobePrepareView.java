@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -16,6 +17,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.loginauthentication.R;
+import com.example.loginauthentication.SendNotification.APIService;
+import com.example.loginauthentication.SendNotification.Client;
+import com.example.loginauthentication.SendNotification.Data;
+import com.example.loginauthentication.SendNotification.MyResponse;
+import com.example.loginauthentication.SendNotification.NotificationSender;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -30,17 +36,21 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class ChefOrdertobePrepareView extends AppCompatActivity {
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
+public class ChefOrdertobePrepareView extends AppCompatActivity {
     RecyclerView recyclerViewdish;
     private List<ChefWaitingOrders> chefWaitingOrdersList;
     private ChefOrdertobePrepareViewAdapter adapter;
     DatabaseReference reference;
     String RandomUID, userid;
-    TextView grandtotal, note, address, name, number;
+    TextView grandtotal, note, address;
     LinearLayout l1;
     Button Preparing;
     private ProgressDialog progressDialog;
+    private APIService apiService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,10 +60,9 @@ public class ChefOrdertobePrepareView extends AppCompatActivity {
         grandtotal = findViewById(R.id.rupees);
         note = findViewById(R.id.NOTE);
         address = findViewById(R.id.ad);
-        name = findViewById(R.id.nm);
-        number = findViewById(R.id.num);
         l1 = findViewById(R.id.button1);
         Preparing = findViewById(R.id.preparing);
+        apiService = Client.getClient("https://fcm.googleapis.com/").create(APIService.class);
         progressDialog = new ProgressDialog(ChefOrdertobePrepareView.this);
         progressDialog.setCanceledOnTouchOutside(false);
         progressDialog.setCancelable(false);
@@ -115,20 +124,18 @@ public class ChefOrdertobePrepareView extends AppCompatActivity {
                                             HashMap<String, String> hashMap1 = new HashMap<>();
                                             hashMap1.put("Address", chefWaitingOrders1.getAddress());
                                             hashMap1.put("GrandTotalPrice", chefWaitingOrders1.getGrandTotalPrice());
-                                            hashMap1.put("MobileNumber", chefWaitingOrders1.getMobileNumber());
-                                            hashMap1.put("Name", chefWaitingOrders1.getName());
                                             hashMap1.put("RandomUID", RandomUID);
-                                            hashMap1.put("Status", "Chef is preparing your Order...");
+                                            hashMap1.put("Status", "Merchant is preparing your Order...");
                                             FirebaseDatabase.getInstance().getReference("MerchantFinalOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(RandomUID).child("OtherInformation").setValue(hashMap1).addOnCompleteListener(new OnCompleteListener<Void>() {
                                                 @Override
                                                 public void onComplete(@NonNull Task<Void> task) {
-                                                    FirebaseDatabase.getInstance().getReference("StudentFinalOrders").child(userid).child(RandomUID).child("OtherInformation").child("Status").setValue("Chef is preparing your order...").addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                    FirebaseDatabase.getInstance().getReference("StudentFinalOrders").child(userid).child(RandomUID).child("OtherInformation").child("Status").setValue("Merchant is preparing your order...").addOnCompleteListener(new OnCompleteListener<Void>() {
                                                         @Override
                                                         public void onComplete(@NonNull Task<Void> task) {
                                                             FirebaseDatabase.getInstance().getReference("MerchantWaitingOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(RandomUID).child("Dishes").removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
                                                                 @Override
                                                                 public void onComplete(@NonNull Task<Void> task) {
-                                                                    FirebaseDatabase.getInstance().getReference("StudentWaitingOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(RandomUID).child("OtherInformation").removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
+                                                                    FirebaseDatabase.getInstance().getReference("MerchantWaitingOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(RandomUID).child("OtherInformation").removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
                                                                         @Override
                                                                         public void onSuccess(Void aVoid) {
 
@@ -136,6 +143,7 @@ public class ChefOrdertobePrepareView extends AppCompatActivity {
                                                                                 @Override
                                                                                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                                                                     String usertoken = dataSnapshot.getValue(String.class);
+                                                                                    sendNotifications(usertoken, "Estimated Time", "Merchant is Preparing your Order", "Preparing");
                                                                                     progressDialog.dismiss();
                                                                                     AlertDialog.Builder builder = new AlertDialog.Builder(ChefOrdertobePrepareView.this);
                                                                                     builder.setMessage("See Orders which are Prepared");
@@ -208,8 +216,8 @@ public class ChefOrdertobePrepareView extends AppCompatActivity {
                 grandtotal.setText("₱ " + chefWaitingOrders1.getGrandTotalPrice());
                 note.setText(chefWaitingOrders1.getNote());
                 address.setText(chefWaitingOrders1.getAddress());
-                name.setText(chefWaitingOrders1.getName());
-                number.setText("+91" + chefWaitingOrders1.getMobileNumber());
+
+
 
             }
 
@@ -220,6 +228,24 @@ public class ChefOrdertobePrepareView extends AppCompatActivity {
         });
     }
 
+    private void sendNotifications(String usertoken, String title, String message, String preparing) {
+        Data data = new Data(title, message, preparing);
+        NotificationSender sender = new NotificationSender(data, usertoken);
+        apiService.sendNotification(sender).enqueue(new Callback<MyResponse>() {
+            @Override
+            public void onResponse(Call<MyResponse> call, Response<MyResponse> response) {
+                if (response.code() == 200) {
+                    if (response.body().success != 1) {
+                        Toast.makeText(ChefOrdertobePrepareView.this, "Failed", Toast.LENGTH_SHORT).show();
+                    }
+                }
 
+            }
+
+            @Override
+            public void onFailure(Call<MyResponse> call, Throwable t) {
+
+            }
+        });
     }
-
+}

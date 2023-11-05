@@ -11,6 +11,7 @@ import com.example.loginauthentication.CustomerFoodPanel.CustomerCartFragment;
 import com.example.loginauthentication.CustomerFoodPanel.CustomerHomeFragment;
 import com.example.loginauthentication.CustomerFoodPanel.CustomerOrderFragment;
 import com.example.loginauthentication.CustomerFoodPanel.CustomerTrackFragment;
+import com.example.loginauthentication.CustomerFoodPanel.SettingsFragment;
 import com.example.loginauthentication.StudentPanel.StudentFaqFragment;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -89,10 +90,11 @@ public class CustomerFoodPanel_BottomNavigation extends AppCompatActivity implem
             case R.id.Track:
                 fragment = new CustomerTrackFragment();
                 break;
-            case R.id.Profile:
-                fragment = new StudentFaqFragment();
+            case R.id.Settings:
+                fragment = new SettingsFragment();
                 break;
         }
+
         return loadFragment(fragment);
     }
 }

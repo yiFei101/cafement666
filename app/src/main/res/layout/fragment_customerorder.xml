@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="MissingDefaultResource">
+    tools:ignore="MissingDefaultResource"
+    android:background="@drawable/udm25">
 
 
     <TextView
@@ -14,10 +15,10 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
-        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:drawableLeft="@drawable/ic_baseline_access_time_24"
         android:drawablePadding="8dp"
         android:text="Pending Orders"
-        android:textColor="@color/Black"
+        android:textColor="@color/white"
         android:textSize="21dp" />
 
     <TableRow
@@ -35,10 +36,10 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
-        android:drawableLeft="@drawable/ic_payment_black_24dp"
+        android:drawableLeft="@drawable/ic_baseline_payment_24"
         android:drawablePadding="8dp"
         android:text="Payable Orders"
-        android:textColor="@color/Black"
+        android:textColor="@color/white"
         android:textSize="21dp" />
 
     <TableRow

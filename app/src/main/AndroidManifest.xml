@@ -5,6 +5,8 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.c2dm.permission.send"/>
+    <uses-permission android:name="com.google.c2dm.permission.receive"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -27,6 +29,7 @@
         <activity
             android:name=".MerchantPanel.Update_Delete_Dish"
             android:exported="false" />
+
         <activity
             android:name=".MerchantPanel.Chef_order_dishes"
             android:exported="false" />
@@ -36,8 +39,21 @@
         <activity
             android:name=".MerchantPanel.MerchantNavigationBar"
             android:exported="false" />
+
         <activity
             android:name=".MerchantPanel.ChefOrderTobePrepared"
+            android:exported="false" />
+        <activity
+            android:name=".MerchantPanel.ChefOrdertobePrepareView"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".MerchantPanel.ChefPreparedOrder"
+            android:exported="false" />
+
+        <activity
+            android:name=".MerchantPanel.ChefPreparedOrderView"
             android:exported="false" />
 
         <activity
@@ -65,6 +81,9 @@
         <activity
             android:name=".loadinganimation"
             android:exported="false" />
+
+
+
         <activity
             android:name=".StudentRegister"
             android:exported="false" />
@@ -109,10 +128,11 @@
         </service>
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
