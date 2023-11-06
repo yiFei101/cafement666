@@ -82,7 +82,8 @@ public class merchantregister extends AppCompatActivity {
                         public void onComplete(Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 // Registration successful
-                                String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
+
+                               String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
                                 databaseReference = FirebaseDatabase.getInstance().getReference("User").child(userid);
                                 final HashMap<String, String> hashMap = new HashMap<>();
                                 hashMap.put("Role", role);
