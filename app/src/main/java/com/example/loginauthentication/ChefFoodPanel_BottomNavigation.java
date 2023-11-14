@@ -7,14 +7,13 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import androidx.appcompat.widget.Toolbar; // Import the correct Toolbar class
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.example.loginauthentication.MerchantPanel.MerchantHomeFragment;
 import com.example.loginauthentication.MerchantPanel.MerchantOrderFragment;
 import com.example.loginauthentication.MerchantPanel.MerchantPendingOrdersFragment;
 import com.example.loginauthentication.MerchantPanel.MerchantProfileFragment;
-import com.example.loginauthentication.MerchantPanel.Merchant_post_dish;
-import com.example.loginauthentication.MerchantPanel.Merchant_post_dish;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -29,11 +28,10 @@ public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_merchant_navigation_bar);
         BottomNavigationView navigationView = findViewById(R.id.merchant_bottom_navigation);
-
-        Toolbar toolbar = findViewById(R.id.toolbar); // Use the correct Toolbar class
-        setSupportActionBar(toolbar);
         navigationView.setOnNavigationItemSelectedListener(this);
         UpdateToken();
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         String name = getIntent().getStringExtra("PAGE");
         if (name != null) {
             if (name.equalsIgnoreCase("Orderpage")) {
@@ -51,15 +49,22 @@ public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements
     }
 
     private void UpdateToken() {
+//        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseMessaging.getInstance().getToken().addOnCompleteListener(new OnCompleteListener<String>() {
             @Override
             public void onComplete(@NonNull Task<String> task) {
-                if (task.isSuccessful()) {
+                if(task.isComplete()){
                     String token = task.getResult();
                     FirebaseDatabase.getInstance().getReference("Tokens").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(token);
+
+
+
                 }
             }
         });
+//        String refreshToken = FirebaseInstanceId.getInstance().getToken();
+//        Token token = new Token(refreshToken);
+//        FirebaseDatabase.getInstance().getReference("Tokens").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(token);
     }
 
     private boolean loadcheffragment(Fragment fragment) {

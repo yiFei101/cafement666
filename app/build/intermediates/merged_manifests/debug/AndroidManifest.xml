@@ -55,9 +55,6 @@
             android:name="com.example.loginauthentication.Login"
             android:exported="false" />
         <activity
-            android:name="com.example.loginauthentication.imageuplaoder"
-            android:exported="false" />
-        <activity
             android:name="com.example.loginauthentication.MerchantPanel.Update_Delete_Dish"
             android:exported="false" />
         <activity
@@ -98,6 +95,9 @@
             android:label="Pending Orders" />
         <activity
             android:name="com.example.loginauthentication.CustomerFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.example.loginauthentication.ChefFoodPanel_BottomNavigation1"
             android:windowSoftInputMode="adjustNothing" />
         <activity
             android:name="com.example.loginauthentication.AdminPanel"

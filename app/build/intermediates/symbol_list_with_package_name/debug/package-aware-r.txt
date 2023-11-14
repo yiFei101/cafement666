@@ -3190,6 +3190,8 @@ drawable ic_camera_alt_black_24dp
 drawable ic_chef_hat_and_fork
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_content_paste_black_24dp
+drawable ic_dish_spoon_knife
 drawable ic_exit_to_app_black_24dp
 drawable ic_flip_24
 drawable ic_food_back
@@ -3209,6 +3211,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_neworder
 drawable ic_next
 drawable ic_payment_black_24dp
 drawable ic_person_black_24dp
@@ -3377,6 +3380,7 @@ id Order
 id Orders
 id PO
 id PR
+id PendingOrders
 id Profile
 id Pwd
 id Pwd1
@@ -3545,6 +3549,9 @@ id chain2
 id chains
 id checkbox
 id checked
+id chefHome
+id chefProfile
+id chef_bottom_navigation
 id chronometer
 id circle_center
 id clamp
@@ -3848,6 +3855,7 @@ id on
 id onInterceptTouchReturnSwipe
 id onTouch
 id onlinePaymentButton
+id order
 id orders
 id ordertobe
 id outline
@@ -4207,6 +4215,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin_panel
+layout activity_chef_food_panel__bottom_navigation
 layout activity_chef_order_dishes
 layout activity_chef_order_tobe_prepared
 layout activity_chef_ordertobe_prepare_view
@@ -4360,6 +4369,7 @@ layout slider_layout
 layout support_simple_spinner_dropdown_item
 menu bottom_menu
 menu bottom_navigation
+menu chef_bottom_navigation
 menu crop_image_menu
 menu logout
 menu menu

@@ -14,6 +14,7 @@ import androidx.core.content.ContextCompat;
 
 
 import com.example.loginauthentication.ChefFoodPanel_BottomNavigation;
+import com.example.loginauthentication.ChefFoodPanel_BottomNavigation1;
 import com.example.loginauthentication.CustomerFoodPanel.PayableOrders;
 import com.example.loginauthentication.CustomerFoodPanel_BottomNavigation;
 import com.example.loginauthentication.MainActivity;
@@ -28,7 +29,7 @@ public class ShowNotification {
         String CHANNEL_ID = "NOTICE";
         String CHANNEL_NAME = "NOTICE";
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel channel = new NotificationChannel(CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_DEFAULT);
+            NotificationChannel channel = new NotificationChannel(CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_HIGH);
             channel.enableLights(true);
             channel.enableVibration(true);
             channel.setLockscreenVisibility(NotificationCompat.VISIBILITY_PUBLIC);
@@ -39,7 +40,7 @@ public class ShowNotification {
             acIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
             if (page.trim().equalsIgnoreCase("Order")) {
-                acIntent = new Intent(context, ChefFoodPanel_BottomNavigation.class).putExtra("PAGE", "Orderpage");
+                acIntent = new Intent(context, ChefFoodPanel_BottomNavigation1.class).putExtra("PAGE", "Orderpage");
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
         }
         if (page.trim().equalsIgnoreCase("Payment")) {
@@ -51,7 +52,7 @@ public class ShowNotification {
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
         }
         if (page.trim().equalsIgnoreCase("Confirm")) {
-            acIntent = new Intent(context, ChefFoodPanel_BottomNavigation.class).putExtra("PAGE", "Confirmpage");
+            acIntent = new Intent(context, ChefFoodPanel_BottomNavigation1.class).putExtra("PAGE", "Confirmpage");
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
         }
         if (page.trim().equalsIgnoreCase("Preparing")) {
@@ -68,7 +69,7 @@ public class ShowNotification {
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
         }
         if (page.trim().equalsIgnoreCase("AcceptOrder")) {
-            acIntent = new Intent(context, ChefFoodPanel_BottomNavigation.class).putExtra("PAGE", "AcceptOrderpage");
+            acIntent = new Intent(context, ChefFoodPanel_BottomNavigation1.class).putExtra("PAGE", "AcceptOrderpage");
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
         }
         if (page.trim().equalsIgnoreCase("RejectOrder")) {
@@ -80,12 +81,12 @@ public class ShowNotification {
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
         }
         if (page.trim().equalsIgnoreCase("Delivered")) {
-            acIntent = new Intent(context, ChefFoodPanel_BottomNavigation.class).putExtra("PAGE", "Deliveredpage");
+            acIntent = new Intent(context, ChefFoodPanel_BottomNavigation1.class).putExtra("PAGE", "Deliveredpage");
             pendingIntent = PendingIntent.getActivity(context, 0, acIntent, PendingIntent.FLAG_ONE_SHOT);
         }
 
 
-        NotificationCompat.Builder nBuilder = new NotificationCompat.Builder(context, CHANNEL_ID).setSmallIcon(R.drawable.ic_chef_hat_and_fork)
+        NotificationCompat.Builder Builder = new NotificationCompat.Builder(context, CHANNEL_ID).setSmallIcon(R.drawable.ic_chef_hat_and_fork)
                 .setColor(ContextCompat.getColor(context, R.color.Black))
                 .setContentTitle(title)
                 .setContentText(message)
@@ -97,6 +98,6 @@ public class ShowNotification {
                 .setContentIntent(pendingIntent);
         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(context);
         int random = new Random().nextInt(9999 - 1) + 1;
-        notificationManagerCompat.notify(random, nBuilder.build());
+        notificationManagerCompat.notify(random, Builder.build());
     }
 }

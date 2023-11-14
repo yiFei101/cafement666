@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -12,6 +13,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.loginauthentication.CustomerFoodPanel_BottomNavigation;
 import com.example.loginauthentication.R;
+import com.example.loginauthentication.SendNotification.APIService;
+import com.example.loginauthentication.SendNotification.Data;
+import com.example.loginauthentication.SendNotification.MyResponse;
+import com.example.loginauthentication.SendNotification.NotificationSender;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -24,11 +29,16 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 
 public class CustomerPayment extends AppCompatActivity {
 
     TextView OnlinePayment, CashPayment;
     String RandomUID, MerchantId;
+    private APIService apiService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,6 +146,8 @@ public class CustomerPayment extends AppCompatActivity {
                                                                                                     @Override
                                                                                                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                                                                                         String usertoken = dataSnapshot.getValue(String.class);
+                                                                                                        sendNotifications(usertoken, "Order Confirmed", "Payment mode is confirmed by user, Now you can start the order", "Confirm");
+
                                                                                                     }
 
                                                                                                     @Override
@@ -216,5 +228,25 @@ public class CustomerPayment extends AppCompatActivity {
     }
 
 
+    private void sendNotifications(String usertoken, String title, String message, String confirm) {
+        Data data = new Data(title, message, confirm);
+        NotificationSender sender = new NotificationSender(data, usertoken);
+        apiService.sendNotification(sender).enqueue(new Callback<MyResponse>() {
+            @Override
+            public void onResponse(Call<MyResponse> call, Response<MyResponse> response) {
+                if (response.code() == 200) {
+                    if (response.body().success != 1) {
+                        Toast.makeText(CustomerPayment.this, "Failed", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+
+            @Override
+            public void onFailure(Call<MyResponse> call, Throwable t) {
+
+            }
+        });
+    }
 }
+
 

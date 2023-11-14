@@ -81,7 +81,7 @@
 41-->[androidx.core:core:1.9.0] C:\Users\admin\.gradle\caches\transforms-3\9ba9a08ec49d36f6dd0441a605723113\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 42
 43    <application
-43-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:12:5-147:19
+43-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:12:5-151:19
 44        android:allowBackup="true"
 44-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:13:9-35
 45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -108,220 +108,220 @@
 56            android:exported="false" />
 56-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:25:13-37
 57        <activity
-57-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:26:9-28:40
-58            android:name="com.example.loginauthentication.imageuplaoder"
-58-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:27:13-42
+57-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:27:9-29:40
+58            android:name="com.example.loginauthentication.MerchantPanel.Update_Delete_Dish"
+58-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:28:13-61
 59            android:exported="false" />
-59-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:28:13-37
+59-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:29:13-37
 60        <activity
-60-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:29:9-31:40
-61            android:name="com.example.loginauthentication.MerchantPanel.Update_Delete_Dish"
-61-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:30:13-61
+60-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:31:9-33:40
+61            android:name="com.example.loginauthentication.MerchantPanel.Chef_order_dishes"
+61-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:32:13-60
 62            android:exported="false" />
-62-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:31:13-37
+62-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:33:13-37
 63        <activity
-63-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:33:9-35:40
-64            android:name="com.example.loginauthentication.MerchantPanel.Chef_order_dishes"
-64-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:34:13-60
+63-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:34:9-36:40
+64            android:name="com.example.loginauthentication.MerchantPanel.Merchant_post_dish"
+64-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:35:13-61
 65            android:exported="false" />
-65-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:35:13-37
+65-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:36:13-37
 66        <activity
-66-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:36:9-38:40
-67            android:name="com.example.loginauthentication.MerchantPanel.Merchant_post_dish"
-67-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:37:13-61
+66-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:37:9-39:40
+67            android:name="com.example.loginauthentication.MerchantPanel.MerchantNavigationBar"
+67-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:38:13-64
 68            android:exported="false" />
-68-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:38:13-37
+68-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:39:13-37
 69        <activity
-69-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:39:9-41:40
-70            android:name="com.example.loginauthentication.MerchantPanel.MerchantNavigationBar"
-70-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:40:13-64
+69-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:41:9-43:40
+70            android:name="com.example.loginauthentication.MerchantPanel.ChefOrderTobePrepared"
+70-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:42:13-64
 71            android:exported="false" />
-71-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:41:13-37
+71-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:43:13-37
 72        <activity
-72-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:43:9-45:40
-73            android:name="com.example.loginauthentication.MerchantPanel.ChefOrderTobePrepared"
-73-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:44:13-64
+72-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:44:9-46:40
+73            android:name="com.example.loginauthentication.MerchantPanel.ChefOrdertobePrepareView"
+73-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:45:13-67
 74            android:exported="false" />
-74-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:45:13-37
+74-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:46:13-37
 75        <activity
-75-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:46:9-48:40
-76            android:name="com.example.loginauthentication.MerchantPanel.ChefOrdertobePrepareView"
-76-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:47:13-67
+75-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:49:9-51:40
+76            android:name="com.example.loginauthentication.MerchantPanel.ChefPreparedOrder"
+76-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:50:13-60
 77            android:exported="false" />
-77-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:48:13-37
+77-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:51:13-37
 78        <activity
-78-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:51:9-53:40
-79            android:name="com.example.loginauthentication.MerchantPanel.ChefPreparedOrder"
-79-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:52:13-60
+78-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:53:9-55:40
+79            android:name="com.example.loginauthentication.MerchantPanel.ChefPreparedOrderView"
+79-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:54:13-64
 80            android:exported="false" />
-80-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:53:13-37
+80-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:55:13-37
 81        <activity
-81-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:55:9-57:40
-82            android:name="com.example.loginauthentication.MerchantPanel.ChefPreparedOrderView"
-82-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:56:13-64
+81-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:57:9-59:40
+82            android:name="com.example.loginauthentication.CustomerFoodPanel.CustomerPayment"
+82-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:58:13-62
 83            android:exported="false" />
-83-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:57:13-37
+83-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:59:13-37
 84        <activity
-84-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:59:9-61:40
-85            android:name="com.example.loginauthentication.CustomerFoodPanel.CustomerPayment"
-85-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:60:13-62
+84-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:61:9-63:40
+85            android:name="com.example.loginauthentication.CustomerFoodPanel.CustomerOnlinePayment"
+85-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:62:13-68
 86            android:exported="false" />
-86-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:61:13-37
+86-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:63:13-37
 87        <activity
-87-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:63:9-65:40
-88            android:name="com.example.loginauthentication.CustomerFoodPanel.CustomerOnlinePayment"
-88-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:64:13-68
-89            android:exported="false" />
-89-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:65:13-37
+87-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:64:9-66:46
+88            android:name="com.example.loginauthentication.CustomerFoodPanel.PayableOrders"
+88-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:65:13-60
+89            android:label="Payable Orders" />
+89-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:66:13-43
 90        <activity
-90-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:66:9-68:46
-91            android:name="com.example.loginauthentication.CustomerFoodPanel.PayableOrders"
-91-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:67:13-60
-92            android:label="Payable Orders" />
-92-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:68:13-43
+90-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:67:9-69:46
+91            android:name="com.example.loginauthentication.CustomerFoodPanel.PendingOrders"
+91-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:68:13-60
+92            android:label="Pending Orders" />
+92-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:69:13-43
 93        <activity
-93-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:69:9-71:46
-94            android:name="com.example.loginauthentication.CustomerFoodPanel.PendingOrders"
-94-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:70:13-60
+93-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:70:9-72:46
+94            android:name="com.example.loginauthentication.CustomerFoodPanel.OrderDish"
+94-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:71:13-56
 95            android:label="Pending Orders" />
-95-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:71:13-43
+95-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:72:13-43
 96        <activity
-96-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:72:9-74:46
-97            android:name="com.example.loginauthentication.CustomerFoodPanel.OrderDish"
-97-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:73:13-56
-98            android:label="Pending Orders" />
-98-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:74:13-43
+96-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:74:9-76:59
+97            android:name="com.example.loginauthentication.CustomerFoodPanel_BottomNavigation"
+97-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:75:13-63
+98            android:windowSoftInputMode="adjustNothing" />
+98-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:76:13-56
 99        <activity
-99-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:75:9-77:59
-100            android:name="com.example.loginauthentication.CustomerFoodPanel_BottomNavigation"
-100-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:76:13-63
+99-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:77:9-79:59
+100            android:name="com.example.loginauthentication.ChefFoodPanel_BottomNavigation1"
+100-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:78:13-60
 101            android:windowSoftInputMode="adjustNothing" />
-101-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:77:13-56
+101-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:79:13-56
 102        <activity
-102-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:78:9-80:40
+102-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:81:9-84:40
 103            android:name="com.example.loginauthentication.AdminPanel"
-103-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:79:13-39
+103-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:83:13-39
 104            android:exported="false" />
-104-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:80:13-37
+104-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:84:13-37
 105        <activity
-105-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:81:9-83:40
+105-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:85:9-87:40
 106            android:name="com.example.loginauthentication.loadinganimation"
-106-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:82:13-45
+106-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:86:13-45
 107            android:exported="false" />
-107-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:83:13-37
+107-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:87:13-37
 108        <activity
-108-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:87:9-89:40
+108-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:91:9-93:40
 109            android:name="com.example.loginauthentication.StudentRegister"
-109-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:88:13-44
+109-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:92:13-44
 110            android:exported="false" />
-110-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:89:13-37
+110-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:93:13-37
 111        <activity
-111-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:90:9-92:40
+111-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:94:9-96:40
 112            android:name="com.example.loginauthentication.slides"
-112-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:91:13-35
+112-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:95:13-35
 113            android:exported="false" />
-113-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:92:13-37
+113-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:96:13-37
 114        <activity
-114-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:93:9-95:40
+114-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:97:9-99:40
 115            android:name="com.example.loginauthentication.merchantregister"
-115-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:94:13-45
+115-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:98:13-45
 116            android:exported="false" />
-116-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:95:13-37
+116-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:99:13-37
 117        <activity
-117-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:96:9-98:40
+117-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:100:9-102:40
 118            android:name="com.example.loginauthentication.merchantlogin"
-118-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:97:13-42
+118-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:101:13-42
 119            android:exported="false" />
-119-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:98:13-37
+119-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:102:13-37
 120        <activity
-120-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:99:9-101:40
+120-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:103:9-105:40
 121            android:name="com.example.loginauthentication.register"
-121-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:100:13-37
+121-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:104:13-37
 122            android:exported="false" />
-122-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:101:13-37
+122-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:105:13-37
 123        <activity
-123-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:102:9-104:40
+123-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:106:9-108:40
 124            android:name="com.example.loginauthentication.MainActivity2"
-124-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:103:13-42
+124-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:107:13-42
 125            android:exported="false" />
-125-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:104:13-37
+125-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:108:13-37
 126        <activity
-126-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:105:9-107:40
+126-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:109:9-111:40
 127            android:name="com.example.loginauthentication.MainMenu"
-127-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:106:13-37
+127-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:110:13-37
 128            android:exported="false" />
-128-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:107:13-37
+128-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:111:13-37
 129
 130        <meta-data
-130-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:109:9-111:45
+130-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:113:9-115:45
 131            android:name="com.google.android.actions"
-131-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:110:13-54
+131-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:114:13-54
 132            android:resource="@xml/style" />
-132-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:111:13-42
+132-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:115:13-42
 133
 134        <service
-134-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:113:9-120:19
+134-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:117:9-124:19
 135            android:name="com.example.loginauthentication.SendNotification.MyFirebaseMessagingService"
-135-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:114:13-103
+135-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:118:13-103
 136            android:enabled="true"
-136-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:115:13-35
+136-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:119:13-35
 137            android:exported="true" >
-137-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:116:13-36
+137-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:120:13-36
 138            <intent-filter>
-138-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:117:13-119:29
+138-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:121:13-123:29
 139                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-139-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:118:17-78
-139-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:118:25-75
+139-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:122:17-78
+139-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:122:25-75
 140            </intent-filter>
 141        </service>
 142        <service
-142-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:121:9-128:19
+142-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:125:9-132:19
 143            android:name="com.example.loginauthentication.SendNotification.MyFirebaseIdService"
-143-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:122:13-96
+143-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:126:13-96
 144            android:enabled="true"
-144-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:123:13-35
+144-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:127:13-35
 145            android:exported="true" >
-145-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:124:13-36
+145-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:128:13-36
 146            <intent-filter>
-146-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:125:13-127:29
+146-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:129:13-131:29
 147                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-147-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:126:17-80
-147-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:126:25-77
+147-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:130:17-80
+147-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:130:25-77
 148            </intent-filter>
 149        </service>
 150
 151        <activity
-151-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:129:9-146:20
+151-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:133:9-150:20
 152            android:name="com.example.loginauthentication.MainActivity"
-152-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:130:13-41
+152-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:134:13-41
 153            android:exported="true" >
-153-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:131:13-36
+153-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:135:13-36
 154            <intent-filter>
-154-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:133:13-137:29
+154-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:137:13-141:29
 155                <action android:name="android.intent.action.MAIN" />
-155-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:134:17-69
-155-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:134:25-66
+155-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:138:17-69
+155-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:138:25-66
 156                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-156-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:126:17-80
-156-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:126:25-77
+156-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:130:17-80
+156-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:130:25-77
 157
 158                <category android:name="android.intent.category.LAUNCHER" />
-158-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:136:17-77
-158-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:136:27-74
+158-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:140:17-77
+158-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:140:27-74
 159            </intent-filter>
 160
 161            <meta-data
-161-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:139:13-141:36
+161-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:143:13-145:36
 162                android:name="android.app.lib_name"
-162-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:140:17-52
+162-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:144:17-52
 163                android:value="" />
-163-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:141:17-33
+163-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:145:17-33
 164            <meta-data
-164-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:142:13-144:35
+164-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:146:13-148:35
 165                android:name="com.google.android.gms.ads.APPLICATION_ID"
-165-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:143:17-73
+165-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:147:17-73
 166                android:value="" />
-166-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:144:17-33
+166-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:148:17-33
 167        </activity>
 168
 169        <provider
@@ -506,10 +506,10 @@
 268            android:exported="false" >
 268-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\admin\.gradle\caches\transforms-3\9896e34a21588cb3707d9b4ee792a94a\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:45:13-37
 269            <intent-filter android:priority="-500" >
-269-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:117:13-119:29
+269-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:121:13-123:29
 270                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-270-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:118:17-78
-270-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:118:25-75
+270-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:122:17-78
+270-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:122:25-75
 271            </intent-filter>
 272        </service>
 273

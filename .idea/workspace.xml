@@ -14,6 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83d50231-2d71-4ee1-9ed3-b9f2dfa5b0f6" name="Changes" comment="latest commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/loginauthentication/SendNotification/ShowNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/loginauthentication/SendNotification/ShowNotification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +72,8 @@
       <list>
         <option value="valueResourceFile" />
         <option value="resourceFile" />
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,7 +101,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FoodOn_FoodDelivery_by_Androrealm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -143,18 +144,18 @@
       <recent name="com.example.loginauthentication" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.loginauthentication" />
       <recent name="com.example.loginauthentication.CustomerFoodPanel" />
       <recent name="com.example.loginauthentication.MerchantPanel" />
-      <recent name="com.example.loginauthentication" />
       <recent name="com.example.loginauthentication.StudentPanel" />
       <recent name="com.example.loginauthentication.ReusableCode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\drawable" />
-      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\java\com\example\loginauthentication\CustomerFoodPanel" />
+      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\menu" />
       <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\layout" />
+      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\java\com\example\loginauthentication\CustomerFoodPanel" />
       <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\raw" />
-      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\font" />
     </key>
     <key name="android.template.-1001767522">
       <recent name="com.example.loginauthentication" />
@@ -347,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699146541342</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="latest commit">
+      <created>1699253527010</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699253527010</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

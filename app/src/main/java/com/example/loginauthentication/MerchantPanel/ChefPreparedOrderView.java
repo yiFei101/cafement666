@@ -168,7 +168,7 @@ public class ChefPreparedOrderView extends AppCompatActivity {
                                                                             sendNotifications(usertoken, "New Order", "You have a New Order", "DeliveryOrder");
                                                                             progressDialog.dismiss();
                                                                             AlertDialog.Builder builder = new AlertDialog.Builder(ChefPreparedOrderView.this);
-                                                                            builder.setMessage("Order has been sent to shipper");
+                                                                            builder.setMessage("Order has been sent to the customer for Pick up");
                                                                             builder.setCancelable(false);
                                                                             builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                                                                 @Override

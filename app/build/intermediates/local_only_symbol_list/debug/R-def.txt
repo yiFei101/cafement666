@@ -110,6 +110,8 @@ drawable ic_baseline_vibration_24
 drawable ic_baseline_whatshot_24
 drawable ic_camera_alt_black_24dp
 drawable ic_chef_hat_and_fork
+drawable ic_content_paste_black_24dp
+drawable ic_dish_spoon_knife
 drawable ic_exit_to_app_black_24dp
 drawable ic_food_back
 drawable ic_food_fav
@@ -120,6 +122,7 @@ drawable ic_food_tray
 drawable ic_home_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_neworder
 drawable ic_next
 drawable ic_payment_black_24dp
 drawable ic_person_black_24dp
@@ -201,6 +204,7 @@ id Order
 id Orders
 id PO
 id PR
+id PendingOrders
 id Profile
 id Pwd
 id Pwd1
@@ -252,6 +256,9 @@ id button1
 id cancelButton
 id cardView
 id cashPaymentButton
+id chefHome
+id chefProfile
+id chef_bottom_navigation
 id clearcart
 id clearorder
 id constraintLayout
@@ -330,6 +337,7 @@ id nt
 id number_btn
 id number_btn_layout
 id onlinePaymentButton
+id order
 id orders
 id ordertobe
 id payableorder
@@ -390,6 +398,7 @@ id total
 id totalrs
 id vieww
 layout activity_admin_panel
+layout activity_chef_food_panel__bottom_navigation
 layout activity_chef_order_dishes
 layout activity_chef_order_tobe_prepared
 layout activity_chef_ordertobe_prepare_view
@@ -461,6 +470,7 @@ layout pending_order_dishes
 layout slider_layout
 menu bottom_menu
 menu bottom_navigation
+menu chef_bottom_navigation
 menu logout
 menu menu
 menu menu1

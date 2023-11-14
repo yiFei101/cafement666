@@ -91,7 +91,7 @@ public class Login extends AppCompatActivity {
                 if (selectedRole.equals(userRole)) {
                     Toast.makeText(Login.this, "Login Successful", Toast.LENGTH_SHORT).show();
                     if ("Merchant".equals(selectedRole)) {
-                        startActivity(new Intent(Login.this, MerchantNavigationBar.class));
+                        startActivity(new Intent(Login.this, ChefFoodPanel_BottomNavigation1.class));
                     } else if ("Student".equals(selectedRole)) {
                         startActivity(new Intent(Login.this, CustomerFoodPanel_BottomNavigation.class));
                     }

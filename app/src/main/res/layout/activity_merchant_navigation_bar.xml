@@ -18,9 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#FFFFFF"
-        android:backgroundTint="#FFFFFF"
-        app:itemIconTint="#000000"
-        app:itemTextColor="#000000"
+        android:background="?android:attr/windowBackground"
+        android:backgroundTint="@color/white"
+        app:itemIconTint="@color/bottomcolour"
+        app:itemTextColor="@color/bottomcolour"
         app:menu="@menu/merchant_bottom_menu" />
 </RelativeLayout>

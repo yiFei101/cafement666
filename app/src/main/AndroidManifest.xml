@@ -5,8 +5,6 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="com.google.c2dm.permission.send"/>
-    <uses-permission android:name="com.google.c2dm.permission.receive"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -23,9 +21,7 @@
         <activity
             android:name=".Login"
             android:exported="false" />
-        <activity
-            android:name=".imageuplaoder"
-            android:exported="false" />
+
         <activity
             android:name=".MerchantPanel.Update_Delete_Dish"
             android:exported="false" />
@@ -72,10 +68,16 @@
         <activity
             android:name=".CustomerFoodPanel.OrderDish"
             android:label="Pending Orders" />
+
         <activity
             android:name=".CustomerFoodPanel_BottomNavigation"
             android:windowSoftInputMode="adjustNothing" />
         <activity
+            android:name=".ChefFoodPanel_BottomNavigation1"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+
             android:name=".AdminPanel"
             android:exported="false" />
         <activity
@@ -110,6 +112,8 @@
             android:name="com.google.android.actions"
             android:resource="@xml/style" />
 
+
+
         <service
             android:name="com.example.loginauthentication.SendNotification.MyFirebaseMessagingService"
             android:enabled="true"
@@ -127,12 +131,11 @@
             </intent-filter>
         </service>
         <activity
+
             android:name=".MainActivity"
-            android:exported="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 

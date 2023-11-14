@@ -12,7 +12,6 @@ import com.example.loginauthentication.CustomerFoodPanel.CustomerHomeFragment;
 import com.example.loginauthentication.CustomerFoodPanel.CustomerOrderFragment;
 import com.example.loginauthentication.CustomerFoodPanel.CustomerTrackFragment;
 import com.example.loginauthentication.CustomerFoodPanel.SettingsFragment;
-import com.example.loginauthentication.StudentPanel.StudentFaqFragment;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -28,6 +27,7 @@ public class CustomerFoodPanel_BottomNavigation extends AppCompatActivity implem
         setContentView(R.layout.activity_food_panel__bottom_navigation);
         BottomNavigationView navigationView = findViewById(R.id.bottom_navigation);
         navigationView.setOnNavigationItemSelectedListener(this);
+        UpdateToken();
         String name = getIntent().getStringExtra("PAGE");
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -66,6 +66,7 @@ public class CustomerFoodPanel_BottomNavigation extends AppCompatActivity implem
 //        Token token = new Token(refreshToken);
 //        FirebaseDatabase.getInstance().getReference("Tokens").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(token);
     }
+
     private boolean loadFragment(Fragment fragment) {
         if (fragment != null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, fragment).commit();
@@ -76,25 +77,32 @@ public class CustomerFoodPanel_BottomNavigation extends AppCompatActivity implem
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+
         Fragment fragment = null;
         switch (menuItem.getItemId()) {
+
             case R.id.Home:
                 fragment = new CustomerHomeFragment();
                 break;
+
+
             case R.id.Cart:
                 fragment = new CustomerCartFragment();
                 break;
+
             case R.id.Order:
                 fragment = new CustomerOrderFragment();
                 break;
+
             case R.id.Track:
                 fragment = new CustomerTrackFragment();
                 break;
+
             case R.id.Settings:
                 fragment = new SettingsFragment();
                 break;
-        }
 
+        }
         return loadFragment(fragment);
     }
 }

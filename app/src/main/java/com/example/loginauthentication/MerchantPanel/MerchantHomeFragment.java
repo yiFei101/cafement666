@@ -92,31 +92,5 @@ public class MerchantHomeFragment extends Fragment {
     }
 
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        inflater.inflate(R.menu.logout, menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        int idd = item.getItemId();
-        if (idd == R.id.LogOut) {
-            Logout();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-    private void Logout() {
-
-        FirebaseAuth.getInstance().signOut();
-        Intent intent = new Intent(getActivity(), MainMenu.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK );
-        startActivity(intent);
-
-    }
-
-
 
 }
