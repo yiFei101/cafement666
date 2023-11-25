@@ -159,6 +159,10 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:gifdecoder:4.11.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.cepheuen.elegant-number-button:lib:1.0.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.theartofdev.edmodo:android-image-cropper:2.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.mikhaellopez:circularimageview:4.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: de.hdodenhof:circleimageview:3.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.ncorti:slidetoact:0.10.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: in.shadowfax:proswipebutton:1.2.2@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="LoginAuthentication.app.main" />
 </module>

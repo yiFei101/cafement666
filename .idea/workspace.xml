@@ -14,7 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="83d50231-2d71-4ee1-9ed3-b9f2dfa5b0f6" name="Changes" comment="latest commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/loginauthentication/SendNotification/ShowNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/loginauthentication/SendNotification/ShowNotification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +70,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
+        <option value="Class" />
         <option value="resourceFile" />
         <option value="layoutResourceFile" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -113,13 +112,7 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.loginauthentication" />
-    </key>
     <key name="android.template.-825638694">
-      <recent name="com.example.loginauthentication" />
-    </key>
-    <key name="android.template.-258301609">
       <recent name="com.example.loginauthentication" />
     </key>
     <key name="android.template.1670903927">
@@ -128,39 +121,10 @@
     <key name="android.template.-143358775">
       <recent name="com.example.loginauthentication" />
     </key>
-    <key name="android.template.1588726519">
-      <recent name="com.example.loginauthentication" />
-    </key>
-    <key name="android.template.-1864597381">
-      <recent name="com.example.loginauthentication" />
-    </key>
     <key name="android.template.-1892032683">
       <recent name="com.example.loginauthentication" />
     </key>
-    <key name="android.template.1494773892">
-      <recent name="com.example.loginauthentication" />
-    </key>
     <key name="android.template.-1346410738">
-      <recent name="com.example.loginauthentication" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.loginauthentication" />
-      <recent name="com.example.loginauthentication.CustomerFoodPanel" />
-      <recent name="com.example.loginauthentication.MerchantPanel" />
-      <recent name="com.example.loginauthentication.StudentPanel" />
-      <recent name="com.example.loginauthentication.ReusableCode" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\drawable" />
-      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\menu" />
-      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\layout" />
-      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\java\com\example\loginauthentication\CustomerFoodPanel" />
-      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\raw" />
-    </key>
-    <key name="android.template.-1001767522">
-      <recent name="com.example.loginauthentication" />
-    </key>
-    <key name="android.template.639612985">
       <recent name="com.example.loginauthentication" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -168,10 +132,6 @@
       <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\drawable-v24" />
     </key>
     <key name="android.template.-1398444426">
-      <recent name="com.example.loginauthentication" />
-    </key>
-    <key name="android.template.296374241">
-      <recent name="com.example.loginauthentication.MerchantPanel" />
       <recent name="com.example.loginauthentication" />
     </key>
     <key name="android.template.1732232835">
@@ -183,13 +143,58 @@
     <key name="android.template.-1997070210">
       <recent name="com.example.loginauthentication" />
     </key>
-    <key name="android.template.1560214765">
-      <recent name="com.example.loginauthentication" />
-    </key>
     <key name="android.template.1092035394">
       <recent name="com.example.loginauthentication" />
     </key>
     <key name="android.template.-73984652">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.-258301609">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.1588726519">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.-1864597381">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.1494773892">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.1236920850">
+      <recent name="com.example.loginauthentication.CustomerFoodPanel" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.loginauthentication" />
+      <recent name="com.example.loginauthentication.CustomerFoodPanel" />
+      <recent name="com.example.loginauthentication.MerchantPanel" />
+      <recent name="com.example.loginauthentication.StudentPanel" />
+      <recent name="com.example.loginauthentication.ReusableCode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\drawable" />
+      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\layout" />
+      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\font" />
+      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\raw" />
+      <recent name="C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\res\menu" />
+    </key>
+    <key name="android.template.-1001767522">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.639612985">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.296374241">
+      <recent name="com.example.loginauthentication.MerchantPanel" />
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.859319591">
+      <recent name="com.example.loginauthentication" />
+    </key>
+    <key name="android.template.1560214765">
       <recent name="com.example.loginauthentication" />
     </key>
     <key name="android.template.2131042349">
@@ -355,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699253527010</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="latest commit">
+      <created>1699939394223</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699939394223</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

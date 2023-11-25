@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:ignore="MissingDefaultResource"
-    android:background="@drawable/udm25">
+    android:background="@drawable/mainbg">
 
 
     <TextView
@@ -20,7 +20,7 @@
         android:outlineProvider="background"
         android:paddingLeft="15dp"
         android:text="Address"
-        android:textColor="@color/Black"
+        android:textColor="@color/white"
         android:textSize="26dp"
         android:visibility="invisible" />
 
@@ -60,14 +60,16 @@
         android:textColor="#FA3E03"
         android:textSize="16sp" />
 
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclefinalorders"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/btnn"
         android:layout_below="@+id/text1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-1dp"
         android:orientation="vertical" />
-
 
     <LinearLayout
         android:id="@+id/btnn"
@@ -99,7 +101,7 @@
                 android:layout_marginLeft="15dp"
                 android:gravity="center_vertical"
                 android:text=" Total:"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -118,21 +120,14 @@
                     android:layout_marginRight="15dp"
                     android:gravity="center_vertical"
                     android:text="Rs. 2000"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="20dp"
                     android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/order"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Order Received"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:onClick="yourButtonClickHandler" />
+
     </LinearLayout>
 
 

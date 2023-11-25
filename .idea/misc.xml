@@ -6,12 +6,15 @@
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1225" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/background_shape.xml" value="0.14" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/bg_btn.xml" value="0.1125" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/bgcolor1.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/btnblueish.xml" value="0.1525" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/btnred.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/button_shape.xml" value="0.1525" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/camerabtnshape.xml" value="0.1225" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/camerashapebtn.xml" value="0.1225" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/circle2.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/dashed_border.xml" value="0.12" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/default_bg.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/dialogbkg.xml" value="0.1225" />
@@ -45,6 +48,8 @@
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/oval.xml" value="0.1225" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/rectangle_background.xml" value="0.1095" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/round_bg.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/rounded_rectangle.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/rounded_square.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/search_bg.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/seleted.xml" value="0.1225" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/drawable/unselected.xml" value="0.1225" />
@@ -76,10 +81,13 @@
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_merchant_panel.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_merchant_post_dish.xml" value="0.25" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_merchantlogin.xml" value="0.16" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_merchantregister.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_merchantregister.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_order_dish.xml" value="0.2" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_payable_orders.xml" value="0.2" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_pending_orders.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_orderdish1.xml" value="0.22" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_payable_orders.xml" value="0.22" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_pending_orders.xml" value="0.22" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_popup_panel.xml" value="0.22" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_profile.xml" value="0.18" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_registration.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_registration1.xml" value="0.25" />
@@ -89,26 +97,27 @@
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_startingmenu.xml" value="0.2" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_student_panel.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_student_panel_navigation_bar.xml" value="0.33" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_student_register.xml" value="0.18" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_student_register.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_update__delete__dish.xml" value="0.2" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/activity_update__delete__dish1.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/bottomsheetlayout.xml" value="0.22" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/cart_placeorder.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/cart_placeorder.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/chef_menu_update_delete.xml" value="0.18" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/chef_order_dishes.xml" value="0.25" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/chef_order_dishes1.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/chef_orders.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/chef_ordertobeprepared.xml" value="0.1" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/chef_ordertobeprepared_view.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/chef_ordertobeprepared_view.xml" value="0.33" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/chef_preparedorder.xml" value="0.22" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/chef_preparedorderview.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/chef_preparedorderview.xml" value="0.25" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/customer_foodpanel.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/customer_menudish.xml" value="0.25" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/customer_payableorder.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/customer_payableorder.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/customer_trackorder.xml" value="0.22" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/customerhometoolbar.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/daily_meal_fragment.xml" value="0.189453125" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/detailed_daily_meal_item.xml" value="0.1" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/enter_address.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/enter_address.xml" value="0.25" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/food_item_layout.xml" value="0.18" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/food_item_layout1.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fooddetail.xml" value="0.16" />
@@ -118,7 +127,8 @@
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_customerhome.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_customerorder.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_customerprofile.xml" value="0.2" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_customertrack.xml" value="0.22" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_customerprofilefragment.xml" value="0.2384428223844282" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_customertrack.xml" value="0.33" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_library.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_menu.xml" value="0.1" />
@@ -129,6 +139,7 @@
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_orders.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_pending.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_post.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_profile.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_shorts.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/fragment_student_home.xml" value="0.12" />
@@ -147,11 +158,15 @@
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/merchant_post_dish.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/merchantorderdishes.xml" value="0.25" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/merchantordertobeprepared.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/merchantregistertoolbar.xml" value="0.25" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/nav_header.xml" value="0.25" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/no_internet_dialog.xml" value="0.18" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/payableorderstoolbar.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/pending_order_dishes.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/pendingorderstoolbar.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/slide_screen.xml" value="0.16" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/slider_layout.xml" value="0.2119140625" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/layout/toolbar.xml" value="0.25" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/menu/bottom_menu.xml" value="0.20092592592592592" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/menu/bottom_navigation.xml" value="0.17962962962962964" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/menu/chef_bottom_navigation.xml" value="0.33" />
@@ -164,6 +179,7 @@
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/menu/nav_menu.xml" value="0.2" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/menu/search.xml" value="0.17962962962962964" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/menu/student_bottom_menu.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/menu/toolbar.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/LoginAuthentication/app/src/main/res/xml/style.xml" value="0.1" />
       </map>
     </option>

@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -23,13 +25,14 @@ import java.util.HashMap;
 
 public class merchantregister extends AppCompatActivity {
 
-
-    TextInputLayout Fname, Lname, Email, Password;
+    TextInputLayout Fname, ConfirmPassword, Email, Password;
     Button Signup;
+    ImageView imageView;
     FirebaseAuth FAuth;
     DatabaseReference databaseReference;
-    String fname, lname, email, password;
+    String fname, confirmpassword, email, password;
     String role = "Merchant";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,19 +40,28 @@ public class merchantregister extends AppCompatActivity {
         setContentView(R.layout.activity_merchantregister);
 
         Fname = findViewById(R.id.Firstname1);
-        Lname = findViewById(R.id.Lastname1);
+        ConfirmPassword = findViewById(R.id.Pwd2);
         Email = findViewById(R.id.Email22);
-        Password = findViewById(R.id.Pwd1);
-
+        Password = findViewById(R.id.Pwd);
+        imageView = findViewById(R.id.backButton);
         Signup = findViewById(R.id.merchantsignup);
 
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate back when the back button is clicked
+                onBackPressed();
+            }
+        });
         databaseReference = FirebaseDatabase.getInstance().getReference("Merchant");
         FAuth = FirebaseAuth.getInstance();
         Signup.setOnClickListener(new View.OnClickListener() {
+
+
             @Override
             public void onClick(View v) {
                 fname = Fname.getEditText().getText().toString().trim();
-                lname = Lname.getEditText().getText().toString().trim();
+                confirmpassword = ConfirmPassword.getEditText().getText().toString().trim();
                 email = Email.getEditText().getText().toString().trim();
                 password = Password.getEditText().getText().toString().trim();
 
@@ -83,7 +95,7 @@ public class merchantregister extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 // Registration successful
 
-                               String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
+                                String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
                                 databaseReference = FirebaseDatabase.getInstance().getReference("User").child(userid);
                                 final HashMap<String, String> hashMap = new HashMap<>();
                                 hashMap.put("Role", role);
@@ -92,9 +104,10 @@ public class merchantregister extends AppCompatActivity {
                                     public void onComplete(Task<Void> task) {
                                         HashMap<String, String> hashMap1 = new HashMap<>();
                                         hashMap1.put("First Name", fname);
-                                        hashMap1.put("Last Name", lname);
                                         hashMap1.put("Email", email);
                                         hashMap1.put("Password", password);
+                                        hashMap1.put("Confirm Password", confirmpassword);
+
 
                                         FirebaseDatabase.getInstance().getReference("Merchant")
                                                 .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
@@ -118,7 +131,11 @@ public class merchantregister extends AppCompatActivity {
                                                                         @Override
                                                                         public void onClick(DialogInterface dialog, int which) {
                                                                             dialog.dismiss();
-                                                                            // Handle what to do after clicking OK
+
+                                                                            // Start the login activity after successful registration
+                                                                            Intent intent = new Intent(merchantregister.this, Login.class);
+                                                                            startActivity(intent);
+                                                                            finish(); // Optional: Close the current activity to prevent going back to registration screen
                                                                         }
                                                                     });
                                                                     AlertDialog Alert = builder.create();
@@ -145,6 +162,8 @@ public class merchantregister extends AppCompatActivity {
         });
     }
 
+
+
     String emailpattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
 
     public boolean isValid() {
@@ -152,13 +171,13 @@ public class merchantregister extends AppCompatActivity {
         Email.setError("");
         Fname.setErrorEnabled(false);
         Fname.setError("");
-        Lname.setErrorEnabled(false);
-        Lname.setError("");
+        ConfirmPassword.setErrorEnabled(false);
+        ConfirmPassword.setError("");
 
         Password.setErrorEnabled(false);
         Password.setError("");
 
-        boolean isValid = false, isValidLname = false, isValidname = false, isValidemail = false, isValidpassword = false;
+        boolean isValid = false, isValidconfirmpassword = false, isValidname = false, isValidemail = false, isValidpassword = false;
 
         if (TextUtils.isEmpty(fname)) {
             Fname.setErrorEnabled(true);
@@ -167,12 +186,7 @@ public class merchantregister extends AppCompatActivity {
             isValidname = true;
         }
 
-        if (TextUtils.isEmpty(lname)) {
-            Lname.setErrorEnabled(true);
-            Lname.setError("Enter Last Name");
-        } else {
-            isValidLname = true;
-        }
+
 
         if (TextUtils.isEmpty(email)) {
             Email.setErrorEnabled(true);
@@ -197,10 +211,19 @@ public class merchantregister extends AppCompatActivity {
                 isValidpassword = true;
             }
         }
+        if (TextUtils.isEmpty(confirmpassword)) {
+            ConfirmPassword.setErrorEnabled(true);
+            ConfirmPassword.setError("Enter Password");
+        } else {
+            if (confirmpassword.length() < 8) {
+                ConfirmPassword.setErrorEnabled(true);
+                ConfirmPassword.setError("Password is weak");
+            } else {
+                isValidconfirmpassword = true;
+            }
+        }
 
-
-
-        isValid = (isValidemail && isValidpassword && isValidname  && isValidLname) ? true : false;
+        isValid = (isValidemail && isValidpassword && isValidname && isValidconfirmpassword) ? true : false;
 
         return isValid;
     }

@@ -10,8 +10,7 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="com.google.c2dm.permission.send" />
-    <uses-permission android:name="com.google.c2dm.permission.receive" />
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <queries>
@@ -51,6 +50,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAuthentication" >
+        <activity
+            android:name="com.example.loginauthentication.CustomerFoodPanel.PopupPanel"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginauthentication.Profile"
+            android:exported="false" />
         <activity
             android:name="com.example.loginauthentication.Login"
             android:exported="false" />
@@ -153,7 +158,6 @@
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

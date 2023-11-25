@@ -32,7 +32,7 @@ import java.util.HashMap;
 
 public class OrderDish extends AppCompatActivity {
 
-    String RandomId, MerchantId;
+    String RandomId, MerchantID;
     ImageView imageView;
     ElegantNumberButton additem;
     TextView Foodname, MerchantName, FoodQuantity, FoodPrice, FoodDescription;
@@ -45,10 +45,9 @@ public class OrderDish extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_order_dish);
+        setContentView(R.layout.activity_orderdish1);
 
         Foodname = findViewById(R.id.food_name);
-        FoodQuantity = findViewById(R.id.food_quantity);
         FoodPrice = findViewById(R.id.food_price);
         FoodDescription = findViewById(R.id.food_description);
         imageView = findViewById(R.id.image);
@@ -62,17 +61,15 @@ public class OrderDish extends AppCompatActivity {
                 Student stud = dataSnapshot.getValue(Student.class);
 
                 RandomId = getIntent().getStringExtra("FoodDetails");
-                MerchantId = getIntent().getStringExtra("MerchantId");
+                MerchantID = getIntent().getStringExtra("MerchantId");
 
-                databaseReference = FirebaseDatabase.getInstance().getReference("FoodDetails").child(MerchantId).child(RandomId);
+                databaseReference = FirebaseDatabase.getInstance().getReference("FoodDetails").child(MerchantID).child(RandomId);
                 databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         UpdateDishModel updateDishModel = dataSnapshot.getValue(UpdateDishModel.class);
                         if (updateDishModel != null) {
                             Foodname.setText(updateDishModel.getDishes());
-                            String qua = "<b>" + "Quantity: " + "</b>" + updateDishModel.getQuantity();
-                            FoodQuantity.setText(Html.fromHtml(qua));
                             String ss = "<b>" + "Description: " + "</b>" + updateDishModel.getDescription();
                             FoodDescription.setText(Html.fromHtml(ss));
                             String pri = "<b>" + "Price: ₱ " + "</b>" + updateDishModel.getPrice();
@@ -81,7 +78,7 @@ public class OrderDish extends AppCompatActivity {
                                     .load(updateDishModel.getImageURL())
                                     .into(imageView);
 
-                            merchantdata = FirebaseDatabase.getInstance().getReference("Merchant").child(MerchantId);
+                            merchantdata = FirebaseDatabase.getInstance().getReference("Merchant").child(MerchantID);
                             merchantdata.addListenerForSingleValueEvent(new ValueEventListener() {
                                 @Override
                                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -138,8 +135,8 @@ public class OrderDish extends AppCompatActivity {
                                         }
                                     }
 
-                                    if (cart1 != null && MerchantId.equals(cart1.getMerchantId())) {
-                                        data = FirebaseDatabase.getInstance().getReference("FoodDetails").child(MerchantId).child(RandomId);
+                                    if (cart1 != null && MerchantID.equals(cart1.getMerchantId())) {
+                                        data = FirebaseDatabase.getInstance().getReference("FoodDetails").child(MerchantID).child(RandomId);
                                         data.addListenerForSingleValueEvent(new ValueEventListener() {
                                             @Override
                                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -157,7 +154,7 @@ public class OrderDish extends AppCompatActivity {
                                                         hashMap.put("DishQuantity", String.valueOf(num));
                                                         hashMap.put("Price", String.valueOf(dishprice));
                                                         hashMap.put("Totalprice", String.valueOf(totalprice));
-                                                        hashMap.put("MerchantId", MerchantId);
+                                                        hashMap.put("MerchantId", MerchantID);
                                                         studID = FirebaseAuth.getInstance().getCurrentUser().getUid();
                                                         reference = FirebaseDatabase.getInstance().getReference("Cart").child("CartItems").child(studID).child(RandomId);
                                                         reference.setValue(hashMap).addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -193,7 +190,7 @@ public class OrderDish extends AppCompatActivity {
                                         alert.show();
                                     }
                                 } else {
-                                    data = FirebaseDatabase.getInstance().getReference("FoodDetails").child(MerchantId).child(RandomId);
+                                    data = FirebaseDatabase.getInstance().getReference("FoodDetails").child(MerchantID).child(RandomId);
                                     data.addListenerForSingleValueEvent(new ValueEventListener() {
                                         @Override
                                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -210,7 +207,7 @@ public class OrderDish extends AppCompatActivity {
                                                     hashMap.put("DishQuantity", String.valueOf(num));
                                                     hashMap.put("Price", String.valueOf(dishprice));
                                                     hashMap.put("Totalprice", String.valueOf(totalprice));
-                                                    hashMap.put("MerchantId", MerchantId);
+                                                    hashMap.put("MerchantId", MerchantID);
                                                     studID = FirebaseAuth.getInstance().getCurrentUser().getUid();
                                                     reference = FirebaseDatabase.getInstance().getReference("Cart").child("CartItems").child(studID).child(RandomId);
                                                     reference.setValue(hashMap).addOnSuccessListener(new OnSuccessListener<Void>() {

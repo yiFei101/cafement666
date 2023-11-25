@@ -1,9 +1,13 @@
 package com.example.loginauthentication.CustomerFoodPanel;
 
+import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -13,6 +17,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import com.example.loginauthentication.CustomerFoodPanel_BottomNavigation;
 import com.example.loginauthentication.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -34,7 +39,8 @@ public class PayableOrders extends AppCompatActivity {
     Button payment;
     TextView total;
     private SwipeRefreshLayout swipeRefreshLayout;
-
+    ImageView backButton;
+    Dialog mdialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +57,7 @@ public class PayableOrders extends AppCompatActivity {
         swipeRefreshLayout.setColorSchemeResources(R.color.colorPrimaryDark, R.color.green);
         adapter = new PayableOrderAdapter(PayableOrders.this, customerPaymentOrdersList);
         recyclerView.setAdapter(adapter);
+        backButton = findViewById(R.id.backButton);
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -91,12 +98,11 @@ public class PayableOrders extends AppCompatActivity {
                                     payment.setOnClickListener(new View.OnClickListener() {
                                         @Override
                                         public void onClick(View v) {
-                                            Intent intent = new Intent(PayableOrders.this, CustomerPayment.class);
-                                            intent.putExtra("RandomUID", randomuid);
-                                            startActivity(intent);
-                                            finish();
+                                            showPaymentPopup();
                                         }
                                     });
+
+
                                 }
                                 adapter = new PayableOrderAdapter(PayableOrders.this, customerPaymentOrdersList);
                                 recyclerView.setAdapter(adapter);
@@ -140,5 +146,20 @@ public class PayableOrders extends AppCompatActivity {
 
             }
         });
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PayableOrders.this, CustomerFoodPanel_BottomNavigation.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
     }
+    private void showPaymentPopup() {
+        mdialog.setContentView(R.layout.activity_popup_panel);
+        mdialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        mdialog.show();
+    }
+
 }

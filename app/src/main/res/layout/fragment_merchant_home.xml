@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="@drawable/udm26"
+    android:background="@drawable/mainbg"
     tools:menu="@menu/logout">
 
 

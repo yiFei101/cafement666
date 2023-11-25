@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="380dp"
+    android:layout_height="130dp"
+    android:layout_gravity="center"
+    tools:context=".CustomerFoodPanel.PopupPanel">
+
+
+
+ <TextView
+     android:id="@+id/example1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Are you sure with your order?"
+     android:textSize="28sp"
+     android:layout_centerHorizontal="true"
+     />
+
+    <in.shadowfax.proswipebutton.ProSwipeButton
+        android:id="@+id/awesome_btn"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_below="@id/example1"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="8dp"
+        app:text_size="19sp"
+        app:bg_color="@color/black"
+        app:btn_text="Swipe to Confirm" />
+
+
+</RelativeLayout>

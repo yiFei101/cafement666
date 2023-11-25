@@ -12,10 +12,12 @@ import com.google.firebase.database.DatabaseReference;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.FirebaseAuth;
@@ -25,11 +27,12 @@ import java.util.HashMap;
 
 public class StudentRegister extends AppCompatActivity {
 
-    TextInputLayout Fname, Lname, Studid, Email, Password;
+    TextInputLayout Fname, ConfirmPassword, Email, Password;
     Button Signup;
     FirebaseAuth FAuth;
+    ImageView imageView;
     DatabaseReference databaseReference;
-    String fname, lname, email, studid, password;
+    String fname, confirmpassword, email,  password;
     String role = "Student";
 
     @Override
@@ -38,12 +41,21 @@ public class StudentRegister extends AppCompatActivity {
         setContentView(R.layout.activity_student_register);
 
         Fname = findViewById(R.id.Firstname);
-        Lname = findViewById(R.id.Lastname);
-        Studid = findViewById(R.id.StudentID);
+        ConfirmPassword = findViewById(R.id.Pwd2);
         Email = findViewById(R.id.Email);
+        imageView = findViewById(R.id.backButton);
+
         Password = findViewById(R.id.Pwd);
 
         Signup = findViewById(R.id.StudentSignup);
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate back when the back button is clicked
+                onBackPressed();
+            }
+        });
 
         databaseReference = FirebaseDatabase.getInstance().getReference("Student");
         FAuth = FirebaseAuth.getInstance();
@@ -51,8 +63,7 @@ public class StudentRegister extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 fname = Fname.getEditText().getText().toString().trim();
-                lname = Lname.getEditText().getText().toString().trim();
-                studid = Studid.getEditText().getText().toString().trim();
+                confirmpassword = ConfirmPassword.getEditText().getText().toString().trim();
                 email = Email.getEditText().getText().toString().trim();
                 password = Password.getEditText().getText().toString().trim();
 
@@ -85,6 +96,7 @@ public class StudentRegister extends AppCompatActivity {
                         public void onComplete(Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 // Registration successful
+
                                 String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
                                 databaseReference = FirebaseDatabase.getInstance().getReference("User").child(userid);
                                 final HashMap<String, String> hashMap = new HashMap<>();
@@ -93,11 +105,11 @@ public class StudentRegister extends AppCompatActivity {
                                     @Override
                                     public void onComplete(Task<Void> task) {
                                         HashMap<String, String> hashMap1 = new HashMap<>();
-                                        hashMap1.put("Student Id", studid);
                                         hashMap1.put("First Name", fname);
-                                        hashMap1.put("Last Name", lname);
                                         hashMap1.put("Email", email);
                                         hashMap1.put("Password", password);
+                                        hashMap1.put("Confirm Password", confirmpassword);
+
 
                                         FirebaseDatabase.getInstance().getReference("Student")
                                                 .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
@@ -121,7 +133,11 @@ public class StudentRegister extends AppCompatActivity {
                                                                         @Override
                                                                         public void onClick(DialogInterface dialog, int which) {
                                                                             dialog.dismiss();
-                                                                            // Handle what to do after clicking OK
+
+                                                                            // Start the login activity after successful registration
+                                                                            Intent intent = new Intent(StudentRegister.this, Login.class);
+                                                                            startActivity(intent);
+                                                                            finish(); // Optional: Close the current activity to prevent going back to registration screen
                                                                         }
                                                                     });
                                                                     AlertDialog Alert = builder.create();
@@ -155,14 +171,13 @@ public class StudentRegister extends AppCompatActivity {
         Email.setError("");
         Fname.setErrorEnabled(false);
         Fname.setError("");
-        Lname.setErrorEnabled(false);
-        Lname.setError("");
-        Studid.setErrorEnabled(false);
-        Studid.setError("");
+        ConfirmPassword.setErrorEnabled(false);
+        ConfirmPassword.setError("");
+
         Password.setErrorEnabled(false);
         Password.setError("");
 
-        boolean isValid = false, isValidLname = false, isValidname = false, isValidemail = false, isValidpassword = false, isValidstudentid = false;
+        boolean isValid = false, isValidconfirmpassword = false, isValidname = false, isValidemail = false, isValidpassword = false;
 
         if (TextUtils.isEmpty(fname)) {
             Fname.setErrorEnabled(true);
@@ -171,12 +186,7 @@ public class StudentRegister extends AppCompatActivity {
             isValidname = true;
         }
 
-        if (TextUtils.isEmpty(lname)) {
-            Lname.setErrorEnabled(true);
-            Lname.setError("Enter Last Name");
-        } else {
-            isValidLname = true;
-        }
+
 
         if (TextUtils.isEmpty(email)) {
             Email.setErrorEnabled(true);
@@ -202,21 +212,20 @@ public class StudentRegister extends AppCompatActivity {
             }
         }
 
-        if (TextUtils.isEmpty(studid)) {
-            Studid.setErrorEnabled(true);
-            Studid.setError("Enter StudentID");
+        if (TextUtils.isEmpty(confirmpassword)) {
+            ConfirmPassword.setErrorEnabled(true);
+            ConfirmPassword.setError("Enter Password");
         } else {
-            if (studid.length() < 8) {
-                Studid.setErrorEnabled(true);
-                Studid.setError("StudentID is weak");
+            if (confirmpassword.length() < 8) {
+                ConfirmPassword.setErrorEnabled(true);
+                ConfirmPassword.setError("Password is weak");
             } else {
-                isValidstudentid = true;
+                isValidconfirmpassword = true;
             }
         }
 
-        isValid = (isValidemail && isValidpassword && isValidname && isValidstudentid && isValidLname) ? true : false;
+        isValid = (isValidemail && isValidpassword && isValidname && isValidconfirmpassword) ? true : false;
 
         return isValid;
     }
-
 }

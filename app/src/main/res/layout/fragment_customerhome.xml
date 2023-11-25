@@ -6,7 +6,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:menu="@menu/search"
-    android:background="@drawable/udm25">
+    android:background="@drawable/mainbg">
+
 
 
 

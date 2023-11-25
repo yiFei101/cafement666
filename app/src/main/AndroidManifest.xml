@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.loginauthentication" >
+    package="com.example.loginauthentication">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -17,15 +18,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAuthentication"
         tools:replace="android:theme"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".CustomerFoodPanel.PopupPanel"
+            android:exported="false" />
+
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
         <activity
             android:name=".Login"
             android:exported="false" />
-
         <activity
             android:name=".MerchantPanel.Update_Delete_Dish"
             android:exported="false" />
-
         <activity
             android:name=".MerchantPanel.Chef_order_dishes"
             android:exported="false" />
@@ -35,27 +41,21 @@
         <activity
             android:name=".MerchantPanel.MerchantNavigationBar"
             android:exported="false" />
-
         <activity
             android:name=".MerchantPanel.ChefOrderTobePrepared"
             android:exported="false" />
         <activity
             android:name=".MerchantPanel.ChefOrdertobePrepareView"
             android:exported="false" />
-
-
         <activity
             android:name=".MerchantPanel.ChefPreparedOrder"
             android:exported="false" />
-
         <activity
             android:name=".MerchantPanel.ChefPreparedOrderView"
             android:exported="false" />
-
         <activity
             android:name=".CustomerFoodPanel.CustomerPayment"
             android:exported="false" />
-
         <activity
             android:name=".CustomerFoodPanel.CustomerOnlinePayment"
             android:exported="false" />
@@ -68,24 +68,18 @@
         <activity
             android:name=".CustomerFoodPanel.OrderDish"
             android:label="Pending Orders" />
-
         <activity
             android:name=".CustomerFoodPanel_BottomNavigation"
             android:windowSoftInputMode="adjustNothing" />
         <activity
             android:name=".ChefFoodPanel_BottomNavigation1"
             android:windowSoftInputMode="adjustNothing" />
-
         <activity
-
             android:name=".AdminPanel"
             android:exported="false" />
         <activity
             android:name=".loadinganimation"
             android:exported="false" />
-
-
-
         <activity
             android:name=".StudentRegister"
             android:exported="false" />
@@ -112,10 +106,8 @@
             android:name="com.google.android.actions"
             android:resource="@xml/style" />
 
-
-
         <service
-            android:name="com.example.loginauthentication.SendNotification.MyFirebaseMessagingService"
+            android:name=".SendNotification.MyFirebaseMessagingService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -123,19 +115,20 @@
             </intent-filter>
         </service>
         <service
-            android:name="com.example.loginauthentication.SendNotification.MyFirebaseIdService"
+            android:name=".SendNotification.MyFirebaseIdService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-        <activity
 
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
@@ -144,8 +137,7 @@
                 android:value="" />
             <meta-data
                 android:name="com.google.android.gms.ads.APPLICATION_ID"
-                android:value=""/>
-
+                android:value="" />
         </activity>
     </application>
 

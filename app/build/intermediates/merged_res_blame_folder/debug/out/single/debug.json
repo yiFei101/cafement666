@@ -1,918 +1,1050 @@
 [
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_food_item_layout.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/food_item_layout.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_add_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable-v24_pakyu.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable-v24\\pakyu.jpg"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_baseline_search_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/baseline_search_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_food_search.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_food_search.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_customerhome.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_customerhome.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_unselected.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\unselected.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_cafement.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/cafement.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_customer_online_payment.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_customer_online_payment.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_customer_trackorder.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\customer_trackorder.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_search_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_search_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\baseline_search_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_slider_layout.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/slider_layout.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_customerprofile.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_customerprofile.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_add_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_add_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_outline_monetization_on_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\outline_monetization_on_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_dialogbkg.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/dialogbkg.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_chef_ordertobeprepared_view.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\chef_ordertobeprepared_view.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_merchant_nav_header.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/merchant_nav_header.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\raw_chef.json.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\raw\\chef.json"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_chef_hat_and_fork.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_chef_hat_and_fork.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_exit_to_app_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_exit_to_app_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_restaurant_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_restaurant_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_change_bg.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\change_bg.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_elegant_btnshape.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/elegant_btnshape.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_menu_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_lumpia.jpg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/lumpia.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\menu_student_bottom_menu.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\menu\\student_bottom_menu.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/xml_style.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/xml/style.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_food_home.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_food_home.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_carinderia.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/carinderia.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_customer_trackorder.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/customer_trackorder.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_assignment_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_assignment_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_udmb.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/udmb.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_rounded_corner.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\rounded_corner.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/xml_backup_rules.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_camerabtnshape.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\camerabtnshape.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_enter_address.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/enter_address.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_student_orders.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_student_orders.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_chef_menu_update_delete.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/chef_menu_update_delete.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_slidesbg2.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\slidesbg2.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_chef_prepared_order_view.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_chef_prepared_order_view.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\raw_animation2.json.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\raw\\animation2.json"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_register.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_register.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_whatshot_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_whatshot_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_item_food.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/item_food.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_seleted.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\seleted.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_pending_orders.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_pending_orders.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_cafement4.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\cafement4.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_outline_monetization_on_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/outline_monetization_on_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_photo_library_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_photo_library_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_merchant_pendingorders.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_merchant_pendingorders.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_udm123.jpeg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\udm123.jpeg"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/anim_move.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/anim/move.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\raw_animation1.json.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\raw\\animation1.json"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_home_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_home_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_chef_ordertobeprepared.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\chef_ordertobeprepared.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_restaurant_menu_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_restaurant_menu_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_merchantregistertoolbar.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\merchantregistertoolbar.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_btnblueish.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/btnblueish.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_chef_order_dishes.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\chef_order_dishes.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_cafement1.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/cafement1.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_dashed_border.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\dashed_border.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_subscriptions_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_subscriptions_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_round_bg.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\round_bg.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_shopping_cart_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_shopping_cart_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_search_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_search_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_logout_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_logout_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_daily_meal_bg.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\daily_meal_bg.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_main.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_main.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_chef_orders.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\chef_orders.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_payment_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_payment_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_customer_payableorder.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\customer_payableorder.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_back.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_back.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_popup_panel.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_popup_panel.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_placeholder_image.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/placeholder_image.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_home_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable-v24_poppins_bold.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable-v24/poppins_bold.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_cart.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_cart.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_email_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_email_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_food_menu.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_food_menu.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_merchant_orders.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_merchant_orders.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_cart_placeorder.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/cart_placeorder.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\font_caudex.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\font\\caudex.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_chef_preparedorderview.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/chef_preparedorderview.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_next.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_next.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_food_fav.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_food_fav.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_chef_order_dishes1.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\chef_order_dishes1.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_whatshot_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_whatshot_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_student_panel_navigation_bar.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_student_panel_navigation_bar.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_camera_alt_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_camera_alt_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_merchant_profile.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_merchant_profile.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/menu_search.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/menu/search.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_chef_order_tobe_prepared.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_chef_order_tobe_prepared.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/menu_merchant_bottom_menu.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/menu/merchant_bottom_menu.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_remove_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_remove_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_clear_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_clear_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_item.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_item.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_login.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_login.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_udmb.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\udmb.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_payable_orders.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_payable_orders.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_payment_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_payment_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_customercart.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_customercart.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_assignment_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_assignment_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_icecream.jpg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/icecream.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_dashboard.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_share_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_share_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_cafement1.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\cafement1.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/raw_animation1.json.flat",
-        "source": "com.example.loginauthentication.app-main-53:/raw/animation1.json"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_shopping_cart_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_shopping_cart_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.loginauthentication.app-merged_res-55:/layout_activity_orderdish1.xml.flat",
+        "source": "com.example.loginauthentication.app-main-57:/layout/activity_orderdish1.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_payment_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_payment_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_merchant_home.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_merchant_home.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_customer_menudish.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/customer_menudish.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_oval.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/oval.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_main2.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable-v24_ellipse1.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable-v24/ellipse1.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_registration.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_registration.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_chocolate.jpeg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/chocolate.jpeg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_merchant_orders.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_merchant_orders.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_aklogo.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/aklogo.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\menu_menu1.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\menu\\menu1.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_maya.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/maya.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable-v24_poppins_bold.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable-v24\\poppins_bold.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_food_item_layout1.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/food_item_layout1.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/font_nunito_semibold.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/font/nunito_semibold.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\menu\\menu.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_unselected.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/unselected.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\anim_slide_in.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\anim\\slide_in.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_student_menu.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_student_menu.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_info_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_info_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_exit_to_app_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_exit_to_app_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/raw_animation2.json.flat",
-        "source": "com.example.loginauthentication.app-main-53:/raw/animation2.json"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_person_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_person_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_home_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_home_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_order_dish.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_order_dish.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_imageuplaoder.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_imageuplaoder.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_restaurant_menu_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_restaurant_menu_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_student_home.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_student_home.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_payableorderstoolbar.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\payableorderstoolbar.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_chef_preparedorder.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/chef_preparedorder.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_rounded_corner_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_rounded_corner_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_pic14.jpg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/pic14.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_search_bg.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\search_bg.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/menu_student_bottom_menu.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/menu/student_bottom_menu.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\color_bottomcolour.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\color\\bottomcolour.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_bgcolor1.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/bgcolor1.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_clear_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_clear_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_cafement2.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/cafement2.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_food_item_layout.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\food_item_layout.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_food_panel__bottom_navigation.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_food_panel__bottom_navigation.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable-v24_poppins.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable-v24\\poppins.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_bottomsheetlayout.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/bottomsheetlayout.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_bgcolor1.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\bgcolor1.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_settings.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_settings.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_info_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_info_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_chef_prepared_order.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_chef_prepared_order.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_circle2.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\circle2.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_udm25.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/udm25.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_chef_preparedorderview.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\chef_preparedorderview.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_right_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_right_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_student_panel_navigation_bar.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_student_panel_navigation_bar.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_chef_order_dishes.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_chef_order_dishes.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_camerabtnshape.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/camerabtnshape.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\raw_animation3.json.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\raw\\animation3.json"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_back.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_back.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_food_tray.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_food_tray.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_btnred.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\btnred.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_udm24.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/udm24.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_settings_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_remove_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_remove_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_chef_food_panel__bottom_navigation.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_chef_food_panel__bottom_navigation.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_customer_payment.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_customer_payment.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_food_panel__bottom_navigation.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_food_panel__bottom_navigation.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/anim_slide_out.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/anim/slide_out.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\font_poppins_regular.ttf.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\font\\poppins_regular.ttf"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_adobo.jpg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/adobo.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_lumpia.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\lumpia.jpg"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_chef_orders.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/chef_orders.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_access_time_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_access_time_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_subscriptions_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_subscriptions_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_gcash.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/gcash.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable-v24_ellipse2.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable-v24\\ellipse2.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_fastfood_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_fastfood_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\circle.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_dish_spoon_knife.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_dish_spoon_knife.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_shopping_cart_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_shopping_cart_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_chef_ordertobeprepared_view.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/chef_ordertobeprepared_view.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_fragment_chef_profile.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\fragment_chef_profile.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/anim_slide_in.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/anim/slide_in.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_pkgbg.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\pkgbg.jpg"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_merchant_profile.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_merchant_profile.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_photo_camera_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_photo_camera_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_background_shape.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/background_shape.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_merchant_pendingorders.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_merchant_pendingorders.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_paymaya.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/paymaya.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_access_time_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_access_time_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/anim_zoomin.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/anim/zoomin.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_carinderia.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\carinderia.webp"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/menu_menu1.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/menu/menu1.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_paymaya.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\paymaya.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_chef_food_panel__bottom_navigation.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_chef_food_panel__bottom_navigation.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_customer_menudish.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\customer_menudish.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_chef_order_dishes.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/chef_order_dishes.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_payable_orders.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_payable_orders.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_btnred.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/btnred.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_neworder.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_neworder.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_person_outline_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_person_outline_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/raw_no_internet_file.json.flat",
-        "source": "com.example.loginauthentication.app-main-53:/raw/no_internet_file.json"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_slidesbg1.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\slidesbg1.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_student_register.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_student_register.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_loadinganimation.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_loadinganimation.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable-v24_pakyu1.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable-v24\\pakyu1.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_merchant_order_tobeprepared.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/merchant_order_tobeprepared.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_placeholder_image.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\placeholder_image.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/anim_zoomout.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/anim/zoomout.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_rectangle_background.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\rectangle_background.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_fragment_chef_profile.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/fragment_chef_profile.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\menu_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\menu\\bottom_navigation.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_slider_layout.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\slider_layout.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_admin_panel.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_admin_panel.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_arrow_white.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_arrow_white.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_camerashapebtn.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/camerashapebtn.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_foreground_design.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\foreground_design.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_customerorder.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_customerorder.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_merchantlogin.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_merchantlogin.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_merchant_navigation_bar.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_merchant_navigation_bar.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_rectangle_background.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/rectangle_background.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_udm.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\udm.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_merchant_orders.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/merchant_orders.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_oval.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\oval.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_search_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_search_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_imageuplaoder.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_imageuplaoder.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_restaurant.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/restaurant.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_content_paste_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_content_paste_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_vibration_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_vibration_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_customerhome.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_customerhome.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_studentfaq.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_studentfaq.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_slides.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_slides.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_merchantordertobeprepared.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/merchantordertobeprepared.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_merchantregister.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_merchantregister.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_merchant_post_dish.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_merchant_post_dish.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_udm22.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\udm22.jpg"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/raw_animation4.json.flat",
-        "source": "com.example.loginauthentication.app-main-53:/raw/animation4.json"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_cast_connected_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_cast_connected_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_search_bg.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/search_bg.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_settings.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_udm.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/udm.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_headerbkg.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\headerbkg.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_udmbg.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/udmbg.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_favorite.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_favorite.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/menu_bottom_navigation.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/menu/bottom_navigation.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_pendingorderstoolbar.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\pendingorderstoolbar.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_udm1234.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/udm1234.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_profile.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_udm123.jpeg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/udm123.jpeg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_orderdish1.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_orderdish1.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_food_title.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/food_title.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_cafement5.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\cafement5.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_button_shape.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/button_shape.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\menu_chef_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\menu\\chef_bottom_navigation.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_chef_order_dishes.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_chef_order_dishes.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_food_back.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_food_back.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/menu_menu.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/menu/menu.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_bottomsheetlayout.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\bottomsheetlayout.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_dashboard.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_dashboard.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_logout_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_logout_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_slides.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_slides.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable-v24_poppins_light.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable-v24\\poppins_light.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_seleted.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/seleted.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_cafement.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\cafement.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/menu_logout.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/menu/logout.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\menu_merchant_nav_menu.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\menu\\merchant_nav_menu.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_marchantorder.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/marchantorder.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_chef_preparedorder.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\chef_preparedorder.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_rounded_corner_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_rounded_corner_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_udm24.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\udm24.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_round_bg.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/round_bg.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_merchant_order_tobeprepared.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\merchant_order_tobeprepared.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_student_orders.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_student_orders.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\font_nunito.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\font\\nunito.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_pending_order_dishes.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/pending_order_dishes.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_pending_orders.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_pending_orders.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_food_menu.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_food_menu.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_student_menu.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_student_menu.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/font_caudex.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/font/caudex.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_enter_address.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\enter_address.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/raw_animation3.json.flat",
-        "source": "com.example.loginauthentication.app-main-53:/raw/animation3.json"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_food_item_layout1.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\food_item_layout1.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_merchantorderdishes.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/merchantorderdishes.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_bg_btn.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\bg_btn.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_main_menu.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_main_menu.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_person_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_person_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_menu.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_menu.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_gcash.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/gcash.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_right_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_right_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_cafement4.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/cafement4.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_udm25.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\udm25.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/font_nunito.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/font/nunito.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_plus.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_plus.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_registration.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_registration.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_rounded_rectangle.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\rounded_rectangle.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_restaurant_menu_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_restaurant_menu_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_mainbg.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\mainbg.jpg"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_chef_pendingorders.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_chef_pendingorders.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_default_bg.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\default_bg.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_dashed_border.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/dashed_border.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_udm26.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/udm26.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_student_panel.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_student_panel.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_schedule_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_schedule_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_burger.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\burger.jpg"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_next.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_next.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_default_bg.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/default_bg.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_customerhometoolbar.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\customerhometoolbar.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_chef_order_dishes1.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/chef_order_dishes1.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\raw_no_internet_file.json.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\raw\\no_internet_file.json"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_main_menu.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_main_menu.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_update__delete__dish.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_update__delete__dish.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_photo_library_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_photo_library_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_sariwa.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\sariwa.jpg"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_burger.jpg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/burger.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_person_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_customer_payableorder.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/customer_payableorder.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_restaurant.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\restaurant.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_merchant_home.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_merchant_home.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_customercart.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_customercart.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable-v24_poppins_light.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable-v24/poppins_light.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_chef_pendingorders.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_chef_pendingorders.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/menu_chef_bottom_navigation.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/menu/chef_bottom_navigation.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\font_nunito_semibold.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\font\\nunito_semibold.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_food_search.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_food_search.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_pending_order_dishes.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\pending_order_dishes.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_chef_ordertobeprepared.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/chef_ordertobeprepared.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_camerashapebtn.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\camerashapebtn.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_food_home.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_food_home.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_student_home.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_student_home.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_exit_to_app_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_exit_to_app_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_chef_hat_and_fork.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_chef_hat_and_fork.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_access_time_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_access_time_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_merchant_post_dish.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_merchant_post_dish.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_person_outline_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_person_outline_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\toolbar.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_shopping_cart_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_shopping_cart_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_share_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_share_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_order_dish.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_order_dish.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\raw_animation4.json.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\raw\\animation4.json"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_food_back.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_food_back.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/raw_animation.json.flat",
-        "source": "com.example.loginauthentication.app-main-53:/raw/animation.json"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_customer_payment.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_customer_payment.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_udm22.jpg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/udm22.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_customer_online_payment.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_customer_online_payment.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/menu_merchant_nav_menu.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/menu/merchant_nav_menu.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_item_food.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\item_food.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_student_panel.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_student_panel.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\raw_animation.json.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\raw\\animation.json"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_file_upload_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_file_upload_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_chef_menu_update_delete.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\chef_menu_update_delete.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_slidesbg2.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/slidesbg2.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_dialogbkg.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\dialogbkg.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/menu_bottom_menu.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/menu/bottom_menu.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\anim_zoomin.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\anim\\zoomin.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_exit_to_app_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_exit_to_app_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_headerbkg.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/headerbkg.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_restaurant_menu_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_restaurant_menu_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_neworder.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_neworder.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_studentfaq.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_studentfaq.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_assignment_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_assignment_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_food_fav.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_food_fav.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_photo_camera_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_photo_camera_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_foreground_design.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/foreground_design.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\anim_zoomout.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\anim\\zoomout.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable-v24_pakyu1.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable-v24/pakyu1.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_merchantordertobeprepared.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\merchantordertobeprepared.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable-v24_pakyu.jpg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable-v24/pakyu.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_food_title.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\food_title.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_daily_meal_bg.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/daily_meal_bg.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_adobo.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\adobo.jpg"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_slidesbg1.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/slidesbg1.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\raw_animation5.json.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\raw\\animation5.json"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_merchant_navigation_bar.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_merchant_navigation_bar.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_cart_placeorder.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\cart_placeorder.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_settings_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_settings_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_search_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/raw_animation5.json.flat",
-        "source": "com.example.loginauthentication.app-main-53:/raw/animation5.json"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_arrow_back.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_arrow_back.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_main2.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_main2.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_rounded_square.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\rounded_square.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_minus.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_minus.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_change_bg.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/change_bg.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_vibration_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_vibration_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_student_register.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_student_register.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_maya.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\maya.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_chef_ordertobe_prepare_view.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_chef_ordertobe_prepare_view.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_file_upload_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_file_upload_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/color_bottomcolour.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/color/bottomcolour.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_admin_panel.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_admin_panel.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_chef_ordertobe_prepare_view.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_chef_ordertobe_prepare_view.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.loginauthentication.app-main-53:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_btnblueish.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\btnblueish.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_cast_connected_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_cast_connected_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_chocolate.jpeg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\chocolate.jpeg"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_update__delete__dish.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_update__delete__dish.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_udmbg.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\udmbg.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_assignment_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_assignment_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_camera_alt_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_camera_alt_black_24dp.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable-v24_ellipse2.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable-v24/ellipse2.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_dish_spoon_knife.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_dish_spoon_knife.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_content_paste_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_content_paste_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable-v24_ellipse1.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable-v24\\ellipse1.png"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_chef_order_tobe_prepared.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_chef_order_tobe_prepared.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_email_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable-v24_poppins.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable-v24/poppins.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_activity_merchantregister.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/activity_merchantregister.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_marchantorder.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\marchantorder.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_sariwa.jpg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/sariwa.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\raw_animation9.json.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\raw\\animation9.json"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_baseline_menu_24.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_baseline_menu_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\menu_merchant_bottom_menu.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\menu\\merchant_bottom_menu.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_pkgbg.jpg.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/pkgbg.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_cafement5.png.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/cafement5.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_restaurant_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_restaurant_24.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/drawable_ic_access_time_black_24dp.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/drawable/ic_access_time_black_24dp.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_customerorder.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_customerorder.xml"
     },
     {
-        "merged": "com.example.loginauthentication.app-merged_res-51:/layout_fragment_customertrack.xml.flat",
-        "source": "com.example.loginauthentication.app-main-53:/layout/fragment_customertrack.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_chef_prepared_order_view.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_chef_prepared_order_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_schedule_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_schedule_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_gcash.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\gcash.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_remove.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_remove.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_chef_prepared_order.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_chef_prepared_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_aklogo.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\aklogo.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_background_shape.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\background_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\menu\\bottom_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_elegant_btnshape.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\elegant_btnshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_icecream.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\icecream.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_udm26.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\udm26.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_customerprofilefragment.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_customerprofilefragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_merchantorderdishes.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\merchantorderdishes.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_payment_black_24dp.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_payment_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_pic14.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\pic14.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_baseline_fastfood_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_baseline_fastfood_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\menu_search.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\menu\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_gcash.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\gcash.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_merchant_nav_header.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\merchant_nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\anim_move.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\anim\\move.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_loadinganimation.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_loadinganimation.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_udm1234.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\udm1234.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_merchant_orders.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\merchant_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_ic_food_tray.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\ic_food_tray.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\xml_style.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\xml\\style.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_button_shape.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\button_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_fragment_customertrack.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\fragment_customertrack.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\anim_slide_out.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\anim\\slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\menu_logout.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\menu\\logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\drawable_cafement2.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\drawable\\cafement2.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-merged_res-55:\\layout_activity_merchantlogin.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.loginauthentication.app-main-57:\\layout\\activity_merchantlogin.xml"
     }
 ]

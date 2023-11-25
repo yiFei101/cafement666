@@ -27,6 +27,8 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fade_in
+anim fade_out
 anim fragment_fast_out_extra_slow_in
 anim linear_indeterminate_line1_head_interpolator
 anim linear_indeterminate_line1_tail_interpolator
@@ -88,6 +90,7 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+animator slidetoact_animator_ic_check
 array DishName
 array Dishname
 array State
@@ -151,13 +154,17 @@ attr animateCircleAngleTo
 attr animateMenuItems
 attr animateNavigationIcon
 attr animateRelativeTo
+attr animate_completion
 attr animationMode
+attr animation_duration
 attr appBarLayoutStyle
 attr applyMotionScene
 attr arcMode
+attr area_margin
 attr argType
 attr arrowHeadLength
 attr arrowShaftLength
+attr arrow_color
 attr attributeName
 attr autoCompleteMode
 attr autoCompleteTextViewStyle
@@ -212,10 +219,12 @@ attr behavior_peekHeight
 attr behavior_saveFlags
 attr behavior_significantVelocityThreshold
 attr behavior_skipCollapsed
+attr bg_color
 attr blendSrc
 attr borderRound
 attr borderRoundPercent
 attr borderWidth
+attr border_radius
 attr borderlessButtonStyle
 attr bottomAppBarStyle
 attr bottomInsetScrimEnabled
@@ -235,6 +244,9 @@ attr boxStrokeErrorColor
 attr boxStrokeWidth
 attr boxStrokeWidthFocused
 attr brightness
+attr btn_radius
+attr btn_text
+attr bump_vibration
 attr buttonBarButtonStyle
 attr buttonBarNegativeButtonStyle
 attr buttonBarNeutralButtonStyle
@@ -315,6 +327,22 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border
+attr civ_border_color
+attr civ_border_color_direction
+attr civ_border_color_end
+attr civ_border_color_start
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
+attr civ_circle_color
+attr civ_circle_color_direction
+attr civ_circle_color_end
+attr civ_circle_color_start
+attr civ_shadow
+attr civ_shadow_color
+attr civ_shadow_gravity
+attr civ_shadow_radius
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -404,6 +432,7 @@ attr colorTertiaryFixed
 attr colorTertiaryFixedDim
 attr commitIcon
 attr compatShadowEnabled
+attr complete_icon
 attr constraintRotate
 attr constraintSet
 attr constraintSetEnd
@@ -704,6 +733,7 @@ attr iconStartPadding
 attr iconTint
 attr iconTintActive
 attr iconTintMode
+attr icon_margin
 attr iconifiedByDefault
 attr ifTagNotSet
 attr ifTagSet
@@ -724,6 +754,7 @@ attr indicatorRadius
 attr indicatorSize
 attr initialActivityCount
 attr initialNumber
+attr inner_color
 attr insetForeground
 attr isLightTheme
 attr isMaterial3DynamicColorApplied
@@ -1032,6 +1063,7 @@ attr onPositiveCross
 attr onShow
 attr onStateTransition
 attr onTouchUp
+attr outer_color
 attr overlapAnchor
 attr overlay
 attr paddingBottomNoButtons
@@ -1113,6 +1145,7 @@ attr riv_oval
 attr riv_tile_mode
 attr riv_tile_mode_x
 attr riv_tile_mode_y
+attr rotate_icon
 attr rotationCenterId
 attr round
 attr roundPercent
@@ -1165,7 +1198,13 @@ attr singleChoiceItemLayout
 attr singleLine
 attr singleSelection
 attr sizePercent
+attr slideToActViewStyle
 attr sliderStyle
+attr slider_height
+attr slider_icon
+attr slider_icon_color
+attr slider_locked
+attr slider_reversed
 attr snackbarButtonStyle
 attr snackbarStyle
 attr snackbarTextViewStyle
@@ -1193,6 +1232,7 @@ attr startIconTintMode
 attr state_above_anchor
 attr state_collapsed
 attr state_collapsible
+attr state_complete
 attr state_dragged
 attr state_error
 attr state_indeterminate
@@ -1258,6 +1298,7 @@ attr targetPackage
 attr telltales_tailColor
 attr telltales_tailScale
 attr telltales_velocityMode
+attr text
 attr textAllCaps
 attr textAppearanceBody1
 attr textAppearanceBody2
@@ -1321,6 +1362,10 @@ attr textPanX
 attr textPanY
 attr textSize
 attr textStartPadding
+attr text_appearance
+attr text_color
+attr text_size
+attr text_style
 attr textureBlurFactor
 attr textureEffect
 attr textureHeight
@@ -2204,6 +2249,9 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color proswipebtn_disabled_grey
+color proswipebtn_red
+color proswipebtn_translucent_white
 color purple_200
 color purple_500
 color purple_700
@@ -2214,6 +2262,8 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color slidetoact_defaultAccent
+color slidetoact_white
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -2996,6 +3046,9 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen slidetoact_default_area_margin
+dimen slidetoact_default_icon_margin
+dimen slidetoact_default_text_size
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -3090,6 +3143,7 @@ drawable avd_show_password
 drawable background
 drawable background_shape
 drawable baseline_search_24
+drawable bg_btn
 drawable bgcolor1
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3113,6 +3167,8 @@ drawable camerashapebtn
 drawable carinderia
 drawable change_bg
 drawable chocolate
+drawable circle
+drawable circle2
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3160,6 +3216,8 @@ drawable ic_assignment_black_24dp
 drawable ic_back
 drawable ic_baseline_access_time_24
 drawable ic_baseline_add_24
+drawable ic_baseline_arrow_back
+drawable ic_baseline_arrow_white
 drawable ic_baseline_assignment_24
 drawable ic_baseline_cast_connected_24
 drawable ic_baseline_clear_24
@@ -3172,9 +3230,11 @@ drawable ic_baseline_info_24
 drawable ic_baseline_logout_24
 drawable ic_baseline_menu_24
 drawable ic_baseline_payment_24
+drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
 drawable ic_baseline_photo_camera_24
 drawable ic_baseline_photo_library_24
+drawable ic_baseline_remove
 drawable ic_baseline_remove_24
 drawable ic_baseline_restaurant_24
 drawable ic_baseline_restaurant_menu_24
@@ -3187,12 +3247,16 @@ drawable ic_baseline_subscriptions_24
 drawable ic_baseline_vibration_24
 drawable ic_baseline_whatshot_24
 drawable ic_camera_alt_black_24dp
+drawable ic_cancel_full_24dp
+drawable ic_cart
+drawable ic_check_circle_36dp
 drawable ic_chef_hat_and_fork
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_content_paste_black_24dp
 drawable ic_dish_spoon_knife
 drawable ic_exit_to_app_black_24dp
+drawable ic_favorite
 drawable ic_flip_24
 drawable ic_food_back
 drawable ic_food_fav
@@ -3201,12 +3265,15 @@ drawable ic_food_menu
 drawable ic_food_search
 drawable ic_food_tray
 drawable ic_home_black_24dp
+drawable ic_item
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
+drawable ic_menu
+drawable ic_minus
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -3215,6 +3282,7 @@ drawable ic_neworder
 drawable ic_next
 drawable ic_payment_black_24dp
 drawable ic_person_black_24dp
+drawable ic_plus
 drawable ic_restaurant_menu_black_24dp
 drawable ic_right_black_24dp
 drawable ic_rotate_left_24
@@ -3223,6 +3291,7 @@ drawable ic_schedule_black_24dp
 drawable ic_search_black_24
 drawable ic_search_black_24dp
 drawable ic_shopping_cart_black_24dp
+drawable ic_swipe_right_caret
 drawable icecream
 drawable lumpia
 drawable m3_appbar_background
@@ -3236,6 +3305,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable mainbg
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -3311,11 +3381,17 @@ drawable poppins_light
 drawable rectangle_background
 drawable restaurant
 drawable round_bg
+drawable rounded_corner
+drawable rounded_rectangle
+drawable rounded_square
 drawable sariwa
 drawable search_bg
 drawable seleted
 drawable slidesbg1
 drawable slidesbg2
+drawable slidetoact_animated_ic_check
+drawable slidetoact_ic_arrow
+drawable slidetoact_ic_check
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3332,6 +3408,7 @@ drawable unselected
 font caudex
 font nunito
 font nunito_semibold
+font poppins_regular
 id AD
 id ALT
 id BOTTOM_END
@@ -3366,8 +3443,6 @@ id HA
 id Home
 id ImageView_image
 id LA
-id Lastname
-id Lastname1
 id LogOut
 id META
 id MerchantPendingOrders
@@ -3384,6 +3459,7 @@ id PendingOrders
 id Profile
 id Pwd
 id Pwd1
+id Pwd2
 id Pwdformerchant
 id QY
 id Quantity
@@ -3404,7 +3480,6 @@ id SYM
 id Searchdish
 id Settings
 id Signwithstudentid
-id StudentID
 id StudentSignin
 id StudentSignup
 id Swipe1
@@ -3502,8 +3577,10 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id automatic
+id awesome_btn
 id back1
 id back2
+id backButton
 id backbtn
 id barrier
 id baseline
@@ -3511,12 +3588,14 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bold
 id bottom
 id bottomAppBar
 id bottomNavigationView
 id bottom_left
 id bottom_navigation
 id bottom_right
+id bottom_to_top
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3529,6 +3608,7 @@ id browser_actions_menu_view
 id btn
 id btnChoose
 id btnUpload
+id btn_back
 id btnn
 id button1
 id buttonPanel
@@ -3552,6 +3632,7 @@ id checked
 id chefHome
 id chefProfile
 id chef_bottom_navigation
+id chef_name
 id chronometer
 id circle_center
 id clamp
@@ -3621,6 +3702,7 @@ id dishnm
 id dishprice
 id dishqty
 id disjoint
+id divider
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3641,12 +3723,14 @@ id elastic
 id elegantbtn
 id ellipse1
 id ellipse2
+id emailID
 id embed
 id enabled
 id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id example1
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3677,6 +3761,7 @@ id fragment_container_view_tag
 id frame_container
 id frame_layout
 id frost
+id fullname
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
@@ -3728,6 +3813,8 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_arrow1
+id iv_arrow2
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3738,13 +3825,16 @@ id layoutVideo
 id layout_button
 id left
 id leftToRight
+id left_to_right
 id legacy
 id library
 id light
 id line1
 id line3
+id lineaar_li
 id linear
 id linearLayout
+id linearLayout_swipeBtn_hintContainer
 id linear_layout
 id linearlayout
 id listMode
@@ -3855,7 +3945,6 @@ id on
 id onInterceptTouchReturnSwipe
 id onTouch
 id onlinePaymentButton
-id order
 id orders
 id ordertobe
 id outline
@@ -3911,6 +4000,7 @@ id recyclepayableorder
 id recyclerView
 id register
 id reject
+id relativeLayout_swipeBtn_contentContainer
 id repeat
 id restart
 id return_policy
@@ -3921,8 +4011,10 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id right_to_left
 id roleRadioGroup
 id rounded
+id rounded_bg
 id row_index_key
 id rs
 id rupees
@@ -3960,7 +4052,6 @@ id search_view_status_bar_spacer
 id search_view_toolbar
 id search_view_toolbar_container
 id search_voice_btn
-id searchbar
 id select_dialog_listview
 id selected
 id selection_type
@@ -4062,6 +4153,7 @@ id top
 id topPanel
 id top_left
 id top_right
+id top_to_bottom
 id totRS
 id total
 id totalrs
@@ -4074,6 +4166,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_btnText
 id unchecked
 id uniform
 id unlabeled
@@ -4236,8 +4329,11 @@ layout activity_merchant_post_dish
 layout activity_merchantlogin
 layout activity_merchantregister
 layout activity_order_dish
+layout activity_orderdish1
 layout activity_payable_orders
 layout activity_pending_orders
+layout activity_popup_panel
+layout activity_profile
 layout activity_register
 layout activity_registration
 layout activity_slides
@@ -4263,6 +4359,7 @@ layout custom_dialog
 layout customer_menudish
 layout customer_payableorder
 layout customer_trackorder
+layout customerhometoolbar
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -4285,11 +4382,14 @@ layout fragment_chef_pendingorders
 layout fragment_customercart
 layout fragment_customerhome
 layout fragment_customerorder
+layout fragment_customerprofile
+layout fragment_customerprofilefragment
 layout fragment_customertrack
 layout fragment_merchant_home
 layout fragment_merchant_orders
 layout fragment_merchant_pendingorders
 layout fragment_merchant_profile
+layout fragment_profile
 layout fragment_settings
 layout fragment_student_home
 layout fragment_student_menu
@@ -4323,6 +4423,7 @@ layout merchant_order_tobeprepared
 layout merchant_orders
 layout merchantorderdishes
 layout merchantordertobeprepared
+layout merchantregistertoolbar
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -4361,12 +4462,16 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout payableorderstoolbar
 layout pending_order_dishes
+layout pendingorderstoolbar
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout slider_layout
 layout support_simple_spinner_dropdown_item
+layout toolbar
+layout view_proswipebtn
 menu bottom_menu
 menu bottom_navigation
 menu chef_bottom_navigation
@@ -4387,6 +4492,8 @@ raw animation2
 raw animation3
 raw animation4
 raw animation5
+raw animation9
+raw chef
 raw firebase_common_keep
 raw no_internet_file
 string abc_action_bar_home_description
@@ -5017,6 +5124,7 @@ style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day
 style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen
 style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year
 style ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox
+style SlideToActView
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2
@@ -5759,6 +5867,8 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
+styleable CircularImageView civ_border civ_border_color civ_border_color_direction civ_border_color_end civ_border_color_start civ_border_width civ_circle_color civ_circle_color_direction civ_circle_color_end civ_circle_color_start civ_shadow civ_shadow_color civ_shadow_gravity civ_shadow_radius
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize
@@ -5855,6 +5965,7 @@ styleable OnClick clickAction targetId
 styleable OnSwipe autoCompleteMode dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp rotationCenterId springBoundary springDamping springMass springStiffness springStopThreshold touchAnchorId touchAnchorSide touchRegionId
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
+styleable ProSwipeButton arrow_color bg_color btn_radius btn_text text_color text_size
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
@@ -5869,6 +5980,8 @@ styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottom
 styleable ShapeableImageView contentPadding contentPaddingBottom contentPaddingEnd contentPaddingLeft contentPaddingRight contentPaddingStart contentPaddingTop shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
 styleable SideSheetBehavior_Layout android_maxWidth android_maxHeight android_elevation backgroundTint behavior_draggable coplanarSiblingViewId shapeAppearance shapeAppearanceOverlay
 styleable SignInButton buttonSize colorScheme scopeUris
+styleable SlideToActView animate_completion animation_duration area_margin border_radius bump_vibration complete_icon icon_margin inner_color outer_color rotate_icon slider_height slider_icon slider_icon_color slider_locked slider_reversed state_complete text text_appearance text_color text_size text_style
+styleable SlideToActViewTheme slideToActViewStyle
 styleable Slider android_enabled android_value android_stepSize android_valueFrom android_valueTo haloColor haloRadius labelBehavior labelStyle minTouchTargetSize thumbColor thumbElevation thumbRadius thumbStrokeColor thumbStrokeWidth tickColor tickColorActive tickColorInactive tickRadiusActive tickRadiusInactive tickVisible trackColor trackColorActive trackColorInactive trackHeight
 styleable SmoothBottomBar activeItem backgroundColor cornerRadius corners duration iconMargin iconSize iconTint iconTintActive indicatorColor indicatorRadius itemFontFamily itemPadding menu sideMargins textColor textSize
 styleable Snackbar snackbarButtonStyle snackbarStyle snackbarTextViewStyle

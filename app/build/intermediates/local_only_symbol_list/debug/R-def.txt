@@ -50,6 +50,7 @@ drawable adobo
 drawable aklogo
 drawable background_shape
 drawable baseline_search_24
+drawable bg_btn
 drawable bgcolor1
 drawable btnblueish
 drawable btnred
@@ -65,6 +66,8 @@ drawable camerashapebtn
 drawable carinderia
 drawable change_bg
 drawable chocolate
+drawable circle
+drawable circle2
 drawable daily_meal_bg
 drawable dashed_border
 drawable default_bg
@@ -82,6 +85,8 @@ drawable ic_assignment_black_24dp
 drawable ic_back
 drawable ic_baseline_access_time_24
 drawable ic_baseline_add_24
+drawable ic_baseline_arrow_back
+drawable ic_baseline_arrow_white
 drawable ic_baseline_assignment_24
 drawable ic_baseline_cast_connected_24
 drawable ic_baseline_clear_24
@@ -94,9 +99,11 @@ drawable ic_baseline_info_24
 drawable ic_baseline_logout_24
 drawable ic_baseline_menu_24
 drawable ic_baseline_payment_24
+drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
 drawable ic_baseline_photo_camera_24
 drawable ic_baseline_photo_library_24
+drawable ic_baseline_remove
 drawable ic_baseline_remove_24
 drawable ic_baseline_restaurant_24
 drawable ic_baseline_restaurant_menu_24
@@ -109,10 +116,12 @@ drawable ic_baseline_subscriptions_24
 drawable ic_baseline_vibration_24
 drawable ic_baseline_whatshot_24
 drawable ic_camera_alt_black_24dp
+drawable ic_cart
 drawable ic_chef_hat_and_fork
 drawable ic_content_paste_black_24dp
 drawable ic_dish_spoon_knife
 drawable ic_exit_to_app_black_24dp
+drawable ic_favorite
 drawable ic_food_back
 drawable ic_food_fav
 drawable ic_food_home
@@ -120,12 +129,16 @@ drawable ic_food_menu
 drawable ic_food_search
 drawable ic_food_tray
 drawable ic_home_black_24dp
+drawable ic_item
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_menu
+drawable ic_minus
 drawable ic_neworder
 drawable ic_next
 drawable ic_payment_black_24dp
 drawable ic_person_black_24dp
+drawable ic_plus
 drawable ic_restaurant_menu_black_24dp
 drawable ic_right_black_24dp
 drawable ic_schedule_black_24dp
@@ -133,6 +146,7 @@ drawable ic_search_black_24dp
 drawable ic_shopping_cart_black_24dp
 drawable icecream
 drawable lumpia
+drawable mainbg
 drawable maya
 drawable outline_monetization_on_24
 drawable oval
@@ -148,6 +162,9 @@ drawable poppins_light
 drawable rectangle_background
 drawable restaurant
 drawable round_bg
+drawable rounded_corner
+drawable rounded_rectangle
+drawable rounded_square
 drawable sariwa
 drawable search_bg
 drawable seleted
@@ -166,6 +183,7 @@ drawable unselected
 font caudex
 font nunito
 font nunito_semibold
+font poppins_regular
 id AD
 id Cadress
 id Cart
@@ -192,8 +210,6 @@ id Gtotal
 id HA
 id Home
 id LA
-id Lastname
-id Lastname1
 id LogOut
 id MerchantPendingOrders
 id MerchantProfile
@@ -208,6 +224,7 @@ id PendingOrders
 id Profile
 id Pwd
 id Pwd1
+id Pwd2
 id Pwdformerchant
 id QY
 id Quantity
@@ -223,7 +240,6 @@ id Rs
 id Searchdish
 id Settings
 id Signwithstudentid
-id StudentID
 id StudentSignin
 id StudentSignup
 id Swipe1
@@ -242,8 +258,10 @@ id accept
 id ad
 id addnote
 id addresstrack
+id awesome_btn
 id back1
 id back2
+id backButton
 id backbtn
 id bottomAppBar
 id bottomNavigationView
@@ -251,6 +269,7 @@ id bottom_navigation
 id btn
 id btnChoose
 id btnUpload
+id btn_back
 id btnn
 id button1
 id cancelButton
@@ -259,6 +278,7 @@ id cashPaymentButton
 id chefHome
 id chefProfile
 id chef_bottom_navigation
+id chef_name
 id clearcart
 id clearorder
 id constraintLayout
@@ -278,10 +298,13 @@ id dishname
 id dishnm
 id dishprice
 id dishqty
+id divider
 id drawer_layout
 id elegantbtn
 id ellipse1
 id ellipse2
+id emailID
+id example1
 id fab
 id food_description
 id food_menu
@@ -293,6 +316,7 @@ id food_viewpager
 id fragment_container
 id frame_container
 id frame_layout
+id fullname
 id greetingTextView
 id grp
 id guideline_bottom
@@ -314,6 +338,7 @@ id layoutShorts
 id layoutVideo
 id layout_button
 id library
+id lineaar_li
 id linear
 id linearLayout
 id linear_layout
@@ -337,7 +362,6 @@ id nt
 id number_btn
 id number_btn_layout
 id onlinePaymentButton
-id order
 id orders
 id ordertobe
 id payableorder
@@ -371,9 +395,9 @@ id reject
 id return_policy
 id return_policy1
 id roleRadioGroup
+id rounded_bg
 id rs
 id rupees
-id searchbar
 id shorts
 id signin1
 id skipButton
@@ -419,8 +443,11 @@ layout activity_merchant_post_dish
 layout activity_merchantlogin
 layout activity_merchantregister
 layout activity_order_dish
+layout activity_orderdish1
 layout activity_payable_orders
 layout activity_pending_orders
+layout activity_popup_panel
+layout activity_profile
 layout activity_register
 layout activity_registration
 layout activity_slides
@@ -441,6 +468,7 @@ layout chef_preparedorderview
 layout customer_menudish
 layout customer_payableorder
 layout customer_trackorder
+layout customerhometoolbar
 layout enter_address
 layout food_item_layout
 layout food_item_layout1
@@ -448,11 +476,14 @@ layout fragment_chef_pendingorders
 layout fragment_customercart
 layout fragment_customerhome
 layout fragment_customerorder
+layout fragment_customerprofile
+layout fragment_customerprofilefragment
 layout fragment_customertrack
 layout fragment_merchant_home
 layout fragment_merchant_orders
 layout fragment_merchant_pendingorders
 layout fragment_merchant_profile
+layout fragment_profile
 layout fragment_settings
 layout fragment_student_home
 layout fragment_student_menu
@@ -466,8 +497,12 @@ layout merchant_order_tobeprepared
 layout merchant_orders
 layout merchantorderdishes
 layout merchantordertobeprepared
+layout merchantregistertoolbar
+layout payableorderstoolbar
 layout pending_order_dishes
+layout pendingorderstoolbar
 layout slider_layout
+layout toolbar
 menu bottom_menu
 menu bottom_navigation
 menu chef_bottom_navigation
@@ -486,6 +521,8 @@ raw animation2
 raw animation3
 raw animation4
 raw animation5
+raw animation9
+raw chef
 raw no_internet_file
 string app_name
 string close_nav
