@@ -28,8 +28,8 @@ import com.google.firebase.database.ValueEventListener;
 
 public class ProfileFragment extends Fragment {
 
-    LinearLayout LogOut, Clearorder;
-    TextView Fullname, Email;
+    LinearLayout  Clearorder;
+    TextView  LogOut;
     DatabaseReference databaseReference;
     FirebaseDatabase firebaseDatabase;
 
@@ -38,19 +38,10 @@ public class ProfileFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         getActivity().setTitle("Settings");
         View v = inflater.inflate(R.layout.fragment_customerprofile, container, false);
-        Email = v.findViewById(R.id.emailID);
-        Fullname = v.findViewById(R.id.fullname);
 
-        String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        databaseReference = FirebaseDatabase.getInstance().getReference("Customer").child(userid);
 
-        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                final Customer customer = dataSnapshot.getValue(Customer.class);
 
-                Fullname.setText(customer.getFirstName());
-                Email.setText(customer.getEmailID());
+
 
                 // Find your LogOut view by ID
                 LogOut = v.findViewById(R.id.logout_layout);
@@ -65,9 +56,11 @@ public class ProfileFragment extends Fragment {
                         builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                FirebaseDatabase.getInstance().getReference("StudentFinalOrders")
+                                firebaseDatabase.getInstance().getReference("StudentFinalOrders")
                                         .child(FirebaseAuth.getInstance().getCurrentUser().getUid()).removeValue();
-                                FirebaseDatabase.getInstance().getReference("AlreadyOrdered")
+
+
+                                firebaseDatabase.getInstance().getReference("AlreadyOrdered")
                                         .child(FirebaseAuth.getInstance().getCurrentUser().getUid()).removeValue();
 
                                 AlertDialog.Builder food = new AlertDialog.Builder(getActivity());
@@ -124,14 +117,11 @@ public class ProfileFragment extends Fragment {
                         getActivity().onBackPressed();
                     }
                 });
-            }
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-                // Handle the error here, or leave it empty if you don't need to handle it
+               return v;
             }
-        });
+        };
 
-        return v;
-    }
-}
+
+
+

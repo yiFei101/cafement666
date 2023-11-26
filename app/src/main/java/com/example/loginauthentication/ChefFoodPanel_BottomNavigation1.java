@@ -8,10 +8,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 
+import com.example.loginauthentication.CustomerFoodPanel.SettingsFragment;
 import com.example.loginauthentication.MerchantPanel.MerchantHomeFragment;
 import com.example.loginauthentication.MerchantPanel.MerchantOrderFragment;
 import com.example.loginauthentication.MerchantPanel.MerchantPendingOrdersFragment;
 import com.example.loginauthentication.MerchantPanel.MerchantProfileFragment;
+import com.example.loginauthentication.MerchantPanel.MerchantSettingsFragment;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -90,6 +92,11 @@ public class ChefFoodPanel_BottomNavigation1 extends AppCompatActivity implement
             case R.id.chefProfile:
                 fragment = new MerchantProfileFragment();
                 break;
+
+            case R.id.Settings:
+                fragment = new MerchantSettingsFragment();
+                break;
+
         }
         return loadcheffragment(fragment);
     }

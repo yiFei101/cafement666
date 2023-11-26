@@ -31,16 +31,6 @@
 
             />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="UDM"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:layout_marginTop="8dp"
-            android:textStyle="bold"
-            />
-
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -51,40 +41,6 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:layout_marginTop="20dp"
-        android:gravity="center_vertical">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_person_black_24dp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Full Name:"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"
-
-            />
-
-        <TextView
-            android:id="@+id/fullname"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="UDM"
-            android:layout_marginLeft="25dp"
-            android:textSize="18dp"
-            android:textColor="#434343"
-            />
-    </LinearLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
@@ -98,33 +54,7 @@
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
         android:layout_marginTop="20dp"
-        android:gravity="center_vertical">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_baseline_email_24" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Email:"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"
-
-            />
-
-        <TextView
-            android:id="@+id/emailID"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="UDM@gmail.com"
-            android:layout_marginLeft="25dp"
-            android:textSize="18dp"
-            android:textColor="#434343"
-            />
-    </LinearLayout>
+        android:gravity="center_vertical"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"

@@ -45,7 +45,7 @@ public class OrderDish extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_orderdish1);
+        setContentView(R.layout.activity_order_dish);
 
         Foodname = findViewById(R.id.food_name);
         FoodPrice = findViewById(R.id.food_price);

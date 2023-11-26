@@ -100,7 +100,7 @@ public class CustomerFoodPanel_BottomNavigation extends AppCompatActivity implem
                 break;
 
             case R.id.Settings:
-                fragment = new ProfileFragment();
+                fragment = new SettingsFragment();
                 break;
 
         }

@@ -44,6 +44,7 @@ public class PayableOrders extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        mdialog = new Dialog(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payable_orders);
         recyclerView = findViewById(R.id.recyclepayableorder);
@@ -98,7 +99,10 @@ public class PayableOrders extends AppCompatActivity {
                                     payment.setOnClickListener(new View.OnClickListener() {
                                         @Override
                                         public void onClick(View v) {
-                                            showPaymentPopup();
+                                            Intent intent = new Intent(PayableOrders.this, CustomerPayment.class);
+                                            intent.putExtra("RandomUID", randomuid);
+                                            startActivity(intent);
+                                            finish();
                                         }
                                     });
 
@@ -155,11 +159,6 @@ public class PayableOrders extends AppCompatActivity {
             }
         });
 
-    }
-    private void showPaymentPopup() {
-        mdialog.setContentView(R.layout.activity_popup_panel);
-        mdialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        mdialog.show();
     }
 
 }

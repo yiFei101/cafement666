@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF9AAA"
+    android:background="@drawable/mainbg"
     tools:context=".CustomerFoodPanel.OrderDish">
 
     <ImageButton
@@ -74,26 +74,25 @@
         android:layout_gravity="bottom"
         android:layout_marginStart="4dp"
         android:scaleType="fitXY"
-        app:backGroundColor="#FF9AAA"
+        app:backGroundColor="#0C0103"
         app:backgroundDrawable="@drawable/elegant_btnshape"
         app:layout_constraintStart_toStartOf="@id/food_name"
         tools:layout_editor_absoluteY="492dp"
-        tools:ignore="MissingConstraints" />
-
-
+        app:layout_constraintTop_toBottomOf="@id/food_name" />
 
 
     <TextView
         android:id="@+id/food_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
         android:text="$11"
         android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@id/number_btn"
+        app:layout_constraintStart_toStartOf="@id/number_btn"
         app:layout_constraintTop_toTopOf="@id/number_btn"
-        tools:layout_editor_absoluteX="338dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/food_description"

@@ -7,8 +7,7 @@
     app:cardUseCompatPadding="true"
     android:background="#fff"
     app:cardElevation="8dp"
-    app:contentPadding="5dp"
-    >
+    app:contentPadding="5dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,10 +39,10 @@
 
                 <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
                     android:id="@+id/elegantbtn"
-                    android:layout_width="match_parent"
+                    android:layout_width="75dp"
                     android:layout_marginRight="10dp"
-                    app:backgroundDrawable="@drawable/btnblueish"
-                    android:layout_height="wrap_content"
+                    app:backgroundDrawable="@drawable/elegant_btnshape"
+                    android:layout_height="25dp"
                     android:layout_gravity="bottom"
                     app:backGroundColor="#FA3E03" />
             </LinearLayout>
@@ -87,6 +86,5 @@
             android:textSize="18sp"></TextView>
 
     </LinearLayout>
-
 
 </androidx.cardview.widget.CardView>

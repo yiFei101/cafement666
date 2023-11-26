@@ -36,7 +36,7 @@ import retrofit2.Response;
 
 public class CustomerPayment extends AppCompatActivity {
 
-    TextView OnlinePayment, CashPayment;
+    TextView  CashPayment;
     String RandomUID, MerchantId;
     private APIService apiService;
 
@@ -45,18 +45,9 @@ public class CustomerPayment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer_payment);
 
-        OnlinePayment = (TextView) findViewById(R.id.onlinePaymentButton);
         CashPayment = (TextView) findViewById(R.id.cashPaymentButton);
         RandomUID = getIntent().getStringExtra("RandomUID");
 
-        OnlinePayment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(CustomerPayment.this, CustomerOnlinePayment.class);
-                intent.putExtra("randomUID", RandomUID);
-                startActivity(intent);
-            }
-        });
 
 
         CashPayment.setOnClickListener(new View.OnClickListener() {

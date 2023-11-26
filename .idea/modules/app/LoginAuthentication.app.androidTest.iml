@@ -163,6 +163,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: de.hdodenhof:circleimageview:3.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.ncorti:slidetoact:0.10.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: in.shadowfax:proswipebutton:1.2.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.MAXDeliveryNG:slideview:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.muramrr:ProgressButton:1.2@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="LoginAuthentication.app.main" />
 </module>

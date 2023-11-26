@@ -158,5 +158,7 @@
     <orderEntry type="library" name="Gradle: de.hdodenhof:circleimageview:3.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.ncorti:slidetoact:0.10.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: in.shadowfax:proswipebutton:1.2.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.MAXDeliveryNG:slideview:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.muramrr:ProgressButton:1.2@aar" level="project" />
   </component>
 </module>

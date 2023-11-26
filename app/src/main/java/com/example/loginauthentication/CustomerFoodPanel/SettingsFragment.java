@@ -25,7 +25,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class SettingsFragment extends Fragment {
     LinearLayout LogOut;
-    Button Clearorder,CleanCart;
+    Button Clearorder;
     String ID, RandomUID;
     DatabaseReference databaseReference;
     FirebaseDatabase firebaseDatabase;
@@ -41,7 +41,6 @@ public class SettingsFragment extends Fragment {
         // Find your LogOut view by ID
         LogOut = v.findViewById(R.id.logout_layout);
         Clearorder =  v.findViewById(R.id.clearorder);
-        CleanCart =  v.findViewById(R.id.clearcart);
 
         Clearorder.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +51,8 @@ public class SettingsFragment extends Fragment {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         firebaseDatabase.getInstance().getReference("StudentFinalOrders")
+                                .child(FirebaseAuth.getInstance().getCurrentUser().getUid()).removeValue();
+                        FirebaseDatabase.getInstance().getReference("AlreadyOrdered")
                                 .child(FirebaseAuth.getInstance().getCurrentUser().getUid()).removeValue();
 
                         AlertDialog.Builder food = new AlertDialog.Builder(getActivity());
@@ -76,38 +77,6 @@ public class SettingsFragment extends Fragment {
             }
         });
 
-        CleanCart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                builder.setMessage("Are you sure you want to Delete  Cart History");
-                builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        FirebaseDatabase.getInstance().getReference("AlreadyOrdered")
-                                .child(FirebaseAuth.getInstance().getCurrentUser().getUid()).removeValue();
-
-                        AlertDialog.Builder food = new AlertDialog.Builder(getActivity());
-                        food.setMessage("Your Cart History has been Deleted");
-                        food.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                startActivity(new Intent(getActivity(), CustomerFoodPanel_BottomNavigation.class));                                        }
-                        });
-                        AlertDialog alertt = food.create();
-                        alertt.show();
-                    }
-                });
-                builder.setNegativeButton("NO", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                });
-                AlertDialog alert = builder.create();
-                alert.show();
-            }
-        });
 
 
         LogOut.setOnClickListener(new View.OnClickListener() {

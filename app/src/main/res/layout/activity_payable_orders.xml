@@ -12,11 +12,13 @@
         android:id="@+id/text1"
         />
 
+
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/Swipe2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/text1">
+        android:layout_below="@id/text1"
+        android:layout_marginTop="2dp">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclepayableorder"
@@ -25,7 +27,6 @@
             android:orientation="vertical" />
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-
 
     <LinearLayout
         android:id="@+id/btn"

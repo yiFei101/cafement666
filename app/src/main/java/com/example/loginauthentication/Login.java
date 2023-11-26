@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -27,6 +28,7 @@ import com.google.firebase.database.ValueEventListener;
 public class Login extends AppCompatActivity {
     TextInputLayout emailLayout, passwordLayout;
     Button signInButton;
+    ImageView imageView;
     FirebaseAuth firebaseAuth;
     String emailInput, passwordInput;
     RadioGroup roleRadioGroup;
@@ -41,7 +43,18 @@ public class Login extends AppCompatActivity {
         passwordLayout = findViewById(R.id.Pwdformerchant);
         signInButton = findViewById(R.id.loginformerchant);
         firebaseAuth = FirebaseAuth.getInstance();
+        imageView = findViewById(R.id.backButton);
         roleRadioGroup = findViewById(R.id.roleRadioGroup);
+
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate back when the back button is clicked
+                onBackPressed();
+            }
+        });
+
 
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override

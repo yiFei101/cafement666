@@ -61,6 +61,7 @@ drawable cafement1
 drawable cafement2
 drawable cafement4
 drawable cafement5
+drawable cafementlogo
 drawable camerabtnshape
 drawable camerashapebtn
 drawable carinderia
@@ -258,7 +259,6 @@ id accept
 id ad
 id addnote
 id addresstrack
-id awesome_btn
 id back1
 id back2
 id backButton
@@ -278,8 +278,6 @@ id cashPaymentButton
 id chefHome
 id chefProfile
 id chef_bottom_navigation
-id chef_name
-id clearcart
 id clearorder
 id constraintLayout
 id container
@@ -303,7 +301,6 @@ id drawer_layout
 id elegantbtn
 id ellipse1
 id ellipse2
-id emailID
 id example1
 id fab
 id food_description
@@ -316,7 +313,6 @@ id food_viewpager
 id fragment_container
 id frame_container
 id frame_layout
-id fullname
 id greetingTextView
 id grp
 id guideline_bottom
@@ -361,7 +357,6 @@ id nextbtn
 id nt
 id number_btn
 id number_btn_layout
-id onlinePaymentButton
 id orders
 id ordertobe
 id payableorder
@@ -379,6 +374,7 @@ id pricee
 id pricers
 id py
 id py1
+id py2
 id pyy
 id qt
 id qty
@@ -483,6 +479,7 @@ layout fragment_merchant_home
 layout fragment_merchant_orders
 layout fragment_merchant_pendingorders
 layout fragment_merchant_profile
+layout fragment_merchantsettings
 layout fragment_profile
 layout fragment_settings
 layout fragment_student_home
@@ -501,6 +498,7 @@ layout merchantregistertoolbar
 layout payableorderstoolbar
 layout pending_order_dishes
 layout pendingorderstoolbar
+layout settingstoolbar
 layout slider_layout
 layout toolbar
 menu bottom_menu
@@ -513,14 +511,18 @@ menu merchant_bottom_menu
 menu merchant_nav_menu
 menu search
 menu student_bottom_menu
+mipmap cafementlogo
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw animation
 raw animation1
+raw animation111
 raw animation2
 raw animation3
 raw animation4
 raw animation5
+raw animation69
+raw animation70
 raw animation9
 raw chef
 raw no_internet_file
