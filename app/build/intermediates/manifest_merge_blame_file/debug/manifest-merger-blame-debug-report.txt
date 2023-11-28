@@ -22,37 +22,37 @@
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 14-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:9:5-80
 14-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:9:22-77
-15
-16    <queries>
-16-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:9:5-20:15
-17        <intent>
-17-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:10:9-16:18
-18            <action android:name="android.intent.action.GET_CONTENT" />
-18-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:11:13-72
-18-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:11:21-69
-19
-20            <category android:name="android.intent.category.OPENABLE" />
-20-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:13:13-73
-20-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:13:23-70
-21
-22            <data android:mimeType="*/*" />
-22-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:15:13-44
-22-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:15:19-41
-23        </intent>
-24        <intent>
-24-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:17:9-19:18
-25            <action android:name="android.media.action.IMAGE_CAPTURE" />
-25-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:18:13-73
-25-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:18:21-70
-26        </intent>
-27    </queries>
-28
-29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-29-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\admin\.gradle\caches\transforms-3\19f2059b2a8df374188b476b06a5d2e8\transformed\jetified-firebase-auth-22.1.1\AndroidManifest.xml:26:5-79
-29-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\admin\.gradle\caches\transforms-3\19f2059b2a8df374188b476b06a5d2e8\transformed\jetified-firebase-auth-22.1.1\AndroidManifest.xml:26:22-76
-30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-30-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\admin\.gradle\caches\transforms-3\9896e34a21588cb3707d9b4ee792a94a\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:23:5-77
-30-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\admin\.gradle\caches\transforms-3\9896e34a21588cb3707d9b4ee792a94a\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:23:22-74
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:10:5-77
+15-->C:\Users\admin\AndroidStudioProjects\LoginAuthentication\app\src\main\AndroidManifest.xml:10:22-74
+16
+17    <queries>
+17-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:9:5-20:15
+18        <intent>
+18-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:10:9-16:18
+19            <action android:name="android.intent.action.GET_CONTENT" />
+19-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:11:13-72
+19-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:11:21-69
+20
+21            <category android:name="android.intent.category.OPENABLE" />
+21-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:13:13-73
+21-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:13:23-70
+22
+23            <data android:mimeType="*/*" />
+23-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:15:13-44
+23-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:15:19-41
+24        </intent>
+25        <intent>
+25-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:17:9-19:18
+26            <action android:name="android.media.action.IMAGE_CAPTURE" />
+26-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:18:13-73
+26-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\admin\.gradle\caches\transforms-3\8be0c9e62b4d97807b475b3fe8f20beb\transformed\jetified-android-image-cropper-4.3.3\AndroidManifest.xml:18:21-70
+27        </intent>
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\admin\.gradle\caches\transforms-3\19f2059b2a8df374188b476b06a5d2e8\transformed\jetified-firebase-auth-22.1.1\AndroidManifest.xml:26:5-79
+30-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\admin\.gradle\caches\transforms-3\19f2059b2a8df374188b476b06a5d2e8\transformed\jetified-firebase-auth-22.1.1\AndroidManifest.xml:26:22-76
 31    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
 31-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\admin\.gradle\caches\transforms-3\9896e34a21588cb3707d9b4ee792a94a\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:24:5-68
 31-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\admin\.gradle\caches\transforms-3\9896e34a21588cb3707d9b4ee792a94a\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:24:22-65
